@@ -46,7 +46,7 @@ const Navbar = () => {
             </Link>
           </li>
           <li className="navbarContainerText">
-            <Link to="/" className="py-7 px-3 inline-block">
+            <Link to={'/ContactoPage'} className="py-7 px-3 inline-block">
               Contacto
             </Link>
           </li>
@@ -74,7 +74,7 @@ const Navbar = () => {
             </Link>
           </li>
           <li>
-            <Link to="/" className="py-7 px-3 inline-block">
+            <Link to={'/ContactoPage'} className="py-7 px-3 inline-block">
               Contacto
             </Link>
           </li>

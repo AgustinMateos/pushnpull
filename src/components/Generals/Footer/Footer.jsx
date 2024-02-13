@@ -19,29 +19,21 @@ const Footer = () => {
                     </p>
                 </div>
                 <div className='wd-60 flex-justify-center flex-justify-space-around '>
-                    {/* <div className='wd-20'>
-                    <h4>Menu</h4>
-                    <ul> <li><Link>Inicio</Link></li>
-                        <li><Link>Servicios</Link></li>
-                         <li><Link>Blog</Link></li>
-                         <li><Link>Contacto</Link></li>
-                         </ul>
-                 </div> */}
 
                     <div className='wd-30'>
                         <ul className='font-family-Robot'>
                              <li><Link  to={"/"}>Inicio</Link></li>
                             <li className='margin-top-10 '><Link  className='titulosComponentesTexto'>Impulsa tu marca</Link></li>
                             <li className="margin-top-10"><Link to={"/SolucionesDigitalesPage"} className="titulosComponentesTexto">Soluciones Digitales</Link></li>
-                            <li className="margin-top-10"><Link className="titulosComponentesTexto">Seo</Link></li>
-                            <li className="margin-top-10"><Link >Mantenimiento</Link></li>
+                            <li className="margin-top-10"><Link to={"/SeoPage"} className="titulosComponentesTexto">Seo</Link></li>
+                            <li className="margin-top-10"><Link to={"/MantenimientoPage"} >Mantenimiento</Link></li>
                         </ul>
                     </div>
 
                     <div className='wd-30'>
                         <ul className='font-family-Robot'>
                             <li className="margin-top-10"><Link className='titulosComponentesTexto'>Blog</Link></li>
-                            <li className="margin-top-10"><Link className='titulosComponentesTexto'>Contacto</Link></li>
+                            <li className="margin-top-10"><Link to={'/ContactoPage'} className='titulosComponentesTexto'>Contacto</Link></li>
                             <li className="margin-top-10"><Link className='titulosComponentesTexto'>Convertite en partner</Link></li>
                         </ul>
                     </div>

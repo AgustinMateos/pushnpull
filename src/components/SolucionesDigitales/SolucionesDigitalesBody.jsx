@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { serviciosData } from '../../data/ServiciosData';
 import solucionesDigitalesBody from '../../assets/solucionesDigitalesBody.png';
-import ecommerceGrafica from '../../assets/ecommerceGrafica.png';
+
 
 const SolucionesDigitalesBody = () => {
   const servicios = serviciosData;

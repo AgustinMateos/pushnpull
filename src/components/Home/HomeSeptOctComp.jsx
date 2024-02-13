@@ -13,7 +13,7 @@ const HomeSeptOctComp = () => {
                     Sequi distinctio excepturi voluptatum quas cumque, ratione rem, quidem ab vero facilis 
                     maiores delectus quo? Aut sequi nulla facilis, suscipit perferendis quod?</p>
             </div>
-            <div className='wd-20 buttonContainers'><Link>Contacto <ion-icon name="arrow-forward-outline"></ion-icon></Link></div>
+            <div className='wd-20 buttonContainers'><Link to={'/ContactoPage'}>Contacto <ion-icon name="arrow-forward-outline"></ion-icon></Link></div>
         </div>
     </div>
   )

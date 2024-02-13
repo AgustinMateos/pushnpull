@@ -1,9 +1,8 @@
 import React from 'react'
 import grafica8 from "../../assets/logo2.png"
-import grafica20 from "../../assets/fondo20.avif"
+
 import { Link } from 'react-router-dom'
 
-import Buttons from '../Generals/Footer/Buttons/Buttons'
 
 const HomePrimerComp = () => {
   return (
@@ -15,7 +14,7 @@ const HomePrimerComp = () => {
         </div>
         <div className="flex-justify-space-between  wd-70" >
           <Link to={'/ServicesPage'} className='buttonVermas flex-align-center '><span className='buttonVermasContent font-family-Robot'>Nuestros servicios</span></Link>
-          <Link className='buttonVermas2 flex-align-center '><span className='buttonVermasContent2 font-family-Robot'>Contactanos</span></Link>
+          <Link to={'/ContactoPage'} className='buttonVermas2 flex-align-center '><span className='buttonVermasContent2 font-family-Robot'>Contactanos</span></Link>
         </div>
 
         {/* <div className='flex-justify-start buttonVermas'><Buttons/></div> */}

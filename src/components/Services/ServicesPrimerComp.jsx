@@ -7,7 +7,7 @@ import { HashLink, NavHashLink } from 'react-router-hash-link';
 
 
 const ServicesPrimerComp = () => {
-  return (
+  return ( 
     <div className='background-principal serviciosContainer'>
       <div className='wd-100 flex-justify-space-around'> 
         <div className='wd-80 ServiciosContainerPrimerComponente'>
@@ -74,7 +74,7 @@ const ServicesPrimerComp = () => {
                 Exercitationem animi facilis quidem incidunt deleniti expedita
                 modi, vel natus nulla illo dolores unde nostrum
                 doloremque dolorem obcaecati consequuntur molestias similique aut?</p>
-              <Link className='buttonContainers'>ver mas <ion-icon name="arrow-forward-outline"></ion-icon></Link>
+              <Link to={"/MantenimientoPage"} className='buttonContainers'>ver mas <ion-icon name="arrow-forward-outline"></ion-icon></Link>
             </div>
           </div>
         </div>

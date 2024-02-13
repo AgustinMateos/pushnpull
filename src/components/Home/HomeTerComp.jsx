@@ -23,7 +23,7 @@ const HomeTerComp = () => {
                         <button className='buttonVermas'><span className='buttonVermasContent'>Ver mas <ion-icon name="arrow-forward-outline"></ion-icon></span></button>
                     </div>
                 </Link>
-                <Link className='card'>
+                <Link to={"/seoPage"} className='card'>
                     <div className='content'>
                         <h3 className='cardsComponentesTitulos'>Seo</h3>
 
@@ -35,7 +35,7 @@ const HomeTerComp = () => {
                         <button className='buttonVermas'><span className='buttonVermasContent'>Ver mas <ion-icon name="arrow-forward-outline"></ion-icon></span></button>
                     </div>
                 </Link>
-                <Link className='card'>
+                <Link to={"/MantenimientoPage"} className='card'>
                     <div className='content'>
                         <h3 className='cardsComponentesTitulos'>Mantenimiento</h3>
 
