@@ -22,8 +22,8 @@ const ServicesPrimerComp = () => {
           <div className='wd-100'>
             <div className='flex-justify-space-evenly  '>
               <HashLink to='/ServicesPage#solucionesDigitales' smooth className="serviciosContainerNavlinks buttonContainers"> Soluciones digitales </HashLink>
-              <HashLink to='/ServicesPage#seo' className="serviciosContainerNavlinks buttonContainers"> Seo </HashLink>
-              <HashLink to='/ServicesPage#mantenimiento' className='serviciosContainerNavlinks buttonContainers'> Mantenimiento </HashLink>
+              <HashLink to='/ServicesPage#seo' smooth  className="serviciosContainerNavlinks buttonContainers"> Seo </HashLink>
+              <HashLink to='/ServicesPage#mantenimiento' smooth  className='serviciosContainerNavlinks buttonContainers'> Mantenimiento </HashLink>
             </div>
 
           </div>

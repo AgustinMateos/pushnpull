@@ -5,6 +5,7 @@ export const links = [
       sublinks: [
         {
           Head: "Soluciones Digitales",
+          link:"/SolucionesDigitalesPage",
           sublink: [
             { name: "Ecommerce", link: "/" },
             { name: "Desarrollo Web", link: "/" },
@@ -16,6 +17,7 @@ export const links = [
         },
         {
           Head: "Seo",
+          link:"/SeoPage",
           sublink: [
             { name: "Auditoria de Seo", link: "/" },
             { name: "Campaña de Seo", link: "/" },
@@ -23,6 +25,7 @@ export const links = [
         },
         {
           Head: "Mantenimiento",
+          link:"/MantenimientoPage",
           sublink: [
             { name: "Seo", link: "/" },
             { name: "Desarrollo Web", link: "/" },

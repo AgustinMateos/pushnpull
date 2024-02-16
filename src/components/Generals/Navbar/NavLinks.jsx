@@ -39,21 +39,24 @@ const NavLinks = () => {
                     ></div>
                   </div>
                   
-                  <div className="navbarBackgroundDrop p-5 grid grid-cols-4 gap-10">
-                    <Link >Impulsa tu Marca</Link>
+                  <div className="solucionesDigitalesBodyServiciosContainer text-sm  text-gray-600 my-2.5 p-5 grid grid-cols-4 gap-10">
+                    <Link className="text-lg font-semibold font-family-Robot" to={"/ImpulsaTuMarcaPage"} >Impulsa tu marca</Link>
                     {link.sublinks.map((mysublinks) => (
                       <div>
-                        <h1 className="text-lg font-semibold ">
+                         <Link to={mysublinks.link}><h1 className="text-lg font-semibold text-navb font-family-Robot  ">
                           {mysublinks.Head}
-                        </h1>
+                         
+                        </h1></Link>
+                       
                         {mysublinks.sublink.map((slink) => (
-                          <li className="text-sm text-gray-600 my-2.5">
-                            <Link
+                          <li className="text-sm text-gray-600 my-2.5 font-family-Robot">
+                                           <Link
                               to={slink.link}
-                              className="hover:text-primary"
+                              className="hover:text-primary font-family-Robot"
                             >
                               {slink.name}
                             </Link>
+          
                           </li>
                         ))}
                       </div>
