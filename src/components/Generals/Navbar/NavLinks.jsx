@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import { links } from "./MyLinks";
+import { links } from "../../../data/MyLinks";
 
 const NavLinks = () => {
   const [heading, setHeading] = useState("");
