@@ -911,7 +911,7 @@ p {
 }
 
 .containerHeight {
-    height: 550px;
+    min-height: 550px;
 }
 
 /*footer*/
