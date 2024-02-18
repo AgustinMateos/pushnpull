@@ -22,14 +22,14 @@ function ContactoBody() {
   };
 
   return (
-    <div className='HomePrimerCompForm  '>
-    <div className='wd-40 homePrimerCompFormHeight'>
+    <div className='HomePrimerComp  '>
+    <div className='wd-40'>
       <div>
         <h2 className='homePrimerCompTitulo'>Formulario</h2>
         <p className='homePrimerCompTexto font-family-Robot'>Push n Pull es una agencia digital basada en datos especializada en brindar soluciones digitales.</p>
       </div>
       <div className="flex-justify-space-between  wd-70" >
-      <div >
+      <div className='containerHeight'>
       <div>
         <button 
           className={selectedButton === 'contacto' ? 'selected' : ''}

@@ -399,22 +399,22 @@ body {
 /* home container*/
 
 
-/* .HomeContainer {
-    background-color: #eae5df;
-} */
+
 .HomePrimerComp {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    height: 700px;
+    flex-wrap: wrap; /* Agregar flex-wrap para permitir que los elementos se envuelvan */
+    height: auto; /* Cambiar la altura a auto para que se ajuste según el contenido */
     padding-top: 90px;
-
 }
 
 
-.homePrimerCompImg {
-    border-radius: 1220px;
-}
+  .homePrimerCompImg {
+    border-radius: 50%;
+    width: 100%;
+    height: auto;
+  }
 
 .homePrimerCompTitulo {
     font-size: clamp(3.5rem, 8vw, 6rem);
@@ -423,8 +423,7 @@ body {
     letter-spacing: -.03rem;
     font-family: 'Roboto', sans-serif;
     color: #5a5a5a;
-    ;
-}
+  }
 
 .homePrimerCompTexto {
     padding-top: 20px;
@@ -614,51 +613,37 @@ body {
     height: 3rem;
     padding: 0 2rem;
     border-radius: 1.5rem;
-    background: transparent;
-    background-size: 300%;
     color: #5a5a5a;
-    ;
     font-weight: normal;
-    line-height: 1.25rem;
+    line-height: 3rem; /* Alinear verticalmente el texto */
     font-size: 0.95rem;
     width: fit-content;
-    border-radius: 2.25rem;
     border: 1px solid #5a5a5a;
-
-
-}
-
-.buttonVermas2:hover::before {
-    transform: scaleX(1);
-    color: #ffffff;
-
-
-}
-
-.buttonVermas2Content {
-    position: relative;
-    z-index: 1;
-
-
+    transition: color 0.3s ease; /* Transición para el color del texto */
 }
 
 .buttonVermas2::before {
-    content: "";
+    content: '';
     position: absolute;
     top: 0;
     left: 0;
-    transform: scaleX(0);
-    transform-origin: 0 50%;
     width: 100%;
-    height: inherit;
-    border-radius: inherit;
-    background: #5a5a5a;
-    transition: all 0.475s;
-
-
-
-
+    height: 100%;
+    background-color: rgba(90, 90, 90, 0.7); /* Color de fondo con opacidad */
+    transition: transform 0.3s ease; /* Transición para el efecto de relleno */
+    z-index: -1; /* Moverlo detrás del texto */
+    transform: translateX(-100%); /* Iniciar fuera del botón */
 }
+
+.buttonVermas2:hover::before {
+    transform: translateX(0); /* Moverlo dentro del botón */
+}
+
+.buttonVermas2:hover {
+    color: #ffffff; /* Cambiar el color del texto a blanco */
+}
+
+
 
 
 
@@ -1055,3 +1040,13 @@ p {
     padding-top: 90px;
 }
 .homePrimerCompFormHeight{height: 600px;}
+
+.contactoContainer{max-width: 100%;}
+.contactoContainerTitulos{max-width: 800px;display: flex;    display: flex;
+    justify-content: space-around;}
+.contenedor-auto {
+        width: 90%; /* El ancho del contenedor será el 90% del ancho del viewport */
+        max-width: 1200px; /* Máximo ancho del contenedor para evitar que se haga demasiado grande en pantallas anchas */
+        margin: 0 auto; /* Centrar el contenedor horizontalmente */
+    }
+    

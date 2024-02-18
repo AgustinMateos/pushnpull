@@ -56,7 +56,7 @@ const ServicesPrimerComp = () => {
                 Exercitationem animi facilis quidem incidunt deleniti expedita
                 modi, vel natus nulla illo dolores unde nostrum
                 doloremque dolorem obcaecati consequuntur molestias similique aut?</p>
-              <Link className='buttonContainers'>ver mas <ion-icon name="arrow-forward-outline"></ion-icon></Link>
+              <Link to={"/seoPage"} className='buttonContainers'>ver mas <ion-icon name="arrow-forward-outline"></ion-icon></Link>
             </div>
           </div>
           <div className='wd-30'>
