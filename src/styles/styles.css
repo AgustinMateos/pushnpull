@@ -882,7 +882,7 @@ p {
 
 /*Generales*/
 
-.titulosComponentes {
+/* .titulosComponentes {
     font-weight: 700;
     line-height: 100%;
     letter-spacing: -.03rem;
@@ -890,7 +890,7 @@ p {
     font-family: 'Roboto', sans-serif;
     color: #5a5a5a;
     ;
-}
+} */
 
 .titulosComponentesTexto {
     padding-top: 20px;
@@ -1028,7 +1028,7 @@ p {
     font-weight: 700;
     line-height: 100%;
     letter-spacing: -.03rem;
-    font-size: 5vw; /* Tamaño de letra relativo al ancho de la ventana gráfica */
+    font-size: 4vw; /* Tamaño de letra relativo al ancho de la ventana gráfica */
     font-family: 'Roboto', sans-serif;
     color: #5a5a5a;
 }
@@ -1049,7 +1049,7 @@ p {
 .homeSoporteCointainer .homeSoporteCointainerText {
     position: relative;
     max-width: 1000px;
-    min-height: 400px;
+    min-height: 300px;
     margin: 30px;
 
     border-radius: 15px;
@@ -1070,7 +1070,7 @@ p {
   font-weight: 700;
     line-height: 100%;
     letter-spacing: -.03rem;
-    font-size: 5vw; /* Tamaño de letra relativo al ancho de la ventana gráfica */
+    font-size: 4vw; /* Tamaño de letra relativo al ancho de la ventana gráfica */
     font-family: 'Roboto', sans-serif;
     color: #5a5a5a;
 }

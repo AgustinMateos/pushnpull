@@ -79,9 +79,7 @@ const Navbar = () => {
             </Link>
           </li>
           
-          <div className="py-5">
-            {/* <Button /> */}
-          </div>
+         
         </ul>
       </div>
     </nav>

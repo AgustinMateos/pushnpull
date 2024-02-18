@@ -40,7 +40,7 @@ const NavLinks = () => {
                   </div>
                   
                   <div className="solucionesDigitalesBodyServiciosContainer text-sm  text-gray-600 my-2.5 p-5 grid grid-cols-4 gap-10">
-                    <Link className="text-lg font-semibold text-navb  font-family-Robot" to={"/ImpulsaTuMarcaPage"} >Impulsa tu Marca</Link>
+                    <Link  className="text-lg font-semibold text-navb  font-family-Robot" to={"/ImpulsaTuMarcaPage"} >Impulsa tu Marca</Link>
                     {link.sublinks.map((mysublinks) => (
                       <div>
                          <Link to={mysublinks.link}><h2 className="text-lg font-semibold text-navb font-family-Robot  ">
