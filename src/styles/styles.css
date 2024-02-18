@@ -1067,10 +1067,10 @@ p {
 }
 
 .homeSoporteContainerTitulo {
-    font-weight: 700;
+  font-weight: 700;
     line-height: 100%;
     letter-spacing: -.03rem;
-    font-size: 5vw; /* Tamaño de letra relativo al ancho de la ventana gráfica */
+    font-size: 8vw; /* Tamaño de letra relativo al ancho de la ventana gráfica */
     font-family: 'Roboto', sans-serif;
     color: #5a5a5a;
 }
