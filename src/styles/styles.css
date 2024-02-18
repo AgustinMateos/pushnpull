@@ -884,19 +884,7 @@ p {
     font-size: 1.0rem;
 }
 
-/* .titulosComponentesButton{
-    font-family: 'Roboto', sans-serif;
-    font-weight:bolder;
-    
-    line-height: 1.25rem;
-    font-size: 0.95rem;
-    width: fit-content;
-    background-color:transparent;
-    border-radius: 1.5rem ;
-    padding: 0.625rem 1.3125rem;
-    color: #9479ec;
-    border: 3px solid #9479ec;
-} */
+
 
 .cardsComponentesTitulos {
     font-weight: 700;
@@ -1018,3 +1006,43 @@ p {
         margin: 0 auto; /* Centrar el contenedor horizontalmente */
     }
     
+
+
+    /*card responsive*/
+    .homeSoporteCointainer .homeSoporteCointainerText {
+        position: relative;
+        max-width: 1000px;
+        min-height: 400px;
+        margin: 30px;
+       
+        border-radius: 15px;
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+       
+    }
+
+    .homeSoporteCointainer .homeSoporteCointainerText .content {
+        padding: 20px;
+        text-align: center;
+        transition: .5s;
+    }
+
+    .homeSoporteContainerTitulo {
+        font-weight: 700;
+        line-height: 100%;
+        letter-spacing: -.03rem;
+        font-family: 'Roboto', sans-serif;
+        color: #5a5a5a;
+        font-size: 3.5rem;
+        color: #5a5a5a;
+    }
+
+    .homeSoporteContainerTexto {
+        padding-top: 20px;
+        padding-bottom: 20px;
+        font-size: 1.0rem;
+        text-align: center;
+    }
+  

@@ -31,8 +31,8 @@ const NavLinks = () => {
             </h1>
             {link.submenu && (
               <div>
-                <div className="absolute wd-80 navbarDesktopContainerSubmenu top-30 hidden group-hover:md:block hover:md:block">
-                  <div className="py-3">
+                <div className="absolute wd-60 navbarDesktopContainerSubmenu top-30 hidden group-hover:md:block hover:md:block">
+                  <div>
                     <div
                       className="w-4 h-4 left-10 absolute 
                     mt-1 bg-white rotate-45"
