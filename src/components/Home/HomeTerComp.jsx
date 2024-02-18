@@ -2,12 +2,11 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 
 const HomeTerComp = () => {
-    return (<div className='HomeTerComponente'>
+    return (
+    <div>
 
         <div className='HomeTerComp flex-justify-space-evenly' >
-            {/* <div className='HomeTerCompContainerh2'>
-        <h2>Servicios</h2>
-        </div> */}
+          
             <div className='HomeTerCompContainer '>
                 <Link to={'/SolucionesDigitalesPage'} className='card'>
                     <div className='content '>

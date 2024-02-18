@@ -456,11 +456,7 @@ body {
     left: 0;
 }
 
-/* .svgTop{position: absolute; top: 0;left: 0;} */
 
-/* .HomeTerCompContainer {
-    background-color: #eae5df;
-} */
 
 .HomeTerComp {
     display: flex;
@@ -469,31 +465,7 @@ body {
     min-height: 10vh;
 }
 
-/* .HomeTerComp::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: linear-gradient(rgb(0, 0, 0), rgb(0, 0, 0));
-    clip-path: circle(10% at right 70%);
-} */
 
-/* .HomeTerComp::after {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 50%;
-    height: 50%;
-    background: linear-gradient(rgb(70, 75, 73), rgb(0, 0, 0));
-    clip-path: circle(20% at 5%); */
-
-
-/* .HomeTerComponente {
-    background: black;
-} */
 
 .HomeTerCompContainer {
     position: relative;
@@ -629,7 +601,7 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(90, 90, 90, 0.7); /* Color de fondo con opacidad */
+    background-color: #5a5a5a;; /* Color de fondo con opacidad */
     transition: transform 0.3s ease; /* Transición para el efecto de relleno */
     z-index: -1; /* Moverlo detrás del texto */
     transform: translateX(-100%); /* Iniciar fuera del botón */
@@ -640,7 +612,7 @@ body {
 }
 
 .buttonVermas2:hover {
-    color: #ffffff; /* Cambiar el color del texto a blanco */
+    color:#5a5a5a;; /* Cambiar el color del texto a blanco */
 }
 
 
@@ -648,11 +620,7 @@ body {
 
 
 /*homecuartquint comp*/
-/* .HomeCuartQuint {
-    background-color: black;
-    color: white;
 
-} */
 
 
 .HomeTerComp {

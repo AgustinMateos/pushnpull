@@ -5,7 +5,7 @@ import impulsaTuMarca from '../../assets/impulsatumarca.png'
 
 const HomeCuartQuintComp = () => {
     return (
-        <div className='w-100 HomeCuartQuint'>
+        <div className='wd-100 '>
 
             <div className='flex-align-center flex-justify-space-evenly containerHeight '>
 

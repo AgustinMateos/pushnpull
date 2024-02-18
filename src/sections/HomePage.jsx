@@ -13,9 +13,9 @@ const HomePage = () => {
     <div className='HomeContainer background-principal' >
         <Navbar/>
         <HomePrimerComp/>
-        <HomeCuartQuintComp/> 
-        {/* <HomeSegComp/> */}
-        <HomeTerComp />
+        <HomeCuartQuintComp/>  
+        {/* <HomeSegComp/>  */}
+         <HomeTerComp />
         <HomeSeptOctComp/>
          <HomeSextComp/> 
       

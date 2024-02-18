@@ -6,7 +6,7 @@ export const serviciosData=[
      texto:"adadaadad Lorem ipsum, dolor sit amet consectetur adipisicing elit Deserunt sunt nihil quod accusamus, vel quis, consequatur amet",
      titulo:"Ecommerce",
      textoButton:"ver mas",
-     img: 'src/assets/ecommerceGrafica.png'
+     img: '../assets/ecommerceGrafica.png'
     },
 
     {
