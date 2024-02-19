@@ -655,7 +655,7 @@ body {
 .HomeCuartQuintCompBuscando {
     border: 2px solid white;
     border-radius: 20px;
-    height: 300px;
+    min-height: 300px;
     background: white;
 }
 
@@ -984,7 +984,7 @@ p {
 
 /*soluciones digitales*/
 .solucionesDigitalesPrimerComponenteContainer {
-    height: 700px;
+    max-height: 700px;
     padding-top: 90px;
 }
 
