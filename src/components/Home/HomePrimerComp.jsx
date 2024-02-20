@@ -12,7 +12,7 @@ const HomePrimerComp = () => {
           <h2 className='homePrimerCompTitulo'>Developer Resources</h2>
           <p className='homePrimerCompTexto font-family-Robot'>Push n Pull es una agencia digital basada en datos especializada en brindar soluciones digitales.</p>
         </div>
-        <div className="flex-justify-space-between wd-70" >
+        <div className="flex-justify-start " >
           <Link to={'/ServicesPage'} className='buttonVermas flex-align-center '><span className='buttonVermasContent font-family-Robot'>Nuestros servicios</span></Link>
           <Link to={'/ContactoPage'} className='buttonVermas2 flex-align-center '><span className='buttonVermasContent2 font-family-Robot'>Contactanos</span></Link>
         </div>

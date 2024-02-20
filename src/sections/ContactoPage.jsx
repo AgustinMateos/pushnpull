@@ -5,7 +5,7 @@ import Footer from '../components/Generals/Footer/Footer'
 const ContactoPage = () => {
   return (
     <div>
-        
+        <Navbar/>
         <ContactoBody/>
         <Footer/>
     </div>

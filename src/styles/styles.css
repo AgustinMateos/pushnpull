@@ -363,6 +363,9 @@ body {
 /*navbar*/
 .containerLogo {
     font-weight: bold;
+    display: flex;
+    max-width: 400px;
+    justify-content: space-between;
 }
 
 .tituloFont {
@@ -597,6 +600,7 @@ body {
     width: fit-content;
     border: 1px solid #5a5a5a;
     transition: color 0.3s ease;
+    margin-left:10px;
     /* Transición para el color del texto */
 }
 
