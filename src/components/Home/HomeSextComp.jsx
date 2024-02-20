@@ -10,7 +10,7 @@ const HomeSextComp = () => {
             <div className='wd-30'>
                     <img className='wd-100' src={blogGrafica} alt="imagen grafica pnp" />
                 </div>
-
+     
                 <div class="contenedor wd-50">
                     <div class="imagen-container">
                         <h3 className="texto titulosComponentes">Visita nuestro blog</h3>

@@ -6,7 +6,7 @@ export const mantenimientoData=[
      texto:"adadaadad Lorem ipsum, dolor sit amet consectetur adipisicing elit Deserunt sunt nihil quod accusamus, vel quis, consequatur amet",
      titulo:"Mantenimiento Web",
      textoButton:"ver mas",
-     img: '../assets/ecommerceGrafica.png'
+     img: 'src/assets/ecommerceGrafica.png'
     },
 
     {

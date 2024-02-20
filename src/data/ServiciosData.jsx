@@ -6,7 +6,7 @@ export const serviciosData=[
      texto:"adadaadad Lorem ipsum, dolor sit amet consectetur adipisicing elit Deserunt sunt nihil quod accusamus, vel quis, consequatur amet",
      titulo:"Ecommerce",
      textoButton:"ver mas",
-     img: '../assets/ecommerceGrafica.png'
+     img: '../../assets/ecommerceGrafica.png'
     },
 
     {
@@ -16,7 +16,7 @@ export const serviciosData=[
         texto:"adadaadad Lorem ipsum, dolor sit amet consectetur adipisicing elit Deserunt sunt nihil quod accusamus, vel quis, consequatur amet",
         titulo:"Desarrollo Web",
         textoButton:"ver mas",
-        img: "../assets/desarrolloweb.png"
+        img: "../../assets/desarrolloweb.png"
        },
        {
         id:3,
@@ -25,7 +25,7 @@ export const serviciosData=[
         texto:"adadaadad Lorem ipsum, dolor sit amet consectetur adipisicing elit Deserunt sunt nihil quod accusamus, vel quis, consequatur amet",
         titulo:"Diseño web",
         textoButton:"ver mas",
-        img: "../assets/diseñoweb.png"
+        img: "../../assets/diseñoweb.png"
        },
        {
         id:4,
@@ -43,7 +43,7 @@ export const serviciosData=[
         texto:"adadaadad Lorem ipsum, dolor sit amet consectetur adipisicing elit Deserunt sunt nihil quod accusamus, vel quis, consequatur amet",
         titulo:"Migracion a la nube",
         textoButton:"ver mas",
-        img: "../assets/migracionalanube.png"
+        img: "../../assets/migracionalanube.png"
        },
        {
         id:6,
@@ -52,7 +52,7 @@ export const serviciosData=[
         grafica:"ada",
         texto:"Lorem ipsum, dolor sit amet consectetur adipisicing elit Deserunt sunt nihil quod accusamus, vel quis, consequatur amet",
         textoButton:"ver mas",
-        img: '../assets/qr.png'
+        img: '../../assets/qr.png'
       
        }
 
