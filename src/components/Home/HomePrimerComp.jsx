@@ -7,7 +7,7 @@ import { Link } from 'react-router-dom'
 const HomePrimerComp = () => {
   return (
     <div className='HomePrimerComp  '>
-      <div className='wd-40'>
+      <div className='homePrimerCompContainer'>
         <div>
           <h2 className='homePrimerCompTitulo'>Developer Resources</h2>
           <p className='homePrimerCompTexto font-family-Robot'>Push n Pull es una agencia digital basada en datos especializada en brindar soluciones digitales.</p>
