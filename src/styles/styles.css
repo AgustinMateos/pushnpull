@@ -1095,4 +1095,13 @@ p {
         inset: 0px;
        }
     .imagenlatidoContainer{    margin-top: -20%;}
+    .homePrimerCompTitulo {
+        
+        text-align: center;
+    }
+    .homePrimerCompTexto {
+        
+        text-align: center;
+    }
+    .homePrimerbuttonContainerMobile{justify-content: center;}
 }
