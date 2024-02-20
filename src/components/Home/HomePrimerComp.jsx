@@ -20,7 +20,7 @@ const HomePrimerComp = () => {
        
 
       </div>
-      <div className='wd-40 h-100 flex-align-center flex-justify-center '>
+      <div className='wd-40 h-100 imagenlatidoContainer flex-align-center flex-justify-center '>
         <img className='wd-100 h-90  homePrimerCompImg imagen-latido' src={grafica8} alt="" /> 
       </div>
     </div>

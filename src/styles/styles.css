@@ -416,7 +416,7 @@ body {
     padding-top: 90px;
 }
 .homePrimerCompContainer{
-    max-width: 400px;
+    max-width: 450px;
 }
 
 .homePrimerCompImg {
@@ -1088,3 +1088,11 @@ p {
     text-align: center;
 }
 
+@media (max-width:880px){
+    .HomePrimerComp {
+        flex-direction: column-reverse;};
+    .imagen-latido{    position: absolute;
+        inset: 0px;
+       }
+    .imagenlatidoContainer{    margin-top: -60%;}
+}
