@@ -418,12 +418,15 @@ body {
 .homePrimerCompContainer{
     max-width: 450px;
 }
-
+.homePrimerCompContainerImg{
+    max-width:450px;
+}
 .homePrimerCompImg {
     border-radius: 50%;
     width: 100%;
     height: auto;
 }
+.homePrimerCompButtons{display: flex; justify-content: flex-start;}
 
 .homePrimerCompTitulo {
     font-size: clamp(3.5rem, 8vw, 6rem);
@@ -589,6 +592,9 @@ body {
 }
 
 .buttonVermas2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     position: relative;
     overflow: hidden;
     height: 3rem;
@@ -1088,20 +1094,54 @@ p {
     text-align: center;
 }
 
-@media (max-width:880px){
-    .HomePrimerComp {
+@media (max-width:900px){
+    .HomePrimerComp {/*index*/
         flex-direction: column-reverse;};
     .imagen-latido{    position: absolute;
         inset: 0px;
        }
-    .imagenlatidoContainer{    margin-top: -30%;}
-    .homePrimerCompTitulo {
+    .imagenlatidoContainer{ /*index*/   margin-top: -40%;}
+    .homePrimerCompTitulo {/*index*/
         
         text-align: center;
     }
-    .homePrimerCompTexto {
+    .homePrimerCompTexto {/*index*/
         
         text-align: center;
     }
-    .homePrimerbuttonContainerMobile{justify-content: center;}
+    
+    .imagen-latido {
+        animation: none;
+    }
+    .homePrimerCompButtons {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+    .buttonVermas2 {
+        position: relative;
+        overflow: hidden;
+        height: 3rem;
+         padding: 0rem;
+        border-radius: 1.5rem;
+        color: #5a5a5a;
+        font-weight: normal;
+        line-height: 3rem;
+        font-size: 0.95rem;
+        width: 190px;
+        
+        border: 1px solid #5a5a5a;
+        transition: color 0.3s ease;
+         margin-left: 0px; 
+         margin-top: 20px;
+    }
+    
+}
+
+@media (max-width:600px){
+    .imagenlatidoContainer {
+        margin-top: -50%;
+    }
+
 }
