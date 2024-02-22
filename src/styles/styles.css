@@ -938,6 +938,13 @@ p {
 
 .containerHeight {
     min-height: 550px;
+   
+        min-height: 550px;
+        display: flex;
+        align-items: center;
+        
+        justify-content: space-evenly;
+    
 }
 
 /*footer*/
@@ -1135,6 +1142,14 @@ p {
         transition: color 0.3s ease;
          margin-left: 0px; 
          margin-top: 20px;
+    }
+    .containerHeight {
+        text-align: center;
+        min-height: 550px;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-direction: column;
     }
     
 }

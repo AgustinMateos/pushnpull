@@ -7,7 +7,7 @@ const HomeCuartQuintComp = () => {
     return (
         <div className='wd-100 '>
 
-            <div className='flex-align-center flex-justify-space-evenly containerHeight '>
+            <div className=' containerHeight '>
 
                 <div className='wd-30'>
                     <img className='wd-100' src={impulsaTuMarca} alt="imagen grafica pnp" /></div>
