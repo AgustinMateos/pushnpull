@@ -8,9 +8,10 @@ const HomeSeptOctComp = () => {
       
         <div className='homeSoporteCointainer '>
             
-            <div to={"/seoPage"} className='homeSoporteCointainerText'>
+            <div to={"/seoPage"} className='homeSoporteCointainerText '>
                 <div className='content'>
-                    <h3 className='homeSoporteContainerTitulo'>Soporte tecnologico a empresas y agencias</h3>
+                  
+                    <h3 className='titulosComponentes'>Soporte tecnologico a empresas y agencias</h3>
 
                     <div className='price'></div>
                     <ul>
@@ -23,7 +24,7 @@ const HomeSeptOctComp = () => {
             
 
         </div>
-
+       
     </div>
     
 </div>

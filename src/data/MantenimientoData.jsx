@@ -16,7 +16,7 @@ export const mantenimientoData=[
         texto:"adadaadad Lorem ipsum, dolor sit amet consectetur adipisicing elit Deserunt sunt nihil quod accusamus, vel quis, consequatur amet",
         titulo:"Mantenimiento Seo",
         textoButton:"ver mas",
-        img: "../../assets/desarrolloweb.png"
+        img: "src/assets/desarrolloweb.png"
        },
        {
         id:3,
@@ -25,6 +25,6 @@ export const mantenimientoData=[
         texto:"adadaadad Lorem ipsum, dolor sit amet consectetur adipisicing elit Deserunt sunt nihil quod accusamus, vel quis, consequatur amet",
         titulo:"Mantenimiento Base de Datos",
         textoButton:"ver mas",
-        img: "../../assets/desarrolloweb.png"
+        img: "src/assets/desarrolloweb.png"
        },
     ]
