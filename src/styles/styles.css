@@ -415,19 +415,34 @@ body {
     /* Cambiar la altura a auto para que se ajuste según el contenido */
     padding-top: 90px;
 }
-.homePrimerCompContainer{
+
+.homePrimerCompContainer {
     max-width: 450px;
 }
-.homePrimerCompContainerImg{
-    max-width:450px;
+
+.homePrimerCompContainerImg {
+    max-width: 450px;
 }
-.impulsaTuMarcaContainerImg{max-width: 400px;}
+
+.impulsaTuMarcaContainerImg {
+    max-width: 400px;
+}
+
+.impulsaTuMarcaContainer {
+    max-width: 600px;
+    padding: 30px;
+}
+
 .homePrimerCompImg {
     border-radius: 50%;
     width: 100%;
     height: auto;
 }
-.homePrimerCompButtons{display: flex; justify-content: flex-start;}
+
+.homePrimerCompButtons {
+    display: flex;
+    justify-content: flex-start;
+}
 
 .homePrimerCompTitulo {
     font-size: clamp(3.5rem, 8vw, 6rem);
@@ -609,7 +624,7 @@ body {
     width: fit-content;
     border: 1px solid #5a5a5a;
     transition: color 0.3s ease;
-    margin-left:10px;
+    margin-left: 10px;
     /* Transición para el color del texto */
 }
 
@@ -939,13 +954,13 @@ p {
 
 .containerHeight {
     min-height: 550px;
-   
-        min-height: 550px;
-        display: flex;
-        align-items: center;
-        
-        justify-content: space-evenly;
-    
+
+    min-height: 550px;
+    display: flex;
+    align-items: center;
+
+    justify-content: space-evenly;
+
 }
 
 /*footer*/
@@ -1044,11 +1059,13 @@ p {
 .contactoContainer {
     max-width: 100%;
 }
+
 .titulosComponentes {
     font-weight: 700;
     line-height: 100%;
     letter-spacing: -.03rem;
-    font-size: 4vw; /* Tamaño de letra relativo al ancho de la ventana gráfica */
+    font-size: 4vw;
+    /* Tamaño de letra relativo al ancho de la ventana gráfica */
     font-family: 'Roboto', sans-serif;
     color: #5a5a5a;
 }
@@ -1087,10 +1104,11 @@ p {
 }
 
 .homeSoporteContainerTitulo {
-  font-weight: 700;
+    font-weight: 700;
     line-height: 100%;
     letter-spacing: -.03rem;
-    font-size: 4vw; /* Tamaño de letra relativo al ancho de la ventana gráfica */
+    font-size: 4vw;
+    /* Tamaño de letra relativo al ancho de la ventana gráfica */
     font-family: 'Roboto', sans-serif;
     color: #5a5a5a;
 }
@@ -1102,48 +1120,65 @@ p {
     text-align: center;
 }
 
-@media (max-width:900px){
-    .HomePrimerComp {/*index*/
-        flex-direction: column-reverse;};
-    .imagen-latido{    position: absolute;
+@media (max-width:900px) {
+    .HomePrimerComp {
+        /*index*/
+        flex-direction: column-reverse;
+    }
+
+    ;
+
+    .imagen-latido {
+        position: absolute;
         inset: 0px;
-       }
-    .imagenlatidoContainer{ /*index*/   margin-top: -40%;}
-    .homePrimerCompTitulo {/*index*/
-        
+    }
+
+    .imagenlatidoContainer {
+        /*index*/
+        margin-top: -40%;
+    }
+
+    .homePrimerCompTitulo {
+        /*index*/
+
         text-align: center;
     }
-    .homePrimerCompTexto {/*index*/
-        
+
+    .homePrimerCompTexto {
+        /*index*/
+
         text-align: center;
     }
-    
+
     .imagen-latido {
         animation: none;
     }
+
     .homePrimerCompButtons {
         display: flex;
         justify-content: center;
         flex-direction: column;
         align-items: center;
     }
+
     .buttonVermas2 {
         position: relative;
         overflow: hidden;
         height: 3rem;
-         padding: 0rem;
+        padding: 0rem;
         border-radius: 1.5rem;
         color: #5a5a5a;
         font-weight: normal;
         line-height: 3rem;
         font-size: 0.95rem;
         width: 190px;
-        
+
         border: 1px solid #5a5a5a;
         transition: color 0.3s ease;
-         margin-left: 0px; 
-         margin-top: 20px;
+        margin-left: 0px;
+        margin-top: 20px;
     }
+
     .containerHeight {
         text-align: center;
         min-height: 550px;
@@ -1152,20 +1187,28 @@ p {
         justify-content: space-evenly;
         flex-direction: column;
     }
+
     .titulosComponentesTexto {
         text-align: center;
     }
+
     .titulosComponentes {
-        
+
         font-size: 40px;
-        
+
     }
-    
+
 }
 
-@media (max-width:600px){
+@media (max-width:600px) {
     .imagenlatidoContainer {
         margin-top: -50%;
     }
 
+}
+
+@media (max-width:450px) {
+    .impulsaTuMarcaContainerImg {
+        max-width: 300px;
+    }
 }
