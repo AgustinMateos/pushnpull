@@ -421,6 +421,7 @@ body {
 .homePrimerCompContainerImg{
     max-width:450px;
 }
+.impulsaTuMarcaContainerImg{max-width: 400px;}
 .homePrimerCompImg {
     border-radius: 50%;
     width: 100%;
@@ -1150,6 +1151,14 @@ p {
         align-items: center;
         justify-content: space-evenly;
         flex-direction: column;
+    }
+    .titulosComponentesTexto {
+        text-align: center;
+    }
+    .titulosComponentes {
+        
+        font-size: 40px;
+        
     }
     
 }

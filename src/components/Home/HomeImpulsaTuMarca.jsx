@@ -9,7 +9,7 @@ const HomeCuartQuintComp = () => {
 
             <div className=' containerHeight '>
 
-                <div className='wd-30'>
+                <div className=' impulsaTuMarcaContainerImg'>
                     <img className='wd-100' src={impulsaTuMarca} alt="imagen grafica pnp" /></div>
                 <div class="contenedor wd-50">
                     <div class="imagen-container">
