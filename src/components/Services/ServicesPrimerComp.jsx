@@ -34,7 +34,7 @@ const ServicesPrimerComp = () => {
 
       <div className='wd-100'>
         <div className='flex-align-center flex-justify-space-evenly containerHeight  ' id="solucionesDigitales">
-          <div className='wd-30'>
+          <div className='impulsaTuMarcaContainerImg'>
             <img className='wd-100' src={impulsaTuMarca} alt="imagen grafica pnp" />
           </div>
           <div class="contenedor wd-50"  >
@@ -48,7 +48,7 @@ const ServicesPrimerComp = () => {
             </div>
           </div>
         </div>
-        <div className='flex-align-center flex-justify-space-evenly containerHeight  ' id="seo">
+        <div className='containerTextoImg  ' id="seo">
           <div class="contenedor wd-50">
             <div class="imagen-container">
               <h3 className="texto titulosComponentes">Seo</h3>
@@ -59,13 +59,13 @@ const ServicesPrimerComp = () => {
               <Link to={"/seoPage"} className='buttonContainers'>ver mas <ion-icon name="arrow-forward-outline"></ion-icon></Link>
             </div>
           </div>
-          <div className='wd-30'>
+          <div className='impulsaTuMarcaContainerImg'>
             <img className='wd-100' src={seo} alt="imagen grafica pnp" /></div>
         </div>
 
         <div className='flex-align-center flex-justify-space-evenly containerHeight ' id='mantenimiento'>
 
-          <div className='wd-30'>
+          <div className='impulsaTuMarcaContainerImg'>
             <img className='wd-100' src={mantenimiento} alt="imagen grafica pnp" /></div>
           <div class="contenedor wd-50">
             <div class="imagen-container">
