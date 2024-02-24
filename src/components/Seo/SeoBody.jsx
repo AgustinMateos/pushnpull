@@ -15,19 +15,21 @@ const SeoBody = () => {
 
   return (
     <div className='wd-100'>
-      <div className='flex-align-center flex-justify-space-around solucionesDigitalesPrimerComponenteContainer'>
-        <div className='wd-40'>
+      <div className='HomePrimerComp  '>
+      <div className='homePrimerCompContainer'>
+        <div>
           <h2 className='homePrimerCompTitulo'>Seo</h2>
-          <p className='homePrimerCompTexto'>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam enim omnis aliquam exercitationem expedita
-            perferendis laborum, cum repellat beatae quia esse delectus sequi vitae nihil cupiditate totam, porro
-            necessitatibus rerum.
-          </p>
+          <p className='homePrimerCompTexto font-family-Robot'>Push n Pull es una agencia digital basada en datos especializada en brindar soluciones digitales.</p>
         </div>
-        <div className='wd-40 h-100'>
-          <img className='wd-100 h-90  imagen-latido' src={solucionesDigitalesBody} alt='' />
-        </div>
+        
+
+       
+
       </div>
+      <div className='homePrimerCompContainerImg h-100 imagenlatidoContainer flex-align-center flex-justify-center  '>
+        <img className='wd-100 h-90  homePrimerCompImg imagen-latido' src={solucionesDigitalesBody} alt="" /> 
+      </div>
+    </div>
       
       <div className='wd-100 flex-justify-center'>
         <div className='wd-90 flex-justify-center flex-column  containerHeight'>

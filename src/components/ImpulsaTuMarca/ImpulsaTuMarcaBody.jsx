@@ -35,7 +35,7 @@ const ImpulsaTuMarcaBody = () => {
       </div>
       <div className='wd-100 '>
 
-        <div className=' containerHeight '>
+        <div className=' containerTextoImg '>
            <div class="impulsaTuMarcaContainer ">
             <div class="imagen-container">
               <h3 className="texto titulosComponentes">Impulsa tu marca</h3>

@@ -806,7 +806,13 @@ p {
     -webkit-transform: rotate(40deg);
     transform: rotate(40deg);
 }
-
+/* impulsa tu marca*/
+.containerTextoImg {
+    min-height: 550px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
 /**/
 .effect02 {
     color: #FFF;
@@ -1197,6 +1203,13 @@ p {
         font-size: 40px;
 
     }
+    .containerTextoImg{
+        text-align: center;
+        min-height: 550px;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-direction: column-reverse;}
 
 }
 
