@@ -614,11 +614,11 @@ body {
     position: relative;
     overflow: hidden;
     height: 3rem;
-    padding: 0 2rem;
+    padding: 0 1rem;
     border-radius: 1.5rem;
     color: #5a5a5a;
     font-weight: normal;
-    line-height: 3rem;
+    line-height:1rem;
     /* Alinear verticalmente el texto */
     font-size: 0.95rem;
     width: fit-content;
@@ -925,7 +925,10 @@ p {
     color: #5a5a5a;
     ;
 } */
-.container
+.imagen-container{display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 300px;}
 .titulosComponentesTexto {
     padding-top: 20px;
     padding-bottom: 20px;
@@ -1175,7 +1178,7 @@ p {
         border-radius: 1.5rem;
         color: #5a5a5a;
         font-weight: normal;
-        line-height: 3rem;
+        line-height: 1rem;
         font-size: 0.95rem;
         width: 190px;
 
