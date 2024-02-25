@@ -6,7 +6,7 @@ export const seoServiciosData=[
         texto:"adadaadad Lorem ipsum, dolor sit amet consectetur adipisicing elit Deserunt sunt nihil quod accusamus, vel quis, consequatur amet",
         titulo:"Campaña Seo",
         textoButton:"ver mas",
-        img: '../../assets/ecommerceGrafica.png'
+        img: '/src/assets/ecommerceGrafica.png'
     },
     {
         id:2,
@@ -15,7 +15,7 @@ export const seoServiciosData=[
         texto:"adadaadad Lorem ipsum, dolor sit amet consectetur adipisicing elit Deserunt sunt nihil quod accusamus, vel quis, consequatur amet",
         titulo:"Auditoria Seo",
         textoButton:"ver mas",
-        img: "../../assets/desarrolloweb.png"
+        img: "/src/assets/desarrolloweb.png"
     },
     {
         id:3,
@@ -24,6 +24,6 @@ export const seoServiciosData=[
         texto:"adadaadad Lorem ipsum, dolor sit amet consectetur adipisicing elit Deserunt sunt nihil quod accusamus, vel quis, consequatur amet",
         titulo:"Implementacion",
         textoButton:"ver mas",
-        img: "../../assets/desarrolloweb.png"
+        img: "/src/assets/desarrolloweb.png"
     }
 ]

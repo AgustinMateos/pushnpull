@@ -23,7 +23,7 @@ const Footer = () => {
                     <div className='wd-30'>
                         <ul className='font-family-Robot'>
                              <li><Link  to={"/"}>Inicio</Link></li>
-                            <li className='margin-top-10 '><Link  className='titulosComponentesTexto'>Impulsa tu marca</Link></li>
+                            <li className='margin-top-10 '><Link to={"/impulsaTuMarcaPage"} className='titulosComponentesTexto'>Impulsa tu marca</Link></li>
                             <li className="margin-top-10"><Link to={"/SolucionesDigitalesPage"} className="titulosComponentesTexto">Soluciones Digitales</Link></li>
                             <li className="margin-top-10"><Link to={"/SeoPage"} className="titulosComponentesTexto">Seo</Link></li>
                             <li className="margin-top-10"><Link to={"/MantenimientoPage"} >Mantenimiento</Link></li>
