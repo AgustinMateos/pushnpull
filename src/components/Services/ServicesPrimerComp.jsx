@@ -20,7 +20,7 @@ const ServicesPrimerComp = () => {
             totam, quia deserunt explicabo? Error pariatur doloremque rerum accusantium?</p>
            
           <div className='wd-100'>
-            <div className='flex-justify-space-evenly  '>
+            <div className='seviciosContainerButtonsNavbar  '>
               <HashLink to='/ServicesPage#solucionesDigitales' smooth className="serviciosContainerNavlinks buttonContainers"> Soluciones digitales </HashLink>
               <HashLink to='/ServicesPage#seo' smooth  className="serviciosContainerNavlinks buttonContainers"> Seo </HashLink>
               <HashLink to='/ServicesPage#mantenimiento' smooth  className='serviciosContainerNavlinks buttonContainers'> Mantenimiento </HashLink>
@@ -37,7 +37,7 @@ const ServicesPrimerComp = () => {
           <div className='impulsaTuMarcaContainerImg'>
             <img className='wd-100' src={impulsaTuMarca} alt="imagen grafica pnp" />
           </div>
-          <div class="contenedor wd-50"  >
+          <div class="contenedor "  >
             <div class="imagen-container" >
               <h3 className="texto titulosComponentes">Soluciones digitales</h3>
               <p className='titulosComponentesTexto'>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
@@ -49,7 +49,7 @@ const ServicesPrimerComp = () => {
           </div>
         </div>
         <div className='containerTextoImg  ' id="seo">
-          <div class="contenedor wd-50">
+          <div class="contenedor ">
             <div class="imagen-container">
               <h3 className="texto titulosComponentes">Seo</h3>
               <p className='titulosComponentesTexto'>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
@@ -67,7 +67,7 @@ const ServicesPrimerComp = () => {
 
           <div className='impulsaTuMarcaContainerImg'>
             <img className='wd-100' src={mantenimiento} alt="imagen grafica pnp" /></div>
-          <div class="contenedor wd-50">
+          <div class="contenedor ">
             <div class="imagen-container">
               <h3 className="texto titulosComponentes">Mantenimiento</h3>
               <p className='titulosComponentesTexto'>Lorem, ipsum dolor sit amet consectetur adipisicing elit.

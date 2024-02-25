@@ -426,6 +426,7 @@ body {
 
 .impulsaTuMarcaContainerImg {
     max-width: 400px;
+    margin: 20px;
 }
 
 .impulsaTuMarcaContainer {
@@ -933,7 +934,8 @@ p {
     flex-direction: column;
     justify-content: space-around;
     height: 300px;
-    align-items: center;}
+    align-items: center;
+padding: 10px}
 .titulosComponentesTexto {
     padding-top: 20px;
     padding-bottom: 20px;
@@ -986,14 +988,17 @@ p {
 .serviciosContainer {
     padding-top: 150px
 }
-
+.seviciosContainerButtonsNavbar{
+    display: flex;
+    justify-content: space-evenly;
+}
 .ServiciosContainerPrimerComponente {
     display: flex;
     flex-direction: column;
     justify-content: center;
     text-align: center;
     align-items: center;
-    height: 500px;
+    min-height: 650px;
 }
 
 /* .serviciosContainerNavlinks {
@@ -1093,7 +1098,7 @@ p {
     margin: 0 auto;
     /* Centrar el contenedor horizontalmente */
 }
-
+.contenedor{max-width: 650px;}
 
 
 /*card responsive*/
@@ -1237,6 +1242,12 @@ p {
 @media (max-width:600px) {
     .imagenlatidoContainer {
         margin-top: -50%;
+    }
+    .seviciosContainerButtonsNavbar {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 150px;
     }
     
 }
