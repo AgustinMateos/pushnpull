@@ -52,7 +52,7 @@ export const serviciosData=[
         grafica:"ada",
         texto:"Lorem ipsum, dolor sit amet consectetur adipisicing elit Deserunt sunt nihil quod accusamus, vel quis, consequatur amet",
         textoButton:"ver mas",
-        img:'../assets/qr.png'
+        img:'../../assets/solucionesDigitalesBody.png'
       
        }
 
