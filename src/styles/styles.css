@@ -362,10 +362,10 @@ body {
 
 /*navbar*/
 .containerLogo {
-    font-weight: bold;
+    font-weight: 700;
     display: flex;
     max-width: 400px;
-    justify-content: space-between;
+    justify-content: flex-start;
 }
 
 .tituloFont {
@@ -619,7 +619,7 @@ body {
     border-radius: 1.5rem;
     color: #5a5a5a;
     font-weight: normal;
-    line-height:1rem;
+    line-height: 1rem;
     /* Alinear verticalmente el texto */
     font-size: 0.95rem;
     width: fit-content;
@@ -682,14 +682,14 @@ body {
 /* Homecuart quint componente*/
 
 .HomeCuartQuintCompBuscando {
- 
-        border: 2px solid white;
-        border-radius: 20px;
-        min-height: 300px;
-        background: white;
-        display: flex;
-        align-items: center;
-    
+
+    border: 2px solid white;
+    border-radius: 20px;
+    min-height: 300px;
+    background: white;
+    display: flex;
+    align-items: center;
+
 }
 
 /*sexto*/
@@ -811,6 +811,7 @@ p {
     -webkit-transform: rotate(40deg);
     transform: rotate(40deg);
 }
+
 /* impulsa tu marca*/
 .containerTextoImg {
     min-height: 550px;
@@ -818,6 +819,7 @@ p {
     align-items: center;
     justify-content: space-evenly;
 }
+
 /**/
 .effect02 {
     color: #FFF;
@@ -930,12 +932,15 @@ p {
     color: #5a5a5a;
     ;
 } */
-.imagen-container{display: flex;
+.imagen-container {
+    display: flex;
     flex-direction: column;
     justify-content: space-around;
     height: 300px;
     align-items: center;
-padding: 10px}
+    padding: 10px
+}
+
 .titulosComponentesTexto {
     padding-top: 20px;
     padding-bottom: 20px;
@@ -970,11 +975,8 @@ padding: 10px}
 
 .containerHeight {
     min-height: 550px;
-
-    
     display: flex;
     align-items: center;
-
     justify-content: space-evenly;
 
 }
@@ -984,14 +986,23 @@ padding: 10px}
     background-image: radial-gradient(farthest-side at bottom left, rgb(177, 219, 255), transparent 900px), radial-gradient(farthest-corner at bottom right, rgb(177, 219, 255), transparent 1000px);
 }
 
+.footerContainerLogo {
+    font-weight: 700;
+    display: flex;
+    max-width: 400px;
+    justify-content: flex-start;
+}
+
 /*servicios*/
 .serviciosContainer {
     padding-top: 150px
 }
-.seviciosContainerButtonsNavbar{
+
+.seviciosContainerButtonsNavbar {
     display: flex;
     justify-content: space-evenly;
 }
+
 .ServiciosContainerPrimerComponente {
     display: flex;
     flex-direction: column;
@@ -1098,7 +1109,10 @@ padding: 10px}
     margin: 0 auto;
     /* Centrar el contenedor horizontalmente */
 }
-.contenedor{max-width: 650px;}
+
+.contenedor {
+    max-width: 650px;
+}
 
 
 /*card responsive*/
@@ -1138,6 +1152,55 @@ padding: 10px}
     font-size: 1.0rem;
     text-align: center;
 }
+
+
+/*FORMULARIO*/
+.formContainerHeight {
+    min-height: 550px;
+    display: flex;
+    justify-content: center;
+}
+
+.formContainerFlex {
+    display: flex;
+    flex-direction: column;
+}
+
+.formPrimerCompTitulo {
+    font-size: clamp(3.5rem, 8vw, 6rem);
+    font-weight: 700;
+    line-height: 100%;
+    letter-spacing: -.03rem;
+    font-family: 'Roboto', sans-serif;
+    color: #5a5a5a;
+    text-align: center;
+}
+
+.formPrimerCompTexto {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 1.3rem;
+}
+.formContainerWidth{width: 80%;}
+.formInputs{
+    background-color: #fff;
+    box-sizing: border-box;
+    border-radius: 2px;
+    color: #333;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    display: block;
+    float: none;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    padding: 6px 10px;
+    height: 38px;
+    width: 100%;
+    line-height: 1.3;
+}
+
+
 
 @media (max-width:900px) {
     .HomePrimerComp {
@@ -1216,18 +1279,20 @@ padding: 10px}
         font-size: 40px;
 
     }
-    .containerTextoImg{
+
+    .containerTextoImg {
         text-align: center;
         min-height: 550px;
         display: flex;
         align-items: center;
         justify-content: space-evenly;
-        flex-direction: column-reverse;}
+        flex-direction: column-reverse;
+    }
 
 }
 
 @media (max-width:680px) {
-   
+
     .HomeCuartQuintCompBuscando {
         border: 2px solid white;
         border-radius: 20px;
@@ -1239,26 +1304,30 @@ padding: 10px}
         flex-direction: column;
     }
 }
+
 @media (max-width:600px) {
     .imagenlatidoContainer {
         margin-top: -50%;
     }
+
     .seviciosContainerButtonsNavbar {
         display: flex;
         flex-direction: column;
         align-items: center;
         height: 150px;
     }
-    
+
 }
 
 @media (max-width:450px) {
     .impulsaTuMarcaContainerImg {
         max-width: 300px;
     }
+
     .titulosComponentes {
         font-size: 30px;
     }
+
     .HomeTerCompContainer .card {
         position: relative;
         width: 280px;

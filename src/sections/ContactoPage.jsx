@@ -4,7 +4,7 @@ import Navbar from '../components/Generals/Navbar/Navbar'
 import Footer from '../components/Generals/Footer/Footer'
 const ContactoPage = () => {
   return (
-    <div>
+    <div className='background-principal'>
         <Navbar/>
         <ContactoBody/>
         <Footer/>

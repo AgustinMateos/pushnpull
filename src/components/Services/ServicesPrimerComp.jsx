@@ -8,7 +8,7 @@ import { HashLink, NavHashLink } from 'react-router-hash-link';
 
 const ServicesPrimerComp = () => {
   return ( 
-    <div className='background-principal serviciosContainer'>
+    <div className='background-principal '>
       <div className='wd-100 flex-justify-space-around'> 
         <div className='wd-80 ServiciosContainerPrimerComponente'>
           <h1 className='homePrimerCompTitulo'>Servicios</h1>

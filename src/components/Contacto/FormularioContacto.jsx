@@ -55,20 +55,20 @@ function FormularioContacto() {
 
   return (
   <div>
-     <form onSubmit={handleSubmit}>
+     <form className='formContainerFlex' onSubmit={handleSubmit}>
       <div>
         <label>Nombre:</label>
-        <input type="text" name="name" value={formData.name} onChange={handleChange} />
+        <input className='formInputs' type="text" name="name" value={formData.name} onChange={handleChange} />
         {errors.name && !submitted && <span>{errors.name}</span>}
       </div>
       <div>
         <label>Apellido:</label>
-        <input type="text" name="lastName" value={formData.lastName} onChange={handleChange} />
+        <input className='formInputs' type="text" name="lastName" value={formData.lastName} onChange={handleChange} />
         {errors.lastName && !submitted && <span>{errors.lastName}</span>}
       </div>
       <div>
         <label>Email:</label>
-        <input type="email" name="email" value={formData.email} onChange={handleChange} />
+        <input className='formInputs' type="email" name="email" value={formData.email} onChange={handleChange} />
         {errors.email && !submitted && <span>{errors.email}</span>}
       </div>
       <div>
@@ -117,12 +117,12 @@ function FormularioContacto() {
       </div>
       <div>
         <label>Presupuesto estimado:</label>
-        <input type="text" name="budget" value={formData.budget} onChange={handleChange} />
+        <input className='formInputs' type="text" name="budget" value={formData.budget} onChange={handleChange} />
         {errors.budget && !submitted && <span>{errors.budget}</span>}
       </div>
       <div>
         <label>Número de teléfono:</label>
-        <input type="text" name="phone" value={formData.phone} onChange={handleChange} />
+        <input className='formInputs' type="text" name="phone" value={formData.phone} onChange={handleChange} />
         {errors.phone && !submitted && <span>{errors.phone}</span>}
       </div>
       <button type="submit">Enviar</button>

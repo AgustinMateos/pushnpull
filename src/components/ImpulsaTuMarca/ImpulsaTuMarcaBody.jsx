@@ -3,7 +3,8 @@ import { Link } from 'react-router-dom'
 import grafica8 from "../../assets/impulsatumarca3.png"
 const ImpulsaTuMarcaBody = () => {
   return (
-    <div> <div className='HomePrimerComp  '>
+    <div>
+       <div className='HomePrimerComp  '>
       <div className='homePrimerCompContainer'>
         <div>
           <h2 className='homePrimerCompTitulo'>Impulsa tu Marca</h2>

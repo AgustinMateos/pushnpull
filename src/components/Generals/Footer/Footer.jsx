@@ -8,7 +8,7 @@ const Footer = () => {
             <div className='flex-align-center flex-justify-space-evenly wd-100'>
                 <div className='wd-30'>
 
-                    <Link to={"/"} className="z-50 flex-justify-start   containerLogo ">
+                    <Link to={"/"} className="z-50 flex-justify-start   footerContainerLogo ">
 
                         <img src={logo1} alt="logo" className="md:cursor-pointer h-9" />
                         <h1 className="tituloFont">Push n Pull</h1>
