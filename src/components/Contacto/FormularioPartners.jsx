@@ -40,20 +40,20 @@ function FormularioPartners() {
 
   return (
     <div>
-      <form onSubmit={handleSubmit}>
+      <form className='formContainerFlex' onSubmit={handleSubmit}>
         <div>
           <label>Nombre de la agencia:</label>
-          <input type="text" name="agencyName" value={formData.agencyName} onChange={handleChange} />
+          <input className='formInputs'  type="text" name="agencyName" value={formData.agencyName} onChange={handleChange} />
           {errors.agencyName && !submitted && <span>{errors.agencyName}</span>}
         </div>
         <div>
           <label>Email:</label>
-          <input type="email" name="email" value={formData.email} onChange={handleChange} />
+          <input  type="email" className='formInputs' name="email" value={formData.email} onChange={handleChange} />
           {errors.email && !submitted && <span>{errors.email}</span>}
         </div>
         <div>
           <label>Número de teléfono:</label>
-          <input type="text" name="phone" value={formData.phone} onChange={handleChange} />
+          <input type="text" name="phone" className='formInputs'value={formData.phone} onChange={handleChange} />
           {errors.phone && !submitted && <span>{errors.phone}</span>}
         </div>
         <div>
@@ -63,12 +63,12 @@ function FormularioPartners() {
         </div>
         <div>
           <label>Portfolio:</label>
-          <input type="text" name="portfolio" value={formData.portfolio} onChange={handleChange} />
+          <input type="text"  className='formInputs'name="portfolio" value={formData.portfolio} onChange={handleChange} />
           {errors.portfolio && !submitted && <span>{errors.portfolio}</span>}
         </div>
         <div>
           <label>Nacionalidad:</label>
-          <input type="text" name="nationality" value={formData.nationality} onChange={handleChange} />
+          <input className='formInputs' type="text" name="nationality" value={formData.nationality} onChange={handleChange} />
           {errors.nationality && !submitted && <span>{errors.nationality}</span>}
         </div>
         <button type="submit">Enviar</button>
