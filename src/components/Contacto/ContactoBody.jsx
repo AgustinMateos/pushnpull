@@ -11,7 +11,7 @@ function ContactoBody() {
 
   return (
     <div className='HomePrimerComp'>
-      <div className='wd-40'>
+      <div className='wd-80'>
         <div>
           <h2 className='formPrimerCompTitulo'>Formulario</h2>
           <p className='formPrimerCompTexto font-family-Robot'>Push n Pull es una agencia digital basada en datos especializada en brindar soluciones digitales.</p>
@@ -19,8 +19,9 @@ function ContactoBody() {
         <div className="flex-justify-space-center">
           <div className='formContainerHeight'>
             <div className='formContainerWidth'>
-              <div className="flex-justify-space-around">
-                <button
+              <div className="formButtons">
+                <div className="formButtonsContainer" >
+                  <button
                   className={selectedButton === 'contacto' ? 'selected' : ''}
                   onClick={() => handleButtonClick('contacto')}
                 >
@@ -30,8 +31,10 @@ function ContactoBody() {
                   className={selectedButton === 'partners' ? 'selected' : ''}
                   onClick={() => handleButtonClick('partners')}
                 >
-                  Contacto para Partners
+                  Partners
                 </button>
+                </div>
+                
               </div>
 
               {selectedButton === 'contacto' && <FormularioContacto />}

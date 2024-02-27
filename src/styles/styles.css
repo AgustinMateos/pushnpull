@@ -413,7 +413,7 @@ body {
     /* Agregar flex-wrap para permitir que los elementos se envuelvan */
     height: auto;
     /* Cambiar la altura a auto para que se ajuste según el contenido */
-    padding-top: 90px;
+    padding-top: 100px;
 }
 
 .homePrimerCompContainer {
@@ -1070,15 +1070,16 @@ p {
 
 /*contacto*/
 .selected {
-    background-color: #f00;
-    /* Cambia esto por el color que desees */
+    background-color: rgb(186, 186, 186);
+    border-radius: 1.5rem;
+    border: 1px solid #5a5a5a;
+    width: 60%;
 }
 
 .HomePrimerCompForm {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-
     padding-top: 90px;
 }
 
@@ -1155,15 +1156,15 @@ p {
 
 
 /*FORMULARIO*/
-.formContainerHeight {
-    min-height: 550px;
+.formContainerFlex {
     display: flex;
-    justify-content: center;
+    min-height: 490px;
+    justify-content: space-between;
 }
 
 .formContainerFlex {
     display: flex;
-    flex-direction: column;
+    justify-content: space-between;
 }
 
 .formPrimerCompTitulo {
@@ -1173,20 +1174,26 @@ p {
     letter-spacing: -.03rem;
     font-family: 'Roboto', sans-serif;
     color: #5a5a5a;
-    text-align: center;
+    
 }
 
 .formPrimerCompTexto {
-    text-align: center;
+ 
     padding-top: 20px;
     padding-bottom: 20px;
     font-size: 1.3rem;
 }
-.formContainerWidth{width: 80%;}
-.formInputs{
-    background-color: #fff;
+
+.formContainerWidth {
+    width: 100%;
+}
+
+.formInputs {
+    
+    background: rgba(255, 255, 255, 0.3);
+   
     box-sizing: border-box;
-    border-radius: 2px;
+    border-radius: 15px;
     color: #333;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
@@ -1200,8 +1207,59 @@ p {
     line-height: 1.3;
 }
 
+.formButtons {
+    display: flex;
+    justify-content: flex-start;
+}
+.formTextArea{   width: 100%;
+    background: rgba(255, 255, 255, 0.3);
+    box-sizing: border-box;
+    border-radius: 15px;
+    color: #333;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    display: block;
+    float: none;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    padding: 6px 10px;
+    height: 38px;
+    height: 150px;
+    /* width: 100%; */
+    line-height: 1.3;}
+.formButtonsContainer {
+    border-radius: 1.5rem;
+    color: #5a5a5a;
+    width: 20%;
+    border: 1px solid #5a5a5a;
+    display: flex;
+    justify-content: space-between;
+}
 
 
+.formPrimerContainerInfo {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+
+.formSegContainerInfo {
+   
+   
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 40%;
+    
+    
+}
+.formServiciosRequeridos{    display: flex;
+    justify-content: space-around;}
+
+
+/*responsive */
 @media (max-width:900px) {
     .HomePrimerComp {
         /*index*/
