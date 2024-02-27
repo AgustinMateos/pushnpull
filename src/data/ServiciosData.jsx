@@ -6,7 +6,7 @@ export const serviciosData=[
      texto:"adadaadad Lorem ipsum, dolor sit amet consectetur adipisicing elit Deserunt sunt nihil quod accusamus, vel quis, consequatur amet",
      titulo:"Ecommerce",
      textoButton:"ver mas",
-     img: '/src/assets/ecommerceGrafica.png'
+     img:'/src/assets/ecommerceGrafica.png'
     },
 
     {
@@ -16,7 +16,7 @@ export const serviciosData=[
         texto:"adadaadad Lorem ipsum, dolor sit amet consectetur adipisicing elit Deserunt sunt nihil quod accusamus, vel quis, consequatur amet",
         titulo:"Desarrollo Web",
         textoButton:"ver mas",
-        img: "/src/assets/desarrolloweb.png"
+        img:'/src/assets/desarrolloweb.png'
        },
        {
         id:3,
@@ -25,7 +25,7 @@ export const serviciosData=[
         texto:"adadaadad Lorem ipsum, dolor sit amet consectetur adipisicing elit Deserunt sunt nihil quod accusamus, vel quis, consequatur amet",
         titulo:"Diseño web",
         textoButton:"ver mas",
-        img: "/src/assets/diseñoweb.png"
+        img:"/src/assets/diseñoweb.png"
        },
        {
         id:4,
@@ -34,7 +34,7 @@ export const serviciosData=[
         texto:"adadaadad Lorem ipsum, dolor sit amet consectetur adipisicing elit Deserunt sunt nihil quod accusamus, vel quis, consequatur amet",
         titulo:"Aplicaciones web",
         textoButton:"ver mas",
-        img: "/src/assets/aplicacionweb.png"
+        img:"/src/assets/aplicacionweb.png"
        },
        {
         id:5,
@@ -43,7 +43,7 @@ export const serviciosData=[
         texto:"adadaadad Lorem ipsum, dolor sit amet consectetur adipisicing elit Deserunt sunt nihil quod accusamus, vel quis, consequatur amet",
         titulo:"Migracion a la nube",
         textoButton:"ver mas",
-        img: "/src/assets/migracionalanube.png"
+        img:"/src/assets/migracionalanube.png"
        },
        {
         id:6,
@@ -52,7 +52,7 @@ export const serviciosData=[
         grafica:"ada",
         texto:"Lorem ipsum, dolor sit amet consectetur adipisicing elit Deserunt sunt nihil quod accusamus, vel quis, consequatur amet",
         textoButton:"ver mas",
-        img: '/src/assets/qr.png'
+        img:'/src/assets/qr.png'
       
        }
 
