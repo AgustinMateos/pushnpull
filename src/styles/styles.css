@@ -1368,6 +1368,10 @@ p {
         width: 90%;
         
     }
+    .formPrimerContainerInfo {
+        
+        height: 300px;
+    }
 }
 .buttonEnviar{display: flex;
     justify-content: flex-end;}
@@ -1392,6 +1396,14 @@ p {
     .buttonEnviar {
         display: flex;
         justify-content: center;
+    }
+    .formPrimerCompTexto {
+        
+        text-align: center;
+    }
+    .formPrimerCompTitulo {
+        
+        text-align: center;
     }
    
 
