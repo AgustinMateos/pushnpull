@@ -82,7 +82,7 @@ function FormularioContacto() {
         <div className='formSegContainerInfo'>
           <label>Servicios requeridos:</label>
           <div className='formServiciosRequeridos'>
-            <div>
+            <div className='formServRequeridosFlex'>
               <div>
                 <input
                   type="checkbox"
@@ -122,7 +122,7 @@ function FormularioContacto() {
                 <label>Aplicaciones Web</label></div>
 
             </div>
-            <div>
+            <div className='formServRequeridosFlex'>
               <div>
                 <input
                   type="checkbox"
