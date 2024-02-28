@@ -1254,7 +1254,14 @@ p {
 .selectedButtonPartners{width: 400px;}
 .formServiciosRequeridos{    display: flex;
     justify-content: space-around;}
+.buttonEnviar{display: flex;
+        justify-content: flex-end;}
 
+
+.formTextoSegundo{    display: flex;
+    flex-direction: column;
+    height: 250px;
+    justify-content: space-around;}
 
 /*responsive */
 @media (max-width:900px) {
@@ -1372,9 +1379,18 @@ p {
         
         height: 300px;
     }
+    .formSegContainerInfo {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        width: 90%;
+    }
+    .buttonEnviar {
+        display: flex;
+        justify-content: center;
+    }
 }
-.buttonEnviar{display: flex;
-    justify-content: flex-end;}
+
 
 @media (max-width:600px) {
     .imagenlatidoContainer {
@@ -1387,16 +1403,8 @@ p {
         align-items: center;
         height: 152px;
     }
-    .formSegContainerInfo {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-evenly;
-        width: 90%;
-    }
-    .buttonEnviar {
-        display: flex;
-        justify-content: center;
-    }
+   
+   
     .formPrimerCompTexto {
         
         text-align: center;
