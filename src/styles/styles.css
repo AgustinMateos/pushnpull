@@ -364,8 +364,8 @@ body {
 .containerLogo {
     font-weight: 700;
     display: flex;
-    max-width: 400px;
-    justify-content: flex-start;
+    width: 600px;
+    justify-content: space-between;
 }
 
 .tituloFont {
@@ -1246,15 +1246,12 @@ p {
 
 
 .formSegContainerInfo {
-   
-   
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        width: 40%;
-    
-    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 40%;
 }
+.selectedButtonPartners{width: 400px;}
 .formServiciosRequeridos{    display: flex;
     justify-content: space-around;}
 
@@ -1361,7 +1358,19 @@ p {
         max-width: 339px;
         flex-direction: column;
     }
+    .formContainerFlex {
+        min-height: 490px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .formPrimerContainerInfo {
+        width: 90%;
+        
+    }
 }
+.buttonEnviar{display: flex;
+    justify-content: flex-end;}
 
 @media (max-width:600px) {
     .imagenlatidoContainer {
@@ -1374,6 +1383,17 @@ p {
         align-items: center;
         height: 150px;
     }
+    .formSegContainerInfo {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        width: 90%;
+    }
+    .buttonEnviar {
+        display: flex;
+        justify-content: center;
+    }
+   
 
 }
 

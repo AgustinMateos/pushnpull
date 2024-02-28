@@ -55,140 +55,141 @@ function FormularioContacto() {
   };
 
   return (
-  <div>
-     <form className='formContainerFlex' onSubmit={handleSubmit}>
-      <div className='formPrimerContainerInfo'>
-        
-        <input placeholder='Nombre:' className='formInputs' type="text" name="name" value={formData.name} onChange={handleChange} />
-        {errors.name && !submitted && <span>{errors.name}</span>}
-     
-        <input placeholder='Apellido:' className='formInputs' type="text" name="lastName" value={formData.lastName} onChange={handleChange} />
-        {errors.lastName && !submitted && <span>{errors.lastName}</span>}
-    
-        
-        <input placeholder='Email:' className='formInputs' type="email" name="email" value={formData.email} onChange={handleChange} />
-        {errors.email && !submitted && <span>{errors.email}</span>}
+    <div>
+      <form className='formContainerFlex' onSubmit={handleSubmit}>
+        <div className='formPrimerContainerInfo'>
 
-        
-        <input placeholder='Número de teléfono:' className='formInputs' type="number" name="phone" value={formData.phone} onChange={handleChange} />
-        {errors.phone && !submitted && <span>{errors.phone}</span>}
-       
-       
-        <input placeholder='Red Social/Sitio Web:' className='formInputs' type="text" name="RedSocial" value={formData.redSocial} onChange={handleChange} />
-        {errors.redSocial && !submitted && <span>{errors.redSocial}</span>}
+          <input placeholder='Nombre:' className='formInputs' type="text" name="name" value={formData.name} onChange={handleChange} />
+          {errors.name && !submitted && <span>{errors.name}</span>}
 
-      </div>
-     
-      <div className='formSegContainerInfo'>
-        <label>Servicios requeridos:</label>
-        <div className='formServiciosRequeridos'>
-          <div> 
-            <div> 
-              <input
-            type="checkbox"
-            name="services"
-            value="desarrollo_web"
-            checked={formData.services.includes('desarrollo_web')}
-            onChange={handleCheckboxChange}
-          />
-          <label>Desarrollo Web</label></div>
-           
-          <div> <input
-            type="checkbox"
-            name="services"
-            value="diseno_web"
-            checked={formData.services.includes('diseno_web')}
-            onChange={handleCheckboxChange}
-          />
-          <label>Diseño Web</label></div>
-         
+          <input placeholder='Apellido:' className='formInputs' type="text" name="lastName" value={formData.lastName} onChange={handleChange} />
+          {errors.lastName && !submitted && <span>{errors.lastName}</span>}
+
+
+          <input placeholder='Email:' className='formInputs' type="email" name="email" value={formData.email} onChange={handleChange} />
+          {errors.email && !submitted && <span>{errors.email}</span>}
+
+
+          <input placeholder='Número de teléfono:' className='formInputs' type="number" name="phone" value={formData.phone} onChange={handleChange} />
+          {errors.phone && !submitted && <span>{errors.phone}</span>}
+
+
+          <input placeholder='Red Social/Sitio Web:' className='formInputs' type="text" name="RedSocial" value={formData.redSocial} onChange={handleChange} />
+          {errors.redSocial && !submitted && <span>{errors.redSocial}</span>}
+
+        </div>
+
+        <div className='formSegContainerInfo'>
+          <label>Servicios requeridos:</label>
+          <div className='formServiciosRequeridos'>
+            <div>
+              <div>
+                <input
+                  type="checkbox"
+                  name="services"
+                  value="desarrollo_web"
+                  checked={formData.services.includes('desarrollo_web')}
+                  onChange={handleCheckboxChange}
+                />
+                <label>Desarrollo Web</label></div>
+
+              <div> <input
+                type="checkbox"
+                name="services"
+                value="diseno_web"
+                checked={formData.services.includes('diseno_web')}
+                onChange={handleCheckboxChange}
+              />
+                <label>Diseño Web</label></div>
+
+              <div>
+                <input
+                  type="checkbox"
+                  name="services"
+                  value="campana_seo"
+                  checked={formData.services.includes('campana_seo')}
+                  onChange={handleCheckboxChange}
+                />
+                <label>Campaña de SEO</label>
+              </div>
+              <div><input
+                type="checkbox"
+                name="services"
+                value="aplicaciones_web"
+                checked={formData.services.includes('aplicaciones_web')}
+                onChange={handleCheckboxChange}
+              />
+                <label>Aplicaciones Web</label></div>
+
+            </div>
+            <div>
+              <div>
+                <input
+                  type="checkbox"
+                  name="services"
+                  value="auditoria_de_seo"
+                  checked={formData.services.includes('auditoria_de_seo')}
+                  onChange={handleCheckboxChange}
+                />
+                <label>Auditoria de Seo</label>
+              </div>
+
+              <div>
+                <input
+                  type="checkbox"
+                  name="services"
+                  value="ecommerce"
+                  checked={formData.services.includes('ecommerce')}
+                  onChange={handleCheckboxChange}
+                />
+                <label>Ecommerce</label></div>
+
+              <div>
+                <input
+                  type="checkbox"
+                  name="services"
+                  value="migracion_a_la_nube"
+                  checked={formData.services.includes('migracion_a_la_nube')}
+                  onChange={handleCheckboxChange}
+                />
+                <label>Migracion a la Nube</label>
+              </div>
+
+              <div>
+                <input
+                type="checkbox"
+                name="services"
+                value="impulsa_tu_marca"
+                checked={formData.services.includes('impulsa_tu_marca')}
+                onChange={handleCheckboxChange}
+              />
+                <label>Impulsar tu marca</label></div>
+
+            </div>
+
+
+          </div>
+          {errors.services && !submitted && <span>{errors.services}</span>}
+
+          <input placeholder='Presupuesto estimado' className='formInputs' type="text" name="budget" value={formData.budget} onChange={handleChange} />
+          {errors.budget && !submitted && <span>{errors.budget}</span>}
           <div>
-            <input
-            type="checkbox"
-            name="services"
-            value="campana_seo"
-            checked={formData.services.includes('campana_seo')}
-            onChange={handleCheckboxChange}
-          />
-          <label>Campaña de SEO</label>
-          </div>
-          <div><input
-            type="checkbox"
-            name="services"
-            value="aplicaciones_web"
-            checked={formData.services.includes('aplicaciones_web')}
-            onChange={handleCheckboxChange}
-          />
-         <label>Aplicaciones Web</label></div>
+
+            <textarea placeholder='Mensaje' className='formTextArea' name="servicesOffered" value={formData.servicesOffered} onChange={handleChange}></textarea>
 
           </div>
-       <div> 
-        <div>
-          <input
-            type="checkbox"
-            name="services"
-            value="auditoria_de_seo"
-            checked={formData.services.includes('auditoria_de_seo')}
-            onChange={handleCheckboxChange}
-          />
-         <label>Auditoria de Seo</label>
+          <div className='buttonEnviar'><div className='buttonContainers' >  <button type="submit">Enviar</button></div></div>
+
+
+          {submitted && <div>¡Formulario enviado con éxito!</div>}
         </div>
-         
-         <div>
-          <input
-            type="checkbox"
-            name="services"
-            value="ecommerce"
-            checked={formData.services.includes('ecommerce')}
-            onChange={handleCheckboxChange}
-          />
-         <label>Ecommerce</label></div>
-         
-         <div> 
-           <input
-            type="checkbox"
-            name="services"
-            value="migracion_a_la_nube"
-            checked={formData.services.includes('migracion_a_la_nube')}
-            onChange={handleCheckboxChange}
-          />
-         <label>Migracion a la Nube</label>
-        </div>
-       
-         <div><input
-            type="checkbox"
-            name="services"
-            value="impulsa_tu_marca"
-            checked={formData.services.includes('impulsa_tu_marca')}
-            onChange={handleCheckboxChange}
-          />
-         <label>Impulsar tu marca</label></div>
-         
-        </div>
-         
-         
-        </div>
-        {errors.services && !submitted && <span>{errors.services}</span>}
-        
-        <input placeholder='Presupuesto estimado' className='formInputs' type="text" name="budget" value={formData.budget} onChange={handleChange} />
-        {errors.budget && !submitted && <span>{errors.budget}</span>}
-        <div>
-          
-          <textarea placeholder='Mensaje' className='formTextArea' name="servicesOffered" value={formData.servicesOffered} onChange={handleChange}></textarea>
-          
-        </div>
-        <div><div className='buttonVermas wd-30'>  <button className='buttonVermasContent' type="submit">Enviar</button></div></div>
-        
-      
-      {submitted && <div>¡Formulario enviado con éxito!</div>}
-      </div>
-      
-       
-      
-     
-      
-    </form></div>
-   
+
+
+
+
+
+      </form></div>
+
   );
 }
 
