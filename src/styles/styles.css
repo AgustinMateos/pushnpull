@@ -1417,6 +1417,9 @@ p {
         display: flex;
         justify-content: center;
     }
+    .formButtonsContainer {
+        width: 50%;
+    }
 }
 
 
@@ -1444,7 +1447,10 @@ p {
         text-align: center;
     }
    .formServiciosRequeridos{display: flex;justify-content: space-around; height: 200px; flex-direction: column;align-items: center;}
-
+   .formButtons {
+    display: flex;
+    justify-content: center;
+}
 }
 
 @media (max-width:450px) {
@@ -1471,5 +1477,8 @@ p {
         /* border-top: 1px solid rgba(255, 255, 255, 0.5);
         border-left: 1px solid rgba(255, 255, 255, 0.5); */
         backdrop-filter: blur(5px);
+    }
+    .formButtonsContainer {
+        width: 70%;
     }
 }
