@@ -1439,6 +1439,7 @@ input[type="checkbox"]::-ms-check {
     .formButtonsContainer {
         width: 30%;
     }
+    
 
 }
 
@@ -1504,7 +1505,12 @@ input[type="checkbox"]::-ms-check {
     }
 
 
-
+    input[type="checkbox"] {
+       
+        width: 25px;
+        height: 25px;
+        
+    }
     .formPrimerCompTexto {
 
         text-align: center;
