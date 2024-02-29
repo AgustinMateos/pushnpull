@@ -66,7 +66,7 @@ function FormularioContacto() {
           {errors.lastName && !submitted && <span>{errors.lastName}</span>}
 
 
-          <input placeholder='Email:' className='formInputs' type="email" name="email" value={formData.email} onChange={handleChange} />
+          <input placeholder='Email:' className='formInputs ' type="email" name="email" value={formData.email} onChange={handleChange} />
           {errors.email && !submitted && <span>{errors.email}</span>}
 
 
@@ -82,9 +82,10 @@ function FormularioContacto() {
         <div className='formSegContainerInfo'>
           <label>Servicios requeridos:</label>
           <div className='formServiciosRequeridos'>
-            <div className='formServRequeridosFlex'>
-              <div>
+            <div className='formServRequeridosFlex formServRequeridosInput'>
+              <div className='inputsFlexCheckBox'>
                 <input
+                  
                   type="checkbox"
                   name="services"
                   value="desarrollo_web"
@@ -93,7 +94,7 @@ function FormularioContacto() {
                 />
                 <label>Desarrollo Web</label></div>
 
-              <div> <input
+              <div className='inputsFlexCheckBox'> <input
                 type="checkbox"
                 name="services"
                 value="diseno_web"
@@ -102,7 +103,7 @@ function FormularioContacto() {
               />
                 <label>Diseño Web</label></div>
 
-              <div>
+              <div className='inputsFlexCheckBox'>
                 <input
                   type="checkbox"
                   name="services"
@@ -112,7 +113,7 @@ function FormularioContacto() {
                 />
                 <label>Campaña de SEO</label>
               </div>
-              <div><input
+              <div className='inputsFlexCheckBox'><input
                 type="checkbox"
                 name="services"
                 value="aplicaciones_web"
@@ -123,7 +124,7 @@ function FormularioContacto() {
 
             </div>
             <div className='formServRequeridosFlex'>
-              <div>
+              <div className='inputsFlexCheckBox'>
                 <input
                   type="checkbox"
                   name="services"
@@ -134,7 +135,7 @@ function FormularioContacto() {
                 <label>Auditoria de Seo</label>
               </div>
 
-              <div>
+              <div className='inputsFlexCheckBox'>
                 <input
                   type="checkbox"
                   name="services"
@@ -144,7 +145,7 @@ function FormularioContacto() {
                 />
                 <label>Ecommerce</label></div>
 
-              <div>
+              <div className='inputsFlexCheckBox'>
                 <input
                   type="checkbox"
                   name="services"
@@ -155,7 +156,7 @@ function FormularioContacto() {
                 <label>Migracion a la Nube</label>
               </div>
 
-              <div>
+              <div className='inputsFlexCheckBox'>
                 <input
                 type="checkbox"
                 name="services"
@@ -191,7 +192,8 @@ function FormularioContacto() {
 
 
 
-      </form></div>
+      </form>
+      </div>
 
   );
 }
