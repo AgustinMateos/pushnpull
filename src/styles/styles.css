@@ -1446,10 +1446,15 @@ p {
 
         text-align: center;
     }
-   .formServiciosRequeridos{display: flex;justify-content: space-around; height: 200px; flex-direction: column;align-items: center;}
+   .formServiciosRequeridos{display: flex;justify-content: space-around; height: 400px; flex-direction: column;align-items: center;}
    .formButtons {
     display: flex;
     justify-content: center;
+    
+}
+.formServRequeridosFlex {
+    justify-content: space-around;
+    height: 450px;
 }
 }
 
@@ -1480,5 +1485,11 @@ p {
     }
     .formButtonsContainer {
         width: 70%;
+    }
+}
+@media (max-width:325px) {
+    .formPrimerCompTitulo {
+        font-size: clamp(2.5rem, 8vw, 6rem);
+       
     }
 }
