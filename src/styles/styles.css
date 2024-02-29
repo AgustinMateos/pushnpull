@@ -1238,7 +1238,9 @@ p {
     border: 1px solid #5a5a5a;
     display: flex;
     justify-content: space-between;
+    
 }
+.formButtonsContainer button{width:150px}
 
 
 .formPrimerContainerInfo {
@@ -1257,7 +1259,7 @@ p {
 }
 
 .selectedButtonPartners {
-    width: 400px;
+    width: 150px;
 }
 
 .formServiciosRequeridos {
@@ -1366,6 +1368,9 @@ p {
         align-items: center;
         justify-content: space-evenly;
         flex-direction: column-reverse;
+    }
+    .formButtonsContainer {
+        width: 30%;
     }
 
 }
