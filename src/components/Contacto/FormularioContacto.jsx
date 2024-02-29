@@ -143,7 +143,7 @@ function FormularioContacto() {
                   checked={formData.services.includes('ecommerce')}
                   onChange={handleCheckboxChange}
                 />
-                <label>Ecommerce</label></div>
+                <label className='font-family-Robot '>Ecommerce</label></div>
 
               <div className='inputsFlexCheckBox'>
                 <input
@@ -156,7 +156,7 @@ function FormularioContacto() {
                 <label>Migracion a la Nube</label>
               </div>
 
-              <div className='inputsFlexCheckBox'>
+              <div className='inputsFlexCheckBox '>
                 <input
                 type="checkbox"
                 name="services"

@@ -1072,7 +1072,7 @@ p {
 .selected {
     background-color: rgb(186, 186, 186);
     border-radius: 1.5rem;
-    border: 1px solid #5a5a5a;
+   
     width: 60%;
 }
 

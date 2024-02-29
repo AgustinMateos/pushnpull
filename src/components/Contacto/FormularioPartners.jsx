@@ -152,15 +152,7 @@ function FormularioContacto() {
                 <label>Migracion a la Nube</label>
               </div>
 
-              <div className='inputsFlexCheckBox'>
-                <input
-                type="checkbox"
-                name="services"
-                value="impulsa_tu_marca"
-                checked={formData.services.includes('impulsa_tu_marca')}
-                onChange={handleCheckboxChange}
-              />
-                <label>Impulsar tu marca</label></div>
+              
 
             </div>
 
