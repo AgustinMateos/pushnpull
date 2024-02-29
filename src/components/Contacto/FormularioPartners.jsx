@@ -1,13 +1,14 @@
 import React, { useState } from 'react';
 
-function FormularioPartners() {
+function FormularioContacto() {
   const initialFormData = {
-    agencyName: '',
+    nombreAgencia: '',
+    lastName: '',
     email: '',
+    services: [],
+    budget: '',
     phone: '',
-    servicesOffered: '',
-    portfolio: '',
-    nationality: ''
+    redSocial: '',
   };
 
   const [formData, setFormData] = useState(initialFormData);
@@ -20,6 +21,18 @@ function FormularioPartners() {
     setErrors({ ...errors, [name]: '' });
   };
 
+  const handleCheckboxChange = (e) => {
+    const { value, checked } = e.target;
+    let updatedServices = [...formData.services];
+    if (checked) {
+      updatedServices.push(value);
+    } else {
+      updatedServices = updatedServices.filter((service) => service !== value);
+    }
+    setFormData({ ...formData, services: updatedServices });
+    setErrors({ ...errors, services: '' });
+  };
+
   const handleSubmit = (e) => {
     e.preventDefault();
     const newErrors = {};
@@ -28,6 +41,9 @@ function FormularioPartners() {
         newErrors[key] = `${key.charAt(0).toUpperCase() + key.slice(1)} es requerido`;
       }
     });
+    if (formData.services.length === 0) {
+      newErrors.services = 'Se debe seleccionar al menos un servicio';
+    }
     if (Object.keys(newErrors).length > 0) {
       setErrors(newErrors);
       setSubmitted(false);
@@ -41,41 +57,141 @@ function FormularioPartners() {
   return (
     <div>
       <form className='formContainerFlex' onSubmit={handleSubmit}>
-        <div>
-          <label>Nombre de la agencia:</label>
-          <input className='formInputs'  type="text" name="agencyName" value={formData.agencyName} onChange={handleChange} />
-          {errors.agencyName && !submitted && <span>{errors.agencyName}</span>}
-        </div>
-        <div>
-          <label>Email:</label>
-          <input  type="email" className='formInputs' name="email" value={formData.email} onChange={handleChange} />
+        <div className='formPrimerContainerInfo'>
+
+          <input placeholder='Nombre de Agencia:' className='formInputs' type="text" name="nombreAgencia" value={formData.name} onChange={handleChange} />
+          {errors.nombreAgencia && !submitted && <span>{errors.nombreAgencia}</span>}
+
+          
+          <input placeholder='Email:' className='formInputs ' type="email" name="email" value={formData.email} onChange={handleChange} />
           {errors.email && !submitted && <span>{errors.email}</span>}
-        </div>
-        <div>
-          <label>Número de teléfono:</label>
-          <input type="text" name="phone" className='formInputs'value={formData.phone} onChange={handleChange} />
+
+
+          <input placeholder='Número de teléfono:' className='formInputs' type="number" name="phone" value={formData.phone} onChange={handleChange} />
           {errors.phone && !submitted && <span>{errors.phone}</span>}
+
+
+         
+
         </div>
-        <div>
-          <label>Servicios ofrecidos:</label>
-          <textarea name="servicesOffered" value={formData.servicesOffered} onChange={handleChange}></textarea>
-          {errors.servicesOffered && !submitted && <span>{errors.servicesOffered}</span>}
+
+        <div className='formSegContainerInfo'>
+          <label>a que se dedica?:</label>
+          <div className='formServiciosRequeridos'>
+            <div className='formServRequeridosFlex formServRequeridosInput'>
+              <div className='inputsFlexCheckBox'>
+                <input
+                  
+                  type="checkbox"
+                  name="services"
+                  value="desarrollo_web"
+                  checked={formData.services.includes('desarrollo_web')}
+                  onChange={handleCheckboxChange}
+                />
+                <label>Desarrollo Web</label></div>
+
+              <div className='inputsFlexCheckBox'> <input
+                type="checkbox"
+                name="services"
+                value="diseno_web"
+                checked={formData.services.includes('diseno_web')}
+                onChange={handleCheckboxChange}
+              />
+                <label>Diseño Web</label></div>
+
+              <div className='inputsFlexCheckBox'>
+                <input
+                  type="checkbox"
+                  name="services"
+                  value="campana_seo"
+                  checked={formData.services.includes('campana_seo')}
+                  onChange={handleCheckboxChange}
+                />
+                <label>Campaña de SEO</label>
+              </div>
+              <div className='inputsFlexCheckBox'><input
+                type="checkbox"
+                name="services"
+                value="aplicaciones_web"
+                checked={formData.services.includes('aplicaciones_web')}
+                onChange={handleCheckboxChange}
+              />
+                <label>Aplicaciones Web</label></div>
+
+            </div>
+            <div className='formServRequeridosFlex'>
+              <div className='inputsFlexCheckBox'>
+                <input
+                  type="checkbox"
+                  name="services"
+                  value="auditoria_de_seo"
+                  checked={formData.services.includes('auditoria_de_seo')}
+                  onChange={handleCheckboxChange}
+                />
+                <label>Auditoria de Seo</label>
+              </div>
+
+              <div className='inputsFlexCheckBox'>
+                <input
+                  type="checkbox"
+                  name="services"
+                  value="ecommerce"
+                  checked={formData.services.includes('ecommerce')}
+                  onChange={handleCheckboxChange}
+                />
+                <label>Ecommerce</label></div>
+
+              <div className='inputsFlexCheckBox'>
+                <input
+                  type="checkbox"
+                  name="services"
+                  value="migracion_a_la_nube"
+                  checked={formData.services.includes('migracion_a_la_nube')}
+                  onChange={handleCheckboxChange}
+                />
+                <label>Migracion a la Nube</label>
+              </div>
+
+              <div className='inputsFlexCheckBox'>
+                <input
+                type="checkbox"
+                name="services"
+                value="impulsa_tu_marca"
+                checked={formData.services.includes('impulsa_tu_marca')}
+                onChange={handleCheckboxChange}
+              />
+                <label>Impulsar tu marca</label></div>
+
+            </div>
+
+
+          </div>
+          {errors.services && !submitted && <span>{errors.services}</span>}
+          <div className='formTextoSegundo'>
+             <div><input placeholder='Portfolio' className='formInputs' type="text" name="budget" value={formData.budget} onChange={handleChange} />
+          {errors.budget && !submitted && <span>{errors.budget}</span>}</div>
+          
+          <div>
+
+            <textarea placeholder='Mensaje' className='formTextArea' name="servicesOffered" value={formData.servicesOffered} onChange={handleChange}></textarea>
+
+          </div>
+          </div>
+       
+          <div className='buttonEnviar'><div className='buttonContainers' >  <button type="submit">Enviar</button></div></div>
+
+
+          {submitted && <div>¡Formulario enviado con éxito!</div>}
         </div>
-        <div>
-          <label>Portfolio:</label>
-          <input type="text"  className='formInputs'name="portfolio" value={formData.portfolio} onChange={handleChange} />
-          {errors.portfolio && !submitted && <span>{errors.portfolio}</span>}
-        </div>
-        <div>
-          <label>Nacionalidad:</label>
-          <input className='formInputs' type="text" name="nationality" value={formData.nationality} onChange={handleChange} />
-          {errors.nationality && !submitted && <span>{errors.nationality}</span>}
-        </div>
-        <button type="submit">Enviar</button>
-        {submitted && <div>¡Formulario enviado con éxito!</div>}
+
+
+
+
+
       </form>
-    </div>
+      </div>
+
   );
 }
 
-export default FormularioPartners;
+export default FormularioContacto;
