@@ -10,7 +10,7 @@ function ContactoBody() {
   };
 
   return (
-    <div className='HomePrimerComp'>
+    <div className='formPrimerComp'>
       <div className='wd-80'>
         <div>
           <h2 className='formPrimerCompTitulo'>Formulario</h2>
