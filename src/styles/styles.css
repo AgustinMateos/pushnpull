@@ -1534,7 +1534,7 @@ input[type="checkbox"]::-ms-check {
     .formServiciosRequeridos {
         display: flex;
         justify-content: space-around;
-        height: 480px;
+        height: 380px;
         flex-direction: column;
         align-items: center;
     }
