@@ -15,7 +15,7 @@ const SolucionesDigitalesBody = () => {
 
   return (
     <div className='wd-100'>
-      <a className='whatsapp'  href="https://wa.me/"><img src={whatsapp} alt="" /></a>
+      <a className='whatsapp' href="https://wa.me/"><img src={whatsapp} alt="" /></a>
       <div className='HomePrimerComp'>
         <div className='homePrimerCompContainer'>
           <div>
@@ -24,10 +24,10 @@ const SolucionesDigitalesBody = () => {
           </div>
         </div>
         <div className='homePrimerCompContainerImg h-100 imagenlatidoContainer flex-align-center flex-justify-center'>
-          <img className='wd-100 h-90 homePrimerCompImg imagen-latido' src={solucionesDigitalesBody} alt="" /> 
+          <img className='wd-100 h-90 homePrimerCompImg imagen-latido' src={solucionesDigitalesBody} alt="" />
         </div>
       </div>
-      
+
       <div className='wd-100 flex-justify-center'>
         <div className='wd-90 flex-justify-center flex-column mantenimientoContainerHeight'>
           <div className='wd-100 flex-justify-center flex-justify-center'>
