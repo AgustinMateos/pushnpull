@@ -8,7 +8,7 @@ const ImpulsaTuMarcaBody = () => {
     <div>
        <div className='HomePrimerComp  '>
        
-<a className='whatsapp'  href="https://wa.me/1526175981"><img src={whatsapp} alt="" /></a>
+<a className='whatsapp'  href="https://wa.me/"><img src={whatsapp} alt="" /></a>
       <div className='homePrimerCompContainer'>
         <div>
           <h2 className='homePrimerCompTitulo'>Impulsa tu Marca</h2>

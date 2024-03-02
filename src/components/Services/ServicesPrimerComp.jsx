@@ -9,7 +9,7 @@ import whatsapp from "../../assets/whatsapp.png"
 const ServicesPrimerComp = () => {
   return ( 
     <div className='background-principal '>
-      <a className='whatsapp'  href="https://wa.me/1526175981"><img src={whatsapp} alt="" /></a>
+      <a className='whatsapp'  href="https://wa.me/"><img src={whatsapp} alt="" /></a>
       <div className='wd-100 flex-justify-space-around'> 
         <div className='wd-80 ServiciosContainerPrimerComponente'>
           <h1 className='homePrimerCompTitulo'>Servicios</h1>

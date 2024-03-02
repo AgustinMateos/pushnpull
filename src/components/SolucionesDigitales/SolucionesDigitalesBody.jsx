@@ -15,11 +15,11 @@ const SolucionesDigitalesBody = () => {
 
   return (
     <div className='wd-100'>
-      <a className='whatsapp'  href="https://wa.me/1526175981"><img src={whatsapp} alt="" /></a>
+      <a className='whatsapp'  href="https://wa.me/"><img src={whatsapp} alt="" /></a>
     <div className='HomePrimerComp  '>
     <div className='homePrimerCompContainer'>
       <div>
-        <h2 className='homePrimerCompTitulo'>Soluciones Digitalesw</h2>
+        <h2 className='homePrimerCompTitulo'>Soluciones Digitales</h2>
         <p className='homePrimerCompTexto font-family-Robot'>Push n Pull es una agencia digital basada en datos especializada en brindar soluciones digitales.</p>
       </div>
       

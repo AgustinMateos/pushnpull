@@ -11,8 +11,8 @@ function ContactoBody() {
 
   return (
     <div className='formPrimerComp'>
-      <a className='whatsapp'  href="https://wa.me/1526175981"><img src={whatsapp} alt="" /></a>
-      <div className='wd-80'>
+      <a className='whatsapp'  href="https://wa.me/"><img src={whatsapp} alt="" /></a>
+      <div className='wd-90'>
         <div>
           <h2 className='formPrimerCompTitulo'>Formulario</h2>
           <p className='formPrimerCompTexto font-family-Robot'>Push n Pull es una agencia digital basada en datos especializada en brindar soluciones digitales.</p>

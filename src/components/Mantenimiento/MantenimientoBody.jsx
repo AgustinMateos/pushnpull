@@ -19,7 +19,7 @@ const MantenimientoBody = () => {
 
   return (
     <div className='wd-100'>
-      <a className='whatsapp'  href="https://wa.me/1526175981"><img src={whatsapp} alt="" /></a>
+      <a className='whatsapp'  href="https://wa.me/"><img src={whatsapp} alt="" /></a>
       <div className='HomePrimerComp  '>
       <div className='homePrimerCompContainer'>
         <div>
