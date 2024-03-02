@@ -55,6 +55,4 @@ export const serviciosData=[
         img:'src/assets/qr.png'
       
        }
-
-
 ]
