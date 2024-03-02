@@ -1,15 +1,32 @@
-import React from 'react'
-import SolucionesDigitalesBody from '../components/SolucionesDigitales/SolucionesDigitalesBody'
-import Navbar from '../components/Generals/Navbar/Navbar'
-import Footer from '../components/Generals/Footer/Footer'
+import React, { useState, useEffect } from 'react';
+import Loader from '../components/Generals/Loader';
+import SolucionesDigitalesBody from '../components/SolucionesDigitales/SolucionesDigitalesBody';
+import Navbar from '../components/Generals/Navbar/Navbar';
+import Footer from '../components/Generals/Footer/Footer';
+
 const SolucionesDigitalesPage = () => {
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    // Simulando una operación asíncrona (por ejemplo, una solicitud HTTP)
+    setTimeout(() => {
+      setLoading(false);
+    }, 2000);
+  }, []);
+
   return (
     <div className='background-principal'>
-        <Navbar/>
-        <SolucionesDigitalesBody/>
-        <Footer/>
+      {loading ? (
+        <Loader />
+      ) : (
+        <>
+          <Navbar />
+          <SolucionesDigitalesBody />
+          <Footer />
+        </>
+      )}
     </div>
-  )
-}
+  );
+};
 
-export default SolucionesDigitalesPage
+export default SolucionesDigitalesPage;
