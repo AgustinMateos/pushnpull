@@ -71,7 +71,7 @@ const MantenimientoBody = () => {
                         <p className='titulosComponentesTexto '>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
                             Deserunt sunt nihil quod accusamus, vel quis, consequatur amet itaque animi ipsum magni earum impedit nesciunt voluptatibus repellat fuga unde eos. Impedit.</p>
                     </div>
-                    <div className='wd-10 buttonContainers'><Link>Contactanos<ion-icon name="arrow-forward-outline"></ion-icon></Link></div>
+                    <div className='wd-10 buttonContainers'><Link to={"/ContactoPage"}>Contactanos<ion-icon name="arrow-forward-outline"></ion-icon></Link></div>
                 </div>
             </div>
     </div>
