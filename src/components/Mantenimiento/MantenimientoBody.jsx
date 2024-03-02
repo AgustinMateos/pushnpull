@@ -53,8 +53,8 @@ const MantenimientoBody = () => {
           </div>
           <div className='wd-100 flex-justify-center '>
             <div className='wd-100 mantenimientoContainerInfo '>
-              <img className='wd-40 h-100' src={servicioActivo.img} alt='' />
-              <div className='wd-50 flex-column flex-align-center flex-justify-center  '>
+              <img className=' mantenimientoContainerInfoImg h-100' src={servicioActivo.img} alt='' />
+              <div className='mantenimientoContainerInfoTexto  '>
                 <h5 className='titulosComponentes'>{servicioActivo.titulo}</h5>
                 <p className='homePrimerCompTexto text-align-center '>{servicioActivo.texto}</p>
                 <Link className='buttonContainers'>{servicioActivo.textoButton}</Link>
