@@ -7,6 +7,7 @@ import whatsapp from "../../assets/whatsapp.png"
 const SolucionesDigitalesBody = () => {
   const servicios = serviciosData;
   const [servicioActivo, setServicioActivo] = useState(servicios[0]);
+  console.log('Servicio Activo' , servicioActivo );
 
   const handleChangeServicio = (servicio) => {
     setServicioActivo(servicio);
@@ -43,6 +44,7 @@ const SolucionesDigitalesBody = () => {
               {servicios.map((servicio, index) => (
                 <Link className='buttonVermas2 flex-align-center' key={index} onClick={() => {
                   handleChangeServicio(servicio)
+
                 }}>
                   {servicio.categoria}
                 </Link>
