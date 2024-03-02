@@ -1442,6 +1442,7 @@ input[type="checkbox"]::-ms-check {
         transition: color 0.3s ease;
         margin-left: 0px;
         margin-top: 20px;
+        padding: 20px;
     }
 
     .containerHeight {
