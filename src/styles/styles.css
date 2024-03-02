@@ -1553,6 +1553,11 @@ input[type="checkbox"]::-ms-check {
         
         margin-bottom: 20px;
     }
+    .containerHeight {
+      
+        min-height: 550px;
+       
+    }
     
 }
 
