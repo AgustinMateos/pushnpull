@@ -64,9 +64,9 @@ const MantenimientoBody = () => {
         </div>
       </div>
       <div className='wd-100 flex-justify-center containerHeight flex-align-center'>
-                <div className='HomeCuartQuintCompBuscando wd-70 flex-align-center flex-justify-space-around'>
+                <div className='HomeCuartQuintCompBuscando  flex-align-center flex-justify-space-around'>
 
-                    <div className='wd-50 '>
+                    <div className=' HomeCuartQuintCompBuscandoTitulo'>
                         <h3 className='titulosComponentes '>Necesitas presupuesto?</h3>
                         <p className='titulosComponentesTexto '>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
                             Deserunt sunt nihil quod accusamus, vel quis, consequatur amet itaque animi ipsum magni earum impedit nesciunt voluptatibus repellat fuga unde eos. Impedit.</p>
