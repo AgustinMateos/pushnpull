@@ -34,7 +34,7 @@ const Footer = () => {
                         <ul className='font-family-Robot'>
                             <li className="margin-top-10"><Link className='titulosComponentesTexto'>Blog</Link></li>
                             <li className="margin-top-10"><Link to={'/ContactoPage'} className='titulosComponentesTexto'>Contacto</Link></li>
-                            <li className="margin-top-10"><Link className='titulosComponentesTexto'>Convertite en partner</Link></li>
+                            <li className="margin-top-10"><Link to={'/ContactoPage'} className='titulosComponentesTexto'>Convertite en partner</Link></li>
                         </ul>
                     </div>
                 </div>

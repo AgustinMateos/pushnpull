@@ -37,22 +37,24 @@ const MantenimientoBody = () => {
         <div className='wd-90 flex-justify-center flex-column  containerHeight'>
           <div className='wd-100 flex-justify-center flex-justify-center'>
 
-            <div className='wd-80 flex-align-center flex-justify-center flex-column'>
+            <div className='wd-100 flex-align-center flex-justify-center flex-column'>
 
               <div className='flex-column wd-100 flex-justify-space-around flex-row'>
                 {servicios.map((servicio, index) => (
-                  <Link className='buttonVermas2 flex-align-center' key={index} onClick={() => {
+                  <div><Link className='buttonVermas2 flex-align-center' key={index} onClick={() => {
                     handleChangeServicio(servicio)
-                    console.log(servicio.imagen)
+                    console.log(servicio.img)
                   }}>
                     {servicio.categoria}
                   </Link>
+                  <img className='wd-40 h-100' src={servicioActivo.img} alt='' /></div>
+                  
                 ))}
               </div>
             </div>
           </div>
           <div className='wd-100 flex-justify-center '>
-            <div className='wd-80 flex-justify-space-around  flex-justify-center '>
+            <div className='wd-100 flex-justify-space-around  '>
               <img className='wd-40 h-100' src={servicioActivo.img} alt='' />
               <div className='wd-50 flex-column flex-align-center flex-justify-center  '>
                 <h5 className='titulosComponentes'>{servicioActivo.titulo}</h5>
