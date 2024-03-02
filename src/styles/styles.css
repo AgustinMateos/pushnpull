@@ -213,6 +213,14 @@ body {
 .flex-row {
     flex-direction: row;
 }
+.mantenimientoContainerRow {
+    flex-direction: row;
+}
+.mantenimientoContainerInfo {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
 
 .flex-wrap {
     flex-wrap: wrap;
@@ -627,6 +635,7 @@ body {
     border: 1px solid #5a5a5a;
     transition: color 0.3s ease;
     margin-left: 10px;
+    text-align: center;
     /* Transición para el color del texto */
 }
 
@@ -1154,7 +1163,14 @@ p {
     font-size: 1.0rem;
     text-align: center;
 }
+/*servicio mantenimineto*/
+.mantenimientoContainerHeight {
+    min-height: 550px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
 
+}
 
 /*FORMULARIO*/
 .formContainerFlex {
@@ -1427,15 +1443,18 @@ input[type="checkbox"]::-ms-check {
         justify-content: space-evenly;
         flex-direction: column;
     }
-
+  
+.mantenimientoContainerButtons{display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    width: 100%;}
     .titulosComponentesTexto {
         text-align: center;
     }
 
     .titulosComponentes {
-
         font-size: 40px;
-
+        text-align: center;
     }
 
     .containerTextoImg {
@@ -1450,12 +1469,23 @@ input[type="checkbox"]::-ms-check {
     .formButtonsContainer {
         width: 30%;
     }
+   
     
 
 }
 
 @media (max-width:680px) {
-
+    .mantenimientoContainerRow {
+        flex-direction: column;
+    }.mantenimientoContainerHeight {
+        text-align: center;
+        min-height: 750px;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-direction: column;
+    }
+    .mantenimientoContainerRow{    align-items: center;}
     .HomeCuartQuintCompBuscando {
         border: 2px solid white;
         border-radius: 20px;
@@ -1500,6 +1530,20 @@ input[type="checkbox"]::-ms-check {
     .formButtonsContainer {
         width: 50%;
     }
+    .mantenimientoContainerInfo {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+    }
+    /* .mantenimientoContainerHeight {
+        text-align: center;
+        min-height: 750px;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-direction: row;
+    } */
 }
 
 
