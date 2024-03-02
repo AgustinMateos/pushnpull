@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { serviciosData } from '../../data/ServiciosData';
-import solucionesDigitalesBody from '../../assets/solucionesDigitalesBody.png';
+import solucionesDigitalesBody from '../../assets/solucionesDigitalesPushnPull.webp';
 import whatsapp from "../../assets/whatsapp.png"
 
 
