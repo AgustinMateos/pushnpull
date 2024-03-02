@@ -47,7 +47,7 @@ const MantenimientoBody = () => {
                   }}>
                     {servicio.categoria}
                   </Link>
-                  <img className='wd-40 h-100' src={servicioActivo.img} alt='' /></div>
+                  <img className='wd-40 h-100' src={servicio.img} alt='' /></div>
                   
                 ))}
               </div>
