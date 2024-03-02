@@ -10,7 +10,8 @@ const SolucionesDigitalesBody = () => {
 
   const handleChangeServicio = (servicio) => {
     setServicioActivo(servicio);
-    console.log(servicio);
+    console.log('Servicio' , servicio);
+    console.log('Link de img:' , servicioActivo.img );
   };
 
   return (
@@ -42,7 +43,6 @@ const SolucionesDigitalesBody = () => {
               {servicios.map((servicio, index) => (
                 <Link className='buttonVermas2 flex-align-center' key={index} onClick={() => {
                   handleChangeServicio(servicio)
-                  console.log(servicio.imagen)
                 }}>
                   {servicio.categoria}
                 </Link>
