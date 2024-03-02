@@ -1,12 +1,13 @@
 import React from 'react'
 import grafica8 from "../../assets/logo2.png"
-
+import whatsapp from "../../assets/whatsapp.png"
 import { Link } from 'react-router-dom'
 
 
 const HomePrimerComp = () => {
   return (
     <div className='HomePrimerComp  '>
+      <a className='whatsapp'  href="https://wa.me/1526175981"><img src={whatsapp} alt="" /></a>
       <div className='homePrimerCompContainer'>
         <div>
           <h2 className='homePrimerCompTitulo'>Developer Resources</h2>

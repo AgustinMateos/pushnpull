@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import FormularioPartners from './FormularioPartners';
 import FormularioContacto from './FormularioContacto';
-
+import whatsapp from "../../assets/whatsapp.png"
 function ContactoBody() {
   const [selectedButton, setSelectedButton] = useState('contacto');
 
@@ -11,6 +11,7 @@ function ContactoBody() {
 
   return (
     <div className='formPrimerComp'>
+      <a className='whatsapp'  href="https://wa.me/1526175981"><img src={whatsapp} alt="" /></a>
       <div className='wd-80'>
         <div>
           <h2 className='formPrimerCompTitulo'>Formulario</h2>

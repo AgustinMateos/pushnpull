@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { serviciosData } from '../../data/ServiciosData';
 import solucionesDigitalesBody from '../../assets/solucionesDigitalesBody.png';
-
+import whatsapp from "../../assets/whatsapp.png"
 
 const SolucionesDigitalesBody = () => {
   const servicios = serviciosData;
@@ -15,10 +15,11 @@ const SolucionesDigitalesBody = () => {
 
   return (
     <div className='wd-100'>
+      <a className='whatsapp'  href="https://wa.me/1526175981"><img src={whatsapp} alt="" /></a>
     <div className='HomePrimerComp  '>
     <div className='homePrimerCompContainer'>
       <div>
-        <h2 className='homePrimerCompTitulo'>Mantenimiento</h2>
+        <h2 className='homePrimerCompTitulo'>Soluciones Digitalesw</h2>
         <p className='homePrimerCompTexto font-family-Robot'>Push n Pull es una agencia digital basada en datos especializada en brindar soluciones digitales.</p>
       </div>
       

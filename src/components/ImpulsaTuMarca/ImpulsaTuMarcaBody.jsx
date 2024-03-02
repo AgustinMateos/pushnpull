@@ -1,10 +1,14 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import whatsapp from "../../assets/whatsapp.png"
+
 import grafica8 from "../../assets/impulsatumarca3.png"
 const ImpulsaTuMarcaBody = () => {
   return (
     <div>
        <div className='HomePrimerComp  '>
+       
+<a className='whatsapp'  href="https://wa.me/1526175981"><img src={whatsapp} alt="" /></a>
       <div className='homePrimerCompContainer'>
         <div>
           <h2 className='homePrimerCompTitulo'>Impulsa tu Marca</h2>

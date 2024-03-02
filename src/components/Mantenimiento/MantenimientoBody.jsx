@@ -4,6 +4,8 @@ import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { mantenimientoData } from '../../data/MantenimientoData';
 import solucionesDigitalesImg from '../../assets/solucionesDigitalesBody.png';
+import whatsapp from "../../assets/whatsapp.png"
+
 
 
 const MantenimientoBody = () => {
@@ -17,6 +19,7 @@ const MantenimientoBody = () => {
 
   return (
     <div className='wd-100'>
+      <a className='whatsapp'  href="https://wa.me/1526175981"><img src={whatsapp} alt="" /></a>
       <div className='HomePrimerComp  '>
       <div className='homePrimerCompContainer'>
         <div>
