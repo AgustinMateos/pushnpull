@@ -1,29 +1,29 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import logo1 from '../../../assets/logo2.png'
-import { useScroll } from "../../../hooks/useScroll";
+// import { useScroll } from "../../../hooks/useScroll";
 
 
 import NavLinks from "./NavLinks";
 const Navbar = () => {
-  const [open, setOpen] = useState(false);
-  const { scrollDirection } = useScroll(); 
+  // const [open, setOpen] = useState(false);
+  // const { scrollDirection } = useScroll(); 
     
-    const styles = {
-        active: {
-            visibility: "visible",
-            transition: "all 0.5s"
-        },
-        hidden: {
-            visibility: "hidden",
-            transition: "all 0.5s",
-            transform: "translateY(-100%)"
-        }
-    }
+  //   const styles = {
+  //       active: {
+  //           visibility: "visible",
+  //           transition: "all 0.5s"
+  //       },
+  //       hidden: {
+  //           visibility: "hidden",
+  //           transition: "all 0.5s",
+  //           transform: "translateY(-100%)"
+  //       }
+  //   }
   return (
 
-    <nav className=" background-principalNavbar navbarContainer" style={ scrollDirection === "up" ?  styles.hidden : styles.active }>
-      
+    <nav className=" background-principalNavbar navbarContainer" >
+      {/* style={ scrollDirection === "up" ?  styles.hidden : styles.active } */}
       <div className="flex items-center  font-medium justify-around h-90 navbarHeight">
         <div className="z-50  containerLogo p-5 md:w-auto  ">
             <Link to={'/'} className="flex justify-between items-center"><img src={logo1} alt="logo" className="md:cursor-pointer h-9" />
@@ -40,11 +40,11 @@ const Navbar = () => {
             </Link>
           </li>
           <NavLinks />
-          <li className="navbarContainerText">
+          {/* <li className="navbarContainerText">
             <Link to="/" className="py-7 px-3 inline-block">
               Blog
             </Link>
-          </li>
+          </li> */}
           <li className="navbarContainerText">
             <Link to={'/ContactoPage'} className="py-7 px-3 inline-block">
               Contacto
@@ -68,11 +68,11 @@ const Navbar = () => {
             </Link>
           </li>
           <NavLinks />
-          <li>
+          {/* <li>
             <Link to="/" className="py-7 px-3 inline-block">
               Blog
             </Link>
-          </li>
+          </li> */}
           <li>
             <Link to={'/ContactoPage'} className="py-7 px-3 inline-block">
               Contacto

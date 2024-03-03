@@ -1043,6 +1043,11 @@ p {
 /*footer*/
 .footerContainer {
     background-image: radial-gradient(farthest-side at bottom left, rgb(177, 219, 255), transparent 900px), radial-gradient(farthest-corner at bottom right, rgb(177, 219, 255), transparent 1000px);
+    font-size: 1rem;
+    margin-top: 5rem;
+    padding: 5rem 0;
+    
+    
 }
 
 .footerContainerLogo {
