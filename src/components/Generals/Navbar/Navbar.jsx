@@ -6,7 +6,7 @@ import logo1 from '../../../assets/logo2.png'
 
 import NavLinks from "./NavLinks";
 const Navbar = () => {
-  // const [open, setOpen] = useState(false);
+  const [open, setOpen] = useState(false);
   // const { scrollDirection } = useScroll(); 
     
   //   const styles = {
@@ -44,7 +44,7 @@ const Navbar = () => {
             <Link to="/" className="py-7 px-3 inline-block">
               Blog
             </Link>
-            
+
           </li> */}
           <li className="navbarContainerText">
             <Link to={'/ContactoPage'} className="py-7 px-3 inline-block">
