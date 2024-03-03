@@ -28,8 +28,8 @@ export const links = [
           link:"/MantenimientoPage",
           sublink: [
             { name: "Seo", link: "//MantenimientoPage" },
-            { name: "Desarrollo Web", link: "//MantenimientoPage" },
-            { name: "Base de Datos", link: "//MantenimientoPage" },
+            { name: "Desarrollo Web", link: "/MantenimientoPage" },
+            { name: "Base de Datos", link: "/MantenimientoPage" },
             
           ],
         },
