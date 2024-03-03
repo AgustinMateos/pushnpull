@@ -27,7 +27,7 @@ export const links = [
           Head: "Mantenimiento",
           link:"/MantenimientoPage",
           sublink: [
-            { name: "Seo", link: "//MantenimientoPage" },
+            { name: "Seo", link: "/MantenimientoPage" },
             { name: "Desarrollo Web", link: "/MantenimientoPage" },
             { name: "Base de Datos", link: "/MantenimientoPage" },
             
