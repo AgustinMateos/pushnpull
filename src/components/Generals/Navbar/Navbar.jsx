@@ -44,6 +44,7 @@ const Navbar = () => {
             <Link to="/" className="py-7 px-3 inline-block">
               Blog
             </Link>
+            
           </li> */}
           <li className="navbarContainerText">
             <Link to={'/ContactoPage'} className="py-7 px-3 inline-block">
