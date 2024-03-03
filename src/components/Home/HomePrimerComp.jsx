@@ -1,5 +1,5 @@
 import React from 'react'
-import grafica8 from "../../assets/pushnpullindex.webp"
+import grafica8 from "../../assets/pushnpullIndex.webp"
 import whatsapp from "../../assets/whatsapp.png"
 import { Link } from 'react-router-dom'
 
