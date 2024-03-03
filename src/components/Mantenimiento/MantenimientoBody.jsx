@@ -3,7 +3,7 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { mantenimientoData } from '../../data/MantenimientoData';
-import solucionesDigitalesImg from '../../assets/solucionesDigitalesBody.png';
+import solucionesDigitalesImg from '../../assets/solucionesDigitalesPushnPull.webp';
 import whatsapp from "../../assets/whatsapp.png"
 
 
