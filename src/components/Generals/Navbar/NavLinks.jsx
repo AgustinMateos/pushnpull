@@ -72,17 +72,18 @@ const NavLinks = () => {
             ${heading === link.name ? "md:hidden" : "hidden"}
           `}
           >
+             <h3  className="py-4 pl-7 font-semibold md:pr-0 pr-5 flex justify-between items-center  font-family-Robot"  >Impulsa tu Marca</h3>
             {/* sublinks */}
             {link.sublinks.map((slinks) => (
               <div>
                 <div>
-                  <h1
+                  <h3
                     onClick={() =>
                       subHeading !== slinks.Head
                         ? setSubHeading(slinks.Head)
                         : setSubHeading("")
                     }
-                    className="py-4 pl-7 font-semibold md:pr-0 pr-5 flex justify-between items-center"
+                    className="py-4 pl-7 font-semibold md:pr-0 pr-5 flex justify-between font-family-Robot  items-center"
                   >
                     {slinks.Head}
 
@@ -95,7 +96,7 @@ const NavLinks = () => {
                         }`}
                       ></ion-icon>
                     </span>
-                  </h1>
+                  </h3>
                   <div
                     className={`${
                       subHeading === slinks.Head ? "md:hidden" : "hidden"
