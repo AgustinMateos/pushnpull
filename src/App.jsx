@@ -7,6 +7,7 @@ import MantenimientoPage from './sections/MantenimientoPage'
 import ImpulsaTuMarcaPage from './sections/ImpulsaTuMarcaPage'
 import ContactoPage from './sections/ContactoPage'
 
+
 function App() {
 
 
@@ -21,6 +22,7 @@ function App() {
       <Route path="/MantenimientoPage" element={<MantenimientoPage/>}/>
       <Route path='/ImpulsaTuMarcaPage' element={<ImpulsaTuMarcaPage/>}/>
       <Route path="/ContactoPage" element={<ContactoPage/>}/>
+     
       </Routes>
       
      

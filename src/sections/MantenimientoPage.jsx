@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import Loader from '../components/Generals/Loader';
-import Navbar from '../components/Generals/Navbar/Navbar';
+// import Navbar from '../components/Generals/Navbar/Navbar';
 import MantenimientoBody from '../components/Mantenimiento/MantenimientoBody';
 import Footer from '../components/Generals/Footer/Footer';
 
@@ -20,7 +20,7 @@ const MantenimientoPage = () => {
         <Loader />
       ) : (
         <>
-          <Navbar />
+          {/* <Navbar /> */}
           <MantenimientoBody />
           <Footer />
         </>
