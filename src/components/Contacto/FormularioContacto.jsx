@@ -92,7 +92,7 @@ function FormularioContacto() {
                   checked={formData.services.includes('desarrollo_web')}
                   onChange={handleCheckboxChange}
                 />
-                <label>Desarrollo Web</label></div>
+                <label className='formLabel'>Desarrollo Web</label></div>
 
               <div className='inputsFlexCheckBox'> <input
                 type="checkbox"
@@ -101,7 +101,7 @@ function FormularioContacto() {
                 checked={formData.services.includes('diseno_web')}
                 onChange={handleCheckboxChange}
               />
-                <label>Diseño Web</label></div>
+                <label className='formLabel'>Diseño Web</label></div>
 
               <div className='inputsFlexCheckBox'>
                 <input
@@ -111,7 +111,7 @@ function FormularioContacto() {
                   checked={formData.services.includes('campana_seo')}
                   onChange={handleCheckboxChange}
                 />
-                <label>Campaña de SEO</label>
+                <label className='formLabel'>Campaña de SEO</label>
               </div>
               <div className='inputsFlexCheckBox'><input
                 type="checkbox"
@@ -120,7 +120,7 @@ function FormularioContacto() {
                 checked={formData.services.includes('aplicaciones_web')}
                 onChange={handleCheckboxChange}
               />
-                <label>Aplicaciones Web</label></div>
+                <label className='formLabel'>Aplicaciones Web</label></div>
 
             </div>
             <div className='formServRequeridosFlex'>
@@ -132,7 +132,7 @@ function FormularioContacto() {
                   checked={formData.services.includes('auditoria_de_seo')}
                   onChange={handleCheckboxChange}
                 />
-                <label>Auditoria de Seo</label>
+                <label className='formLabel'>Auditoria de Seo</label>
               </div>
 
               <div className='inputsFlexCheckBox'>
@@ -143,7 +143,7 @@ function FormularioContacto() {
                   checked={formData.services.includes('ecommerce')}
                   onChange={handleCheckboxChange}
                 />
-                <label className='font-family-Robot '>Ecommerce</label></div>
+                <label className='formLabel font-family-Robot '>Ecommerce</label></div>
 
               <div className='inputsFlexCheckBox'>
                 <input
@@ -153,7 +153,7 @@ function FormularioContacto() {
                   checked={formData.services.includes('migracion_a_la_nube')}
                   onChange={handleCheckboxChange}
                 />
-                <label>Migracion a la Nube</label>
+                <label className='formLabel '>Migracion a la Nube</label>
               </div>
 
               <div className='inputsFlexCheckBox '>
@@ -164,7 +164,7 @@ function FormularioContacto() {
                 checked={formData.services.includes('impulsa_tu_marca')}
                 onChange={handleCheckboxChange}
               />
-                <label>Impulsar tu marca</label></div>
+                <label className='formLabel '>Impulsar tu marca</label></div>
 
             </div>
 

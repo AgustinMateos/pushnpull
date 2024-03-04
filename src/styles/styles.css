@@ -1374,7 +1374,7 @@ input[type="checkbox"]::-ms-check {
 .formButtonsContainer {
     border-radius: 1.5rem;
     color: #5a5a5a;
-    width: 20%;
+    width: 15%;
     border: 1px solid #5a5a5a;
     display: flex;
     justify-content: space-between;
@@ -1407,10 +1407,10 @@ input[type="checkbox"]::-ms-check {
 
 .formServiciosRequeridos {
     display: flex;
-    justify-content: space-around;
+    justify-content: flex-start;
     height: 200px;
 }
-
+.formLabel{padding-left: 20px;}
 .formServRequeridosFlex {
     display: flex;
     flex-direction: column;
