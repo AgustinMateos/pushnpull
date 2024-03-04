@@ -4,7 +4,7 @@ import Navbar from '../components/Generals/Navbar/Navbar';
 import HomePrimerComp from '../components/Home/HomePrimerComp';
 import HomeTerComp from '../components/Home/HomeTerComp';
 import HomeCuartQuintComp from '../components/Home/HomeImpulsaTuMarca';
-import HomeSextComp from '../components/Home/HomeSextComp';
+// import HomeSextComp from '../components/Home/HomeSextComp';
 import HomeSeptOctComp from '../components/Home/SoporteTecnologico';
 import Footer from '../components/Generals/Footer/Footer';
 
@@ -29,7 +29,7 @@ const HomePage = () => {
           <HomeCuartQuintComp />
           <HomeTerComp />
           <HomeSeptOctComp />
-          <HomeSextComp />
+          {/* <HomeSextComp /> */}
           <Footer />
         </>
       )}
