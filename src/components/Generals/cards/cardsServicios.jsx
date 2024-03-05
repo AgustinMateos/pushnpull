@@ -18,7 +18,7 @@ const SliderComponent = () => {
   return (
     <div className="slider-container">
       <Slider {...settings}>
-      <Link to={'/SolucionesDigitalesPage'} className='card'>
+      <Link to={'/SolucionesDigitalesPage'} className='card2'>
                     <div >
                         <h3 className='font-family-Robot cardsComponentesTitulos'>Soluciones digitales</h3>
 
@@ -32,7 +32,7 @@ const SliderComponent = () => {
                         <button className='buttonVermas'><span className='buttonVermasContent'>Ver mas <ion-icon name="arrow-forward-outline"></ion-icon></span></button>
                     </div>
                 </Link>
-                <Link to={"/seoPage"} className='card'>
+                <Link to={"/seoPage"} className='card2'>
                     <div className='content'>
                         <h3 className='cardsComponentesTitulos'>Seo</h3>
 
@@ -44,7 +44,7 @@ const SliderComponent = () => {
                         <button className='buttonVermas'><span className='buttonVermasContent'>Ver mas <ion-icon name="arrow-forward-outline"></ion-icon></span></button>
                     </div>
                 </Link>
-         <Link to={"/MantenimientoPage"} className='card'>
+         <Link to={"/MantenimientoPage"} className='card2'>
                     <div className='content'>
                         <h3 className='cardsComponentesTitulos'>Mantenimiento</h3>
 

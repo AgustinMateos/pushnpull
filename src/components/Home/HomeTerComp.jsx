@@ -7,17 +7,15 @@ const HomeTerComp = () => {
 
         <div className='HomeTerComp flex-justify-space-evenly' >
         <SliderComponent/>
-            <div className='HomeTerCompContainer '>
+            <div className='HomeTerCompContainer  '>
                 <Link to={'/SolucionesDigitalesPage'} className='card'>
                     <div className='content '>
                         <h3 className='font-family-Robot cardsComponentesTitulos'>Soluciones digitales</h3>
-
-                        <div className='price'></div>
+                        
                         <ul>
                             <li>
                                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Qui voluptatem cum animi minus. Dignissimos vel nihil, laudantium vitae expedita et culpa illo similique totam, aperiam molestias suscipit quos non repellat!</p>
                             </li>
-
                         </ul>
                         <button className='buttonVermas'><span className='buttonVermasContent'>Ver mas <ion-icon name="arrow-forward-outline"></ion-icon></span></button>
                     </div>
@@ -26,7 +24,7 @@ const HomeTerComp = () => {
                     <div className='content'>
                         <h3 className='cardsComponentesTitulos'>Seo</h3>
 
-                        <div className='price'></div>
+                        
                         <ul>
                             <li><p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Qui voluptatem cum animi minus. Dignissimos vel nihil, laudantium vitae expedita et culpa illo similique totam, aperiam molestias suscipit quos non repellat!</p></li>
 
@@ -38,7 +36,7 @@ const HomeTerComp = () => {
                     <div className='content'>
                         <h3 className='cardsComponentesTitulos'>Mantenimiento</h3>
 
-                        <div className='price'></div>
+              
                         <ul>
                             <li>
                                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.

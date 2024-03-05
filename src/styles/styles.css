@@ -5,7 +5,7 @@
 body {
     margin: 0;
 }
-
+.slider-container{display: none;}
 /*cards*/
 
 .slider-container {
@@ -13,7 +13,7 @@ body {
     margin: 0 auto;
   }
   
-  .card {
+  .card2 {
     background-color: #fff;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -54,7 +54,7 @@ body {
     right: -40px;
   }
   
-  .slick-slide:not(.slick-current) .card {
+  .slick-slide:not(.slick-current) .card2 {
     transform: scale(0.8) translateZ(-100px);
     opacity: 0.6;
   }
@@ -1590,7 +1590,9 @@ input[type="checkbox"]::-ms-check {
     
 
 }
+
 @media (max-width:760px) {
+    .slider-container{display: inline;}
     .HomeTerCompContainer{display: none;}
     .slick-prev {
         left: -24px;
