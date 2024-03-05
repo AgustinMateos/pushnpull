@@ -6,7 +6,9 @@ import { Link } from 'react-router-dom';
 import seoImg from '../../assets/ecommerceGrafica.png';
 import seo from '../../assets/ecommerceGrafica.png'
 import whatsapp from "../../assets/whatsapp.png"
+import mantenimientoSeo from '../../assets/desarrolloweb.png'
 import solucionesDigitalesImg from '../../assets/solucionesDigitalesPushnPull.webp'
+import  desarrolloWeb from '../../assets/desarrolloweb.png'
 
 
 
@@ -40,9 +42,9 @@ const MantenimientoBody = () => {
 
             {/* <div className='flex-column wd-100 flex-justify-space-around mantenimientoContainerRow'>                  */}
             <ul className='flex-column wd-100 flex-justify-space-around mantenimientoContainerRow'>
-              <li className='buttonVermas2 flex-align-center' onClick={() => handleOptionClick('Opción 1')}>Opción 1</li>
-              <li className='buttonVermas2 flex-align-center' onClick={() => handleOptionClick('Opción 2')}>Opción 2</li>
-              <li className='buttonVermas2 flex-align-center' onClick={() => handleOptionClick('Opción 3')}>Opción 3</li>
+              <li className='buttonVermas2 flex-align-center' onClick={() => handleOptionClick('Opción 1')}>Estrategia Seo</li>
+              <li className='buttonVermas2 flex-align-center' onClick={() => handleOptionClick('Opción 2')}>Mantenimiento Seo</li>
+              <li className='buttonVermas2 flex-align-center' onClick={() => handleOptionClick('Opción 3')}>Mantenimeinto de Base de Datos</li>
             </ul>
 
             {/* </div> */}
@@ -56,7 +58,7 @@ const MantenimientoBody = () => {
 
         {selectedOption === 'Opción 1' && <div>  <div className='wd-100 flex-justify-center '>
           <div className='wd-100 mantenimientoContainerInfo '>
-            <img className=' mantenimientoContainerInfoImg h-100' src={seoImg} alt='' />
+            <img className=' mantenimientoContainerInfoImg h-100' src={mantenimientoSeo} alt='' />
             <div className='mantenimientoContainerInfoTexto  '>
               <h5 className='titulosComponentes'>Estrategia Seo</h5>
               <p className='homePrimerCompTexto text-align-center '>adadaadad Lorem ipsum, dolor sit amet consectetur adipisicing elit Deserunt sunt nihil quod accusamus, vel quis, consequatur amet</p>
@@ -72,7 +74,7 @@ const MantenimientoBody = () => {
           <div className='wd-100 mantenimientoContainerInfo '>
             <img className=' mantenimientoContainerInfoImg h-100' src={seoImg} alt='' />
             <div className='mantenimientoContainerInfoTexto  '>
-              <h5 className='titulosComponentes'>Estrategia Seo</h5>
+              <h5 className='titulosComponentes'>Mantenimiento Seo</h5>
               <p className='homePrimerCompTexto text-align-center '>adadaadad Lorem ipsum, dolor sit amet consectetur adipisicing elit Deserunt sunt nihil quod accusamus, vel quis, consequatur amet</p>
               <Link className='buttonContainers'>Ver mas</Link>
             </div>
@@ -81,9 +83,9 @@ const MantenimientoBody = () => {
         </div>}
         {selectedOption === 'Opción 3' && <div>  <div className='wd-100 flex-justify-center '>
           <div className='wd-100 mantenimientoContainerInfo '>
-            <img className=' mantenimientoContainerInfoImg h-100' src={seoImg} alt='' />
+            <img className=' mantenimientoContainerInfoImg h-100' src={desarrolloWeb} alt='' />
             <div className='mantenimientoContainerInfoTexto  '>
-              <h5 className='titulosComponentes'>Estrategia Seo</h5>
+              <h5 className='titulosComponentes'>Mantenimiento de Base de Datos</h5>
               <p className='homePrimerCompTexto text-align-center '>adadaadad Lorem ipsum, dolor sit amet consectetur adipisicing elit Deserunt sunt nihil quod accusamus, vel quis, consequatur amet</p>
               <Link className='buttonContainers'>Ver mas</Link>
             </div>
