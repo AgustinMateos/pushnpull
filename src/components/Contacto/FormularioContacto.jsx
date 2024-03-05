@@ -74,7 +74,7 @@ function FormularioContacto() {
           {errors.phone && !submitted && <span>{errors.phone}</span>}
 
 
-          <input placeholder='Red Social/Sitio Web:' className='formInputs' type="text" name="RedSocial" value={formData.redSocial} onChange={handleChange} />
+          <input placeholder='Red Social/Sitio Web:' className='formInputs' type="text" name="redSocial" value={formData.redSocial} onChange={handleChange} />
           {errors.redSocial && !submitted && <span>{errors.redSocial}</span>}
 
         </div>
