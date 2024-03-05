@@ -182,12 +182,12 @@ function FormularioContacto() {
           </div>
           </div>
        
-          <div className='buttonEnviar'><div className='buttonContainers' >  <button type="submit">Enviar</button></div></div>
+          
+        </div>
+<div className='buttonEnviar'><div className='buttonContainers' >  <button type="submit">Enviar</button></div></div>
 
 
           {submitted && <div>¡Formulario enviado con éxito!</div>}
-        </div>
-
 
 
 

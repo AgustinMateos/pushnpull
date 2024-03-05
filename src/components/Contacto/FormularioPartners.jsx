@@ -1,14 +1,14 @@
 import React, { useState } from 'react';
 
-function FormularioContacto() {
+function FormularioPartners() {
   const initialFormData = {
     nombreAgencia: '',
-    lastName: '',
-    email: '',
+   
+    emailAgencia: '',
     services: [],
-    budget: '',
-    phone: '',
-    redSocial: '',
+    portfolioAgencias: '',
+    phoneAgencia: '',
+    redSocialAgencias: '',
   };
 
   const [formData, setFormData] = useState(initialFormData);
@@ -63,12 +63,12 @@ function FormularioContacto() {
           {errors.nombreAgencia && !submitted && <span>{errors.nombreAgencia}</span>}
 
           
-          <input placeholder='Email:' className='formInputs ' type="email" name="email" value={formData.email} onChange={handleChange} />
-          {errors.email && !submitted && <span>{errors.email}</span>}
+          <input placeholder='Email:' className='formInputs ' type="emailAgencia" name="emailAgencia" value={formData.email} onChange={handleChange} />
+          {errors.emailAgencia && !submitted && <span>{errors.emailAgencia}</span>}
 
 
-          <input placeholder='Número de teléfono:' className='formInputs' type="number" name="phone" value={formData.phone} onChange={handleChange} />
-          {errors.phone && !submitted && <span>{errors.phone}</span>}
+          <input placeholder='Número de teléfono:' className='formInputs' type="number" name="phoneAgencia" value={formData.phoneAgencia} onChange={handleChange} />
+          {errors.phoneAgencia && !submitted && <span>{errors.phoneAgencia}</span>}
 
 
          
@@ -160,17 +160,18 @@ function FormularioContacto() {
           </div>
           {errors.services && !submitted && <span>{errors.services}</span>}
           <div className='formTextoSegundo'>
-             <div><input placeholder='Portfolio' className='formInputs' type="text" name="budget" value={formData.budget} onChange={handleChange} />
-          {errors.budget && !submitted && <span>{errors.budget}</span>}</div>
+             <div><input placeholder='Portfolio' className='formInputs' type="text" name="portfolioAgencias" value={formData.portfolioAgencias} onChange={handleChange} />
+          {errors.portfolioAgencias && !submitted && <span>{errors.portfolioAgencias}</span>}</div>
           
           <div>
 
-            <textarea placeholder='Mensaje' className='formTextArea' name="servicesOffered" value={formData.servicesOffered} onChange={handleChange}></textarea>
+            <textarea placeholder='Mensaje' className='formTextArea' name="servicesOfferedAgencia" value={formData.servicesOfferedAgencia} onChange={handleChange}></textarea>
 
           </div>
           </div>
        
-          <div className='buttonEnviar'><div className='buttonContainers' >  <button type="submit">Enviar</button></div></div>
+          <div className='buttonEnviar'><div className='buttonContainers' >  
+          <button type="submit">Enviar</button></div></div>
 
 
           {submitted && <div>¡Formulario enviado con éxito!</div>}
@@ -186,4 +187,4 @@ function FormularioContacto() {
   );
 }
 
-export default FormularioContacto;
+export default FormularioPartners;
