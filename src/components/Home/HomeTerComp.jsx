@@ -1,12 +1,12 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-
+import SliderComponent from '../Generals/cards/cardsServicios'
 const HomeTerComp = () => {
     return (
     <div>
 
         <div className='HomeTerComp flex-justify-space-evenly' >
-          
+        <SliderComponent/>
             <div className='HomeTerCompContainer '>
                 <Link to={'/SolucionesDigitalesPage'} className='card'>
                     <div className='content '>

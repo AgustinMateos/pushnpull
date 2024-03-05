@@ -1,8 +1,9 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
+
 import whatsapp from "../../assets/whatsapp.png"
 
 import grafica8 from "../../assets/impulsatumarca3.png"
+
 const ImpulsaTuMarcaBody = () => {
   return (
     <div>
@@ -20,6 +21,7 @@ const ImpulsaTuMarcaBody = () => {
       </div>
 
     </div>
+
       <div className='wd-100 '>
 
         <div className=' containerHeight '>
@@ -57,6 +59,7 @@ const ImpulsaTuMarcaBody = () => {
          
         </div>
       </div>
+      
     </div>
 
   )

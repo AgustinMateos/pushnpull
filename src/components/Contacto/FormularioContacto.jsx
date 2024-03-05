@@ -172,8 +172,10 @@ function FormularioContacto() {
           </div>
           {errors.services && !submitted && <span>{errors.services}</span>}
           <div className='formTextoSegundo'>
-             <div><input placeholder='Presupuesto estimado' className='formInputs' type="text" name="budget" value={formData.budget} onChange={handleChange} />
-          {errors.budget && !submitted && <span>{errors.budget}</span>}</div>
+             <div>
+              <input placeholder='Presupuesto estimado' className='formInputs' type="text" name="budget" value={formData.budget} onChange={handleChange} />
+          {errors.budget && !submitted && <span>{errors.budget}</span>}
+            </div>
           
           <div>
 

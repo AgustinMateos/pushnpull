@@ -42,9 +42,9 @@ const MantenimientoSeo = () => {
 
             {/* <div className='flex-column wd-100 flex-justify-space-around mantenimientoContainerRow'>                  */}
             <ul className='flex-column wd-100 flex-justify-space-around mantenimientoContainerRow'>
-              <li className='buttonVermas2 flex-align-center' onClick={() => handleOptionClick('Opción 1')}>Estrategia Seo</li>
-              <li className='buttonVermas2 flex-align-center' onClick={() => handleOptionClick('Opción 2')}>Mantenimiento Seo</li>
-              <li className='buttonVermas2 flex-align-center' onClick={() => handleOptionClick('Opción 3')}>Mantenimeinto de Base de Datos</li>
+              <li className='buttonVermas2 flex-align-center' onClick={() => handleOptionClick('Opción 1')}>Auditoria Seo</li>
+              <li className='buttonVermas2 flex-align-center' onClick={() => handleOptionClick('Opción 2')}>Camapaña Seo</li>
+
             </ul>
 
             {/* </div> */}
@@ -60,7 +60,7 @@ const MantenimientoSeo = () => {
           <div className='wd-100 mantenimientoContainerInfo '>
             <img className=' mantenimientoContainerInfoImg h-100' src={mantenimientoSeo} alt='' />
             <div className='mantenimientoContainerInfoTexto  '>
-              <h5 className='titulosComponentes'>Estrategia Seo</h5>
+              <h5 className='titulosComponentes'>Auditoria Seo</h5>
               <p className='homePrimerCompTexto text-align-center '>adadaadad Lorem ipsum, dolor sit amet consectetur adipisicing elit Deserunt sunt nihil quod accusamus, vel quis, consequatur amet</p>
               <Link className='buttonContainers'>Ver mas</Link>
             </div>
@@ -74,24 +74,14 @@ const MantenimientoSeo = () => {
           <div className='wd-100 mantenimientoContainerInfo '>
             <img className=' mantenimientoContainerInfoImg h-100' src={seoImg} alt='' />
             <div className='mantenimientoContainerInfoTexto  '>
-              <h5 className='titulosComponentes'>Estrategias Seo</h5>
+              <h5 className='titulosComponentes'>Camapaña Seo</h5>
               <p className='homePrimerCompTexto text-align-center '>adadaadad Lorem ipsum, dolor sit amet consectetur adipisicing elit Deserunt sunt nihil quod accusamus, vel quis, consequatur amet</p>
               <Link className='buttonContainers'>Ver mas</Link>
             </div>
           </div>
         </div>
         </div>}
-        {selectedOption === 'Opción 3' && <div>  <div className='wd-100 flex-justify-center '>
-          <div className='wd-100 mantenimientoContainerInfo '>
-            <img className=' mantenimientoContainerInfoImg h-100' src={desarrolloWeb} alt='' />
-            <div className='mantenimientoContainerInfoTexto  '>
-              <h5 className='titulosComponentes'>Implementacion Seo</h5>
-              <p className='homePrimerCompTexto text-align-center '>adadaadad Lorem ipsum, dolor sit amet consectetur adipisicing elit Deserunt sunt nihil quod accusamus, vel quis, consequatur amet</p>
-              <Link className='buttonContainers'>Ver mas</Link>
-            </div>
-          </div>
-        </div>
-        </div>}
+        
       </div>
     </div>
   );

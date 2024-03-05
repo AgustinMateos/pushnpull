@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import logo1 from '../../../assets/logo2.png'
+
+import pushnpullLogo from "../../../assets/pushnpullIndex.webp"
 
 const Footer = () => {
     return (
@@ -10,7 +11,7 @@ const Footer = () => {
 
                     <Link to={"/"} className="z-50 flex-justify-start   footerContainerLogo ">
 
-                        <img src={logo1} alt="logo" className="md:cursor-pointer h-9" />
+                        <img src={pushnpullLogo} alt="logo" className="md:cursor-pointer h-9" />
                         <h1 className="tituloFont">Push n Pull</h1>
 
                     </Link>

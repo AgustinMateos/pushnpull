@@ -1,32 +1,20 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import logo1 from '../../../assets/logo2.png'
+import pushnpullLogo from "../../../assets/pushnpullIndex.webp"
 // import { useScroll } from "../../../hooks/useScroll";
 
 
 import NavLinks from "./NavLinks";
 const Navbar = () => {
   const [open, setOpen] = useState(false);
-  // const { scrollDirection } = useScroll(); 
-    
-  //   const styles = {
-  //       active: {
-  //           visibility: "visible",
-  //           transition: "all 0.5s"
-  //       },
-  //       hidden: {
-  //           visibility: "hidden",
-  //           transition: "all 0.5s",
-  //           transform: "translateY(-100%)"
-  //       }
-  //   }
+
   return (
 
     <nav className=" background-principalNavbar navbarContainer" >
       {/* style={ scrollDirection === "up" ?  styles.hidden : styles.active } */}
       <div className="flex items-center  font-medium justify-around h-90 navbarHeight">
         <div className="z-50  containerLogo p-5 md:w-auto  ">
-            <Link to={'/'} className="flex justify-between items-center"><img src={logo1} alt="logo" className="md:cursor-pointer h-9" />
+            <Link to={'/'} className="flex justify-between items-center"><img src={pushnpullLogo} alt="logo" className="md:cursor-pointer h-9" />
           <h1 className="tituloFont">Push n Pull</h1></Link>
           
           <div className="text-3xl md:hidden" onClick={() => setOpen(!open)}>

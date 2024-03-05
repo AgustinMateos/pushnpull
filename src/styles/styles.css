@@ -5,6 +5,61 @@
 body {
     margin: 0;
 }
+
+/*cards*/
+
+.slider-container {
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  .card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 40px;
+    text-align: center;
+    transform-style: preserve-3d;
+    transition: transform 0.5s;
+  }
+  
+  .slick-slide {
+    perspective: 1000px;
+  }
+  
+  .slick-slide > div {
+    display: block;
+    height: auto;
+  }
+  
+  .slick-slide.slick-current {
+    z-index: 1;
+  }
+  
+  .slick-prev,
+  .slick-next {
+    font-size: 24px;
+    line-height: 1;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 1;
+  }
+  
+  .slick-prev {
+    left: -40px;
+  }
+  
+  .slick-next {
+    right: -40px;
+  }
+  
+  .slick-slide:not(.slick-current) .card {
+    transform: scale(0.8) translateZ(-100px);
+    opacity: 0.6;
+  }
+  
+  
 /*loader*/
 /* styles.css */
 .loader {
@@ -1535,8 +1590,21 @@ input[type="checkbox"]::-ms-check {
     
 
 }
-
+@media (max-width:760px) {
+    .HomeTerCompContainer{display: none;}
+    .slick-prev {
+        left: -24px;
+    }
+    .slick-next {
+        right: -24px;
+    }
+    .slider-container {
+        width: 70%;
+        margin: 0 auto;
+    }
+    .cardsMobile{display: inline;}}
 @media (max-width:680px) {
+   
     .mantenimientoContainerRow {
         flex-direction: column;
     }.mantenimientoContainerHeight {
@@ -1696,6 +1764,16 @@ input[type="checkbox"]::-ms-check {
         /* border-top: 1px solid rgba(255, 255, 255, 0.5);
         border-left: 1px solid rgba(255, 255, 255, 0.5); */
         backdrop-filter: blur(5px);
+    }
+    .cardsComponentesTitulos {
+        
+        font-size: 1.9rem;
+       
+    }
+    .card2 {
+        
+        padding: 25px;
+        
     }
 
     .formButtonsContainer {
