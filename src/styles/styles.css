@@ -1225,7 +1225,7 @@ p {
 }
 /*servicio mantenimineto*/
 .mantenimientoContainerHeight {
-    min-height: 550px;
+    min-height: 150px;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -1541,7 +1541,7 @@ input[type="checkbox"]::-ms-check {
         flex-direction: column;
     }.mantenimientoContainerHeight {
         text-align: center;
-        min-height: 750px;
+        min-height: 150px;
         display: flex;
         align-items: center;
         justify-content: space-evenly;
