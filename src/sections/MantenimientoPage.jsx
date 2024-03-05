@@ -20,7 +20,7 @@ const MantenimientoPage = () => {
         <Loader />
       ) : (
         <>
-          {/* <Navbar /> */}
+          <Navbar />
           <MantenimientoBody />
           <Footer />
         </>
