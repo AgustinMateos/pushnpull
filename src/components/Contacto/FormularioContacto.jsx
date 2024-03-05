@@ -124,7 +124,7 @@ function FormularioContacto() {
 
             </div>
             <div className='formServRequeridosFlex'>
-              <div className='inputsFlexCheckBox'>
+              <div><div className='inputsFlexCheckBox'>
                 <input
                   type="checkbox"
                   name="services"
@@ -181,13 +181,19 @@ function FormularioContacto() {
 
           </div>
           </div>
+          <div className='buttonEnviar'>
+        <div className='buttonContainers' > 
+        <button type="submit">Enviar</button>
+      </div>
+        </div>
+          {submitted && <div>¡Formulario enviado con éxito!</div>}
+        </div>
+ 
+          </div>
+              
        
           
-        </div>
-<div className='buttonEnviar'><div className='buttonContainers' >  <button type="submit">Enviar</button></div></div>
-
-
-          {submitted && <div>¡Formulario enviado con éxito!</div>}
+       
 
 
 
