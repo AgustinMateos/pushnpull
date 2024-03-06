@@ -18,8 +18,8 @@ const SliderComponent = () => {
   return (
     <div className="slider-container">
       <Slider {...settings}>
-      <Link to={'/SolucionesDigitalesPage'} className='card2'>
-                    <div >
+      <Link to={'/SolucionesDigitalesPage'} className='card'>
+                    <div className='content contentFlex'>
                         <h3 className='font-family-Robot cardsComponentesTitulos'>Soluciones digitales</h3>
 
                         <div className='price'></div>
@@ -32,8 +32,8 @@ const SliderComponent = () => {
                         <button className='buttonVermas'><span className='buttonVermasContent'>Ver mas <ion-icon name="arrow-forward-outline"></ion-icon></span></button>
                     </div>
                 </Link>
-                <Link to={"/seoPage"} className='card2'>
-                    <div className='content'>
+                <Link to={"/seoPage"} className='card'>
+                    <div className='content contentFlex'>
                         <h3 className='cardsComponentesTitulos'>Seo</h3>
 
                         <div className='price'></div>
@@ -44,8 +44,8 @@ const SliderComponent = () => {
                         <button className='buttonVermas'><span className='buttonVermasContent'>Ver mas <ion-icon name="arrow-forward-outline"></ion-icon></span></button>
                     </div>
                 </Link>
-         <Link to={"/MantenimientoPage"} className='card2'>
-                    <div className='content'>
+         <Link to={"/MantenimientoPage"} className='card'>
+                    <div className='content contentFlex'>
                         <h3 className='cardsComponentesTitulos'>Mantenimiento</h3>
 
                         <div className='price'></div>
