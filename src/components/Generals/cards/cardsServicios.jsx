@@ -51,7 +51,7 @@ const SliderComponent = () => {
                         <div className='price'></div>
                         <ul>
                             <li>
-                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                                <p>Lorem ipsum dolor sit, ame t consectetur adipisicing elit.
                                     Qui voluptatem cum animi minus. Dignissimos
                                     vel nihil, laudantium vitae expedita et culpa illo similique
                                     totam, aperiam molestias suscipit quos non repellat!</p>

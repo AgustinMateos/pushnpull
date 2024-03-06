@@ -1791,6 +1791,10 @@ input[type="checkbox"]::-ms-check {
     }
     .homePrimerCompTitulo {
         font-size: clamp(2.5rem, 8vw, 6rem);}
+        .slider-container {
+            width: 60%;
+            margin: 0 auto;
+        }
 }
 
 @media (max-width:325px) {
