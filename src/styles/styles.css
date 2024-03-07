@@ -5,15 +5,19 @@
 body {
     margin: 0;
 }
-.slider-container{display: none;}
+
+.slider-container {
+    display: none;
+}
+
 /*cards*/
 
 .slider-container {
     width: 80%;
     margin: 0 auto;
-  }
-  
-  .card2 {
+}
+
+.card2 {
     background-color: #fff;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -21,45 +25,45 @@ body {
     text-align: center;
     transform-style: preserve-3d;
     transition: transform 0.5s;
-  }
-  
-  .slick-slide {
+}
+
+.slick-slide {
     perspective: 1000px;
-  }
-  
-  .slick-slide > div {
+}
+
+.slick-slide>div {
     display: block;
     height: auto;
-  }
-  
-  .slick-slide.slick-current {
+}
+
+.slick-slide.slick-current {
     z-index: 1;
-  }
-  
-  .slick-prev,
-  .slick-next {
+}
+
+.slick-prev,
+.slick-next {
     font-size: 24px;
     line-height: 1;
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
     z-index: 1;
-  }
-  
-  .slick-prev {
+}
+
+.slick-prev {
     left: -40px;
-  }
-  
-  .slick-next {
+}
+
+.slick-next {
     right: -40px;
-  }
-  
-  .slick-slide:not(.slick-current) .card2 {
+}
+
+.slick-slide:not(.slick-current) .card2 {
     transform: scale(0.8) translateZ(-100px);
     opacity: 0.6;
-  }
-  
-  
+}
+
+
 /*loader*/
 /* styles.css */
 .loader {
@@ -67,23 +71,24 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-  }
-  
-  .spinner {
+}
+
+.spinner {
     border: 4px solid rgba(0, 0, 0, 0.1);
-    border-left-color: #7986cb; /* Cambia este color según tus preferencias */
+    border-left-color: #7986cb;
+    /* Cambia este color según tus preferencias */
     border-radius: 50%;
     width: 50px;
     height: 50px;
     animation: spin 1s linear infinite;
-  }
-  
-  @keyframes spin {
+}
+
+@keyframes spin {
     to {
-      transform: rotate(360deg);
+        transform: rotate(360deg);
     }
-  }
-  
+}
+
 
 /*Tipografias*/
 .font-family-Robot {
@@ -292,29 +297,48 @@ body {
 .flex-row {
     flex-direction: row;
 }
+
 .mantenimientoContainerRow {
     flex-direction: row;
 }
+
 .mantenimientoContainerInfo {
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
-.mantenimientoContainerInfoTexto{
+
+.mantenimientoContainerInfoTexto {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
     width: 50%;
 }
-.contentFlex{
+
+.contentFlex {
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 250px;
+    min-height: 250px;
     justify-content: space-around;
+
+    position: relative;
+
+
+    border-radius: 15px;
+    background: #fff;
+    overflow: hidden;
+    display: flex;
+   
+    align-items: center;
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
 }
-.mantenimientoContainerInfoImg{width: 400px;}
+
+.mantenimientoContainerInfoImg {
+    width: 400px;
+}
 
 .flex-wrap {
     flex-wrap: wrap;
@@ -522,7 +546,7 @@ body {
     height: auto;
     /* Cambiar la altura a auto para que se ajuste según el contenido */
     padding-top: 100px;
-   
+
 }
 
 .homePrimerCompContainer {
@@ -613,6 +637,11 @@ body {
     max-width: 1200px;
     flex-wrap: wrap;
     z-index: 1;
+}
+
+.cardContentContainer {
+    text-align: center;
+    padding: 10px 0px 10px;
 }
 
 .HomeTerCompContainer .card {
@@ -716,6 +745,7 @@ body {
 
 
 }
+
 .whatsapp {
     position: fixed;
     color: black;
@@ -728,11 +758,13 @@ body {
     margin-bottom: 20px;
     width: 90px;
 }
+
 .whatsapp img {
     box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1), 0.5em 1.3em 1em rgba(0, 0, 0, 0.3);
     border-radius: 50%;
     width: 90px;
 }
+
 .buttonVermas2 {
     display: flex;
     align-items: center;
@@ -805,7 +837,11 @@ body {
 .HomeTercerCompSvg {
     background-color: #EAE5DF;
 }
-.HomeCuartQuintCompBuscandoTitulo{width: 75%;padding: 20px}
+
+.HomeCuartQuintCompBuscandoTitulo {
+    width: 75%;
+    padding: 20px
+}
 
 .HomeCuartQuintCompBuscando {
 
@@ -858,13 +894,13 @@ h1 {
     font-size: 1em;
 }
 
-p {
+/* p {
     text-align: left;
     color: #444;
     letter-spacing: 0.05em;
     font-size: 0.8em;
     margin: 0 0 2em;
-}
+} */
 
 
 .btn {
@@ -1115,8 +1151,8 @@ p {
     font-size: 1rem;
     margin-top: 5rem;
     padding: 5rem 0;
-    
-    
+
+
 }
 
 .footerContainerLogo {
@@ -1127,6 +1163,7 @@ p {
 }
 
 /*servicios*/
+
 .serviciosContainer {
     padding-top: 150px
 }
@@ -1143,6 +1180,7 @@ p {
     text-align: center;
     align-items: center;
     min-height: 650px;
+    margin-top: 70px;
 }
 
 /* .serviciosContainerNavlinks {
@@ -1205,7 +1243,7 @@ p {
 .selected {
     background-color: rgb(186, 186, 186);
     border-radius: 0.5rem;
-   
+
     width: 60%;
 }
 
@@ -1286,6 +1324,7 @@ p {
     font-size: 1.0rem;
     text-align: center;
 }
+
 /*servicio mantenimineto*/
 .mantenimientoContainerHeight {
     min-height: 150px;
@@ -1347,6 +1386,7 @@ p {
     line-height: 1.3;
 
 }
+
 .formPrimerComp {
     display: flex;
     justify-content: space-evenly;
@@ -1375,13 +1415,15 @@ input[type="checkbox"] {
 
 /* Estilos para cuando el checkbox está marcado */
 input[type="checkbox"]:checked {
-    background-color: #9479ec;;
+    background-color: #9479ec;
+    ;
     /* Cambia el color de fondo cuando está marcado */
 }
 
 /* Estilos para cuando el checkbox está marcado y se le pasa el mouse por encima */
 input[type="checkbox"]:checked:hover {
-    background-color: #9479ec;;
+    background-color: #9479ec;
+    ;
     /* Cambia el color de fondo cuando está marcado y se le pasa el mouse por encima */
 }
 
@@ -1403,12 +1445,14 @@ input[type="checkbox"]::-ms-check {
     margin-bottom: 10px;
     /* Ajusta el margen inferior entre los elementos */
 }
-.inputsFlexCheckBox{
+
+.inputsFlexCheckBox {
     display: flex;
     align-items: center;
     justify-content: flex-start;
-    
+
 }
+
 .formButtons {
     display: flex;
     justify-content: flex-start;
@@ -1473,7 +1517,11 @@ input[type="checkbox"]::-ms-check {
     justify-content: flex-start;
     height: 200px;
 }
-.formLabel{padding-left: 20px;}
+
+.formLabel {
+    padding-left: 20px;
+}
+
 .formServRequeridosFlex {
     display: flex;
     flex-direction: column;
@@ -1568,11 +1616,14 @@ input[type="checkbox"]::-ms-check {
         justify-content: space-evenly;
         flex-direction: column;
     }
-  
-.mantenimientoContainerButtons{display: flex;
-    justify-content: space-around;
-    flex-direction: row;
-    width: 100%;}
+
+    .mantenimientoContainerButtons {
+        display: flex;
+        justify-content: space-around;
+        flex-direction: row;
+        width: 100%;
+    }
+
     .titulosComponentesTexto {
         text-align: center;
     }
@@ -1594,30 +1645,43 @@ input[type="checkbox"]::-ms-check {
     .formButtonsContainer {
         width: 30%;
     }
-   
-    
+
+
 
 }
 
 @media (max-width:760px) {
-    .slider-container{display: inline;}
-    .HomeTerCompContainer{display: none;}
-    .slick-prev {
-        left: -24px;
+    .slider-container {
+        display: inline;
     }
+
+    .HomeTerCompContainer {
+        display: none;
+    }
+
+   
+
     .slick-next {
         right: -24px;
     }
+
     .slider-container {
         width: 70%;
         margin: 0 auto;
     }
-    .cardsMobile{display: inline;}}
+
+    .cardsMobile {
+        display: inline;
+    }
+}
+
 @media (max-width:680px) {
-   
+
     .mantenimientoContainerRow {
         flex-direction: column;
-    }.mantenimientoContainerHeight {
+    }
+
+    .mantenimientoContainerHeight {
         text-align: center;
         min-height: 150px;
         display: flex;
@@ -1625,7 +1689,11 @@ input[type="checkbox"]::-ms-check {
         justify-content: space-evenly;
         flex-direction: column;
     }
-    .mantenimientoContainerRow{    align-items: center;}
+
+    .mantenimientoContainerRow {
+        align-items: center;
+    }
+
     .HomeCuartQuintCompBuscando {
         border: 2px solid white;
         border-radius: 20px;
@@ -1670,26 +1738,30 @@ input[type="checkbox"]::-ms-check {
     .formButtonsContainer {
         width: 50%;
     }
+
     .mantenimientoContainerInfo {
         display: flex;
         justify-content: space-around;
         align-items: center;
         flex-direction: column;
     }
+
     .mantenimientoContainerInfoTexto {
-       
+
         width: 90%;
     }
+
     .buttonContainers {
-        
+
         margin-bottom: 20px;
     }
+
     .containerHeight {
-      
+
         min-height: 550px;
-       
+
     }
-    
+
 }
 
 
@@ -1707,11 +1779,12 @@ input[type="checkbox"]::-ms-check {
 
 
     input[type="checkbox"] {
-       
+
         width: 25px;
         height: 25px;
-        
+
     }
+
     .formPrimerCompTexto {
 
         text-align: center;
@@ -1740,13 +1813,25 @@ input[type="checkbox"]::-ms-check {
         justify-content: space-around;
         height: 250px;
     }
+
     .HomeCuartQuintCompBuscandoTitulo {
         width: 100%;
         padding: 20px;
     }
+
     .HomeCuartQuintCompBuscando {
-        
+
         width: 90%;
+    }
+
+    .ServiciosContainerPrimerComponente {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        min-height: 750px;
+        margin-top: 80px;
     }
 }
 
@@ -1775,31 +1860,33 @@ input[type="checkbox"]::-ms-check {
         border-left: 1px solid rgba(255, 255, 255, 0.5); */
         backdrop-filter: blur(5px);
     }
+
     .cardsComponentesTitulos {
-        
+
         font-size: 1.9rem;
-       
+
     }
+
     .card2 {
-        
+
         padding: 25px;
-        
+
     }
 
     .formButtonsContainer {
         width: 90%;
     }
+
     .homePrimerCompTitulo {
-        font-size: clamp(2.5rem, 8vw, 6rem);}
-        .slider-container {
-            width: 60%;
-            margin: 0 auto;
-        }
-        .contentFlex {
-          
-            height: 320px;
-            
-        }
+        font-size: clamp(2.5rem, 8vw, 6rem);
+    }
+
+    .slider-container {
+        width: 60%;
+        margin: 0 auto;
+    }
+
+   
 }
 
 @media (max-width:325px) {
