@@ -1574,7 +1574,7 @@ input[type="checkbox"]::-ms-check {
 
     .homePrimerCompTexto {
         /*index*/
-
+         padding:20px;
         text-align: center;
     }
 
