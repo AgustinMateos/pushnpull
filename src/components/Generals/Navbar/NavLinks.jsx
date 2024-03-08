@@ -72,7 +72,7 @@ const NavLinks = () => {
             ${heading === link.name ? "md:hidden" : "hidden"}
           `}
           >
-             <Link  className="py-4 pl-7 font-semibold md:pr-0 pr-5 flex justify-between items-center  font-family-Robot"  >Impulsa tu Marca</Link>
+             <Link to={"/ImpulsaTuMarcaPage"}  className="py-4 pl-7 font-semibold md:pr-0 pr-5 flex justify-between items-center  font-family-Robot"  >Impulsa tu Marca</Link>
             {/* sublinks */}
             {link.sublinks.map((slinks) => (
               <div>
