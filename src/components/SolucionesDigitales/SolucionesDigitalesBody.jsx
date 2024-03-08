@@ -27,10 +27,6 @@ const solucionesDigitalesBody = () => {
             <h2 className='homePrimerCompTitulo'>Soluciones Digitales</h2>
             <p className='homePrimerCompTexto font-family-Robot'>Push n Pull es una agencia digital basada en datos, especializada en brindar soluciones digitales.</p>
           </div>
-
-          
-
-
         </div>
         <div className='homePrimerCompContainerImg h-100 imagenlatidoContainer flex-align-center flex-justify-center  '>
           <img className='wd-100 h-90  homePrimerCompImg imagen-latido' src={solucionesDigitalesImg} alt="" />
@@ -38,7 +34,8 @@ const solucionesDigitalesBody = () => {
       </div>
       <div className='wd-100 flex-justify-center'>
         <SolucionesDigitalesCardsMobile/>
-        <div className='wd-90 flex-justify-center flex-column  mantenimientoContainerHeight'>           <div className='wd-100 flex-justify-center flex-justify-center'>
+        <div className='wd-90 flex-justify-center flex-column  mantenimientoContainerHeight'>     
+              <div className='wd-100 flex-justify-center flex-justify-center'>
           <div className='wd-100 flex-align-center flex-justify-center flex-column'>
 
             <div className='flex-column wd-100 flex-justify-space-around mantenimientoContainerRow'>                 
