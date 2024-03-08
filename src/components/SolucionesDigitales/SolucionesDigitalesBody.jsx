@@ -24,7 +24,7 @@ const solucionesDigitalesBody = () => {
         <div className='homePrimerCompContainer'>
           <div>
             <h2 className='homePrimerCompTitulo'>Soluciones Digitales</h2>
-            <p className='homePrimerCompTexto font-family-Robot'>Push n Pull es una agencia digital basada en datos especializada en brindar soluciones digitales.</p>
+            <p className='homePrimerCompTexto font-family-Robot'>Push n Pull es una agencia digital basada en datos, especializada en brindar soluciones digitales.</p>
           </div>
 
           <SolucionesDigitalesCardsMobile/>
