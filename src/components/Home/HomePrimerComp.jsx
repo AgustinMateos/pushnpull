@@ -4,6 +4,7 @@ import whatsapp from "../../assets/whatsapp.png"
 import { Link } from 'react-router-dom'
 
 
+
 const HomePrimerComp = () => {
   return (
     <div className='HomePrimerComp  '>
@@ -19,6 +20,7 @@ const HomePrimerComp = () => {
           <Link to={'/ServicesPage'} className='buttonVermas flex-align-center '><span className='buttonVermasContent font-family-Robot'>Nuestros servicios</span></Link>
           <Link to={'/ContactoPage'} className='buttonVermas2  '><span className='buttonVermasContent2 font-family-Robot'>Contactanos</span></Link>
         </div>
+        
 
        
 
