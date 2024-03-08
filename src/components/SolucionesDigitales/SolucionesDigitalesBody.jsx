@@ -10,7 +10,8 @@ import desarrolloWebServicio from '../../assets/desarrolloweb.png'
 import menuQrServicio from '../../assets/qr.png'
 import migracionalaNubeServicio from '../../assets/migracionalanube.png'
 import disenoWebServicio from '../../assets/diseñoweb.png'
-// import SolucionesDigitalesCardsMobile from '../Generals/cards/solucionesDigitalesCardsServicios';
+import SolucionesDigitalesCardsMobile from '../Generals/cards/solucionesDigitalesCardsServicios';
+
 const solucionesDigitalesBody = () => {
   const [selectedOption, setSelectedOption] = useState('Opción 1'); // Inicializando con 'Opción 1'
 
@@ -27,7 +28,7 @@ const solucionesDigitalesBody = () => {
             <p className='homePrimerCompTexto font-family-Robot'>Push n Pull es una agencia digital basada en datos, especializada en brindar soluciones digitales.</p>
           </div>
 
-          {/* <SolucionesDigitalesCardsMobile/> */}
+          
 
 
         </div>
@@ -36,10 +37,11 @@ const solucionesDigitalesBody = () => {
         </div>
       </div>
       <div className='wd-100 flex-justify-center'>
+        <SolucionesDigitalesCardsMobile/>
         <div className='wd-90 flex-justify-center flex-column  mantenimientoContainerHeight'>           <div className='wd-100 flex-justify-center flex-justify-center'>
           <div className='wd-100 flex-align-center flex-justify-center flex-column'>
 
-            {/* <div className='flex-column wd-100 flex-justify-space-around mantenimientoContainerRow'>                  */}
+            <div className='flex-column wd-100 flex-justify-space-around mantenimientoContainerRow'>                 
             <ul className='flex-column wd-100 flex-justify-space-around mantenimientoContainerRow'>
               <li className='buttonVermas2 flex-align-center' onClick={() => handleOptionClick('Opción 1')}>Ecommerce</li>
               <li className='buttonVermas2 flex-align-center' onClick={() => handleOptionClick('Opción 2')}>Desarrollo Web</li>
@@ -49,7 +51,7 @@ const solucionesDigitalesBody = () => {
               <li className='buttonVermas2 flex-align-center' onClick={() => handleOptionClick('Opción 6')}>Menú Qr</li>
             </ul>
 
-            {/* </div> */}
+            </div>
           </div>
         </div>
         </div>
