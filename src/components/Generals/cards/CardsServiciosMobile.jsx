@@ -5,7 +5,7 @@ import 'slick-carousel/slick/slick-theme.css';
 import { Link } from 'react-router-dom';
 
 
-const SliderComponent = () => {
+const CardsServiciosMobile = () => {
   const settings = {
     dots: false,
     infinite: true,
@@ -64,4 +64,4 @@ const SliderComponent = () => {
   );
 };
 
-export default SliderComponent;
+export default CardsServiciosMobile;
