@@ -12,7 +12,7 @@ import migracionalaNubeServicio from '../../assets/migracionalanube.png'
 import disenoWebServicio from '../../assets/diseñoweb.png'
 
 
-const solucionesDigitalesBody = () => {
+const SolucionesDigitalesBody = () => {
   const [selectedOption, setSelectedOption] = useState('Opción 1'); // Inicializando con 'Opción 1'
 
   const handleOptionClick = (option) => {
@@ -154,4 +154,4 @@ const solucionesDigitalesBody = () => {
     </div>
   );
 };
-export default solucionesDigitalesBody
+export default SolucionesDigitalesBody
