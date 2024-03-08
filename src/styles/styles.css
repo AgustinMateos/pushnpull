@@ -1681,6 +1681,7 @@ input[type="checkbox"]::-ms-check {
     .mantenimientoContainerRow {
         flex-direction: column;
     }
+    .mantenimientoContainerInfo{display: none;}
 
     .mantenimientoContainerHeight {
         text-align: center;
@@ -1723,6 +1724,7 @@ input[type="checkbox"]::-ms-check {
 
         height: 300px;
     }
+    .mantenimientoContainerHeight{display:none}
 
     .formSegContainerInfo {
         display: flex;
@@ -1740,12 +1742,7 @@ input[type="checkbox"]::-ms-check {
         width: 50%;
     }
 
-    .mantenimientoContainerInfo {
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-        flex-direction: column;
-    }
+
 
     .mantenimientoContainerInfoTexto {
 

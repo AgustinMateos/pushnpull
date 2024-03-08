@@ -10,7 +10,8 @@ import desarrolloWebServicio from '../../assets/desarrolloweb.png'
 import menuQrServicio from '../../assets/qr.png'
 import migracionalaNubeServicio from '../../assets/migracionalanube.png'
 import disenoWebServicio from '../../assets/diseñoweb.png'
-const MantenimientoSeo = () => {
+import SolucionesDigitalesCardsMobile from '../Generals/cards/solucionesDigitalesCardsServicios';
+const solucionesDigitalesBody = () => {
   const [selectedOption, setSelectedOption] = useState('Opción 1'); // Inicializando con 'Opción 1'
 
   const handleOptionClick = (option) => {
@@ -26,7 +27,7 @@ const MantenimientoSeo = () => {
             <p className='homePrimerCompTexto font-family-Robot'>Push n Pull es una agencia digital basada en datos especializada en brindar soluciones digitales.</p>
           </div>
 
-
+          <SolucionesDigitalesCardsMobile/>
 
 
         </div>
@@ -57,7 +58,7 @@ const MantenimientoSeo = () => {
 
       <div>
 
-        {selectedOption === 'Opción 1' && <div>  <div className='wd-100 flex-justify-center '>
+        {selectedOption === 'Opción 1' && <div><div className='wd-100 flex-justify-center '>
           <div className='wd-100 mantenimientoContainerInfo '>
             <img className=' mantenimientoContainerInfoImg h-100' src={ecommerceServicio} alt='' />
             <div className='mantenimientoContainerInfoTexto  '>
@@ -150,7 +151,8 @@ const MantenimientoSeo = () => {
            <div className='wd-10 buttonContainers'><Link to={"/ContactoPage"}>Contactanos<ion-icon name="arrow-forward-outline"></ion-icon></Link></div>
          </div>
        </div>
+       
     </div>
   );
 };
-export default MantenimientoSeo
+export default solucionesDigitalesBody
