@@ -4,10 +4,10 @@ import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import { Link } from 'react-router-dom';
 import ecommerceServicio from '../../../assets/ecommerceGrafica.png'
-import solucionesDigitalesImg from '../../../assets/solucionesDigitalesPushnPull.webp'
-import desarrolloWebServicio from '../../../assets/desarrolloweb.png'
-import menuQrServicio from '../../../assets/qr.png'
-import migracionalaNubeServicio from '../../../assets/migracionalanube.png'
+// import solucionesDigitalesImg from '../../../assets/solucionesDigitalesPushnPull.webp'
+// import desarrolloWebServicio from '../../../assets/desarrolloweb.png'
+// import menuQrServicio from '../../../assets/qr.png'
+// import migracionalaNubeServicio from '../../../assets/migracionalanube.png'
 import disenoWebServicio from '../../../assets/diseñoweb.png'
 import aplicacionesWebServicio from '../../../assets/aplicacionweb.png'
 
@@ -27,8 +27,9 @@ const SolucionesDigitalesCardsMobile = () => {
         <Slider {...settings}>
         <Link to={'/SolucionesDigitalesPage'} className='card2'>
             
-                      <div className='content contentFlex'><img src={aplicacionesWebServicio}/>
-                          <h3 className='font-family-Robot cardsComponentesTitulos'>Soluciones digitales</h3>
+                      <div className='content contentFlex'>
+                        <img src={aplicacionesWebServicio}/>
+                          <h3 className='font-family-Robot cardsComponentesTitulos'>Aplicaciones Web</h3>
                           <ul>
                               <li>
                                   <p className='cardContentContainer'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Qui voluptatem cum animi minus. Dignissimos vel nihil, laudantium vitae expedita et culpa illo similique totam, aperiam molestias suscipit quos non repellat!</p>
@@ -39,7 +40,8 @@ const SolucionesDigitalesCardsMobile = () => {
                   </Link>
                   <Link to={"/seoPage"} className='card2'>
                       <div className='content contentFlex'>
-                          <h3 className='cardsComponentesTitulos'>Seo</h3>
+                      <img src={ecommerceServicio}/>
+                          <h3 className='cardsComponentesTitulos'>Ecommerce</h3>
                           <div className='price'></div>
                           <ul>
                               <li>
@@ -51,6 +53,7 @@ const SolucionesDigitalesCardsMobile = () => {
                   </Link>
            <Link to={"/MantenimientoPage"} className='card2'>
                       <div className='content contentFlex'>
+                      <img src={disenoWebServicio}/>
                           <h3 className='cardsComponentesTitulos'>Mantenimiento</h3>
   
                           <div className='price'></div>
