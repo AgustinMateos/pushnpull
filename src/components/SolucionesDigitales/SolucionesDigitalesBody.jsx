@@ -10,7 +10,7 @@ import desarrolloWebServicio from '../../assets/desarrolloweb.png'
 import menuQrServicio from '../../assets/qr.png'
 import migracionalaNubeServicio from '../../assets/migracionalanube.png'
 import disenoWebServicio from '../../assets/diseñoweb.png'
-import SolucionesDigitalesCardsMobile from '../Generals/cards/solucionesDigitalesCardsServicios';
+
 
 const solucionesDigitalesBody = () => {
   const [selectedOption, setSelectedOption] = useState('Opción 1'); // Inicializando con 'Opción 1'
@@ -33,7 +33,7 @@ const solucionesDigitalesBody = () => {
         </div>
       </div>
       <div className='wd-100 flex-justify-center'>
-        <SolucionesDigitalesCardsMobile/>
+     
         <div className='wd-90 flex-justify-center flex-column  mantenimientoContainerHeight'>     
               <div className='wd-100 flex-justify-center flex-justify-center'>
           <div className='wd-100 flex-align-center flex-justify-center flex-column'>
