@@ -48,6 +48,7 @@ body {
     top: 50%;
     transform: translateY(-50%);
     z-index: 1;
+    
 }
 
 .slick-prev {
@@ -1833,8 +1834,65 @@ input[type="checkbox"]::-ms-check {
         min-height: 750px;
         margin-top: 80px;
     }
+    .impulsaTuMarcaContainer {
+        max-width: 750px;
+        padding: 10px;
+    }
+    .slick-prev {
+        left: 245px;
+    }
+    .slick-next {
+        font-size: 20px;
+        line-height: 1;
+        position: absolute;
+        top: 110%;
+        right: 44px
+        
+    }
+    .slick-prev, .slick-next {
+        font-size: 24px;
+        line-height: 1;
+        position: absolute;
+        top: 110%;
+        transform: translateY(-50%);
+        z-index: 1;
+    }
+    .slick-prev:before, .slick-next:before {
+       
+        font-size: 50px;
+        
+    }
+    .HomeTerComp {
+       
+        min-height: 450px;
+    }
+}
+@media (max-width: 600px){.slick-prev {
+    left: 255px;
+}
 }
 
+@media(max-width:540px){.slick-next {
+        
+    right: 54px;
+}
+.slick-prev {
+    left: 205px;
+}}
+@media(max-width:497){.slick-next {
+        
+    right: 54px;
+}
+.slick-prev {
+    left: 135px;
+}}
+@media(max-width:481){.slick-next {
+        
+    right: 60px;
+}
+.slick-prev {
+    left: 105px;
+}}
 @media (max-width:450px) {
     .impulsaTuMarcaContainerImg {
         max-width: 300px;
@@ -1843,7 +1901,7 @@ input[type="checkbox"]::-ms-check {
     .titulosComponentes {
         font-size: 30px;
     }
-
+   
     .HomeTerCompContainer .card {
         position: relative;
         width: 280px;
@@ -1869,7 +1927,7 @@ input[type="checkbox"]::-ms-check {
 
     .card2 {
 
-        padding: 25px;
+        padding: 15px;
 
     }
 
@@ -1883,15 +1941,39 @@ input[type="checkbox"]::-ms-check {
 
     .slider-container {
         width: 65%;
-        margin: 0 auto;
+        margin: 10px;
     }
-
-   
+    .slider-container {
+        width: 70%;
+       }
+       .slick-prev {
+        left: 145px;
+    }
+    .slider-container {
+        margin: 10px;
+        width: 90%;
+    }
 }
+@media (max-width: 394px){.slick-prev {
+    left: 125px;
+}.slick-prev {
+    left: 45px;
+}
+.HomeTerComp {
+    min-height: 530px;
+}
+}
+
+
 
 @media (max-width:325px) {
     .formPrimerCompTitulo {
         font-size: clamp(2.5rem, 8vw, 6rem);
 
     }
+    .slick-prev {
+        left: 25px;
+    }
+    
+    
 }
