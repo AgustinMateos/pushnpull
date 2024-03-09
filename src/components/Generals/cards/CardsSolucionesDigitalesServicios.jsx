@@ -8,7 +8,7 @@ import desarrolloWebServicio from '../../../assets/desarrolloweb.png'
 import aplicacionesWebServicio from '../../../assets/aplicacionweb.png'
 import menuQrServicios from '../../../assets/qr.png'
 import migracionalaNube from '../../../assets/migracionalanube.png'
-import disenoWebServicio from '../../../diseñoweb.png'
+import disenoWebServicio from '../../../assets/diseñoweb.png'
 const CardsSolucionesDigitalesServicios = () => {
   const settings = {
     dots: false,
