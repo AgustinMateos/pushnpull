@@ -4,7 +4,11 @@ import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import { Link } from 'react-router-dom';
 import ecommerceServicio from '../../../assets/ecommerceGrafica.png'
-
+import desarrolloWebServicio from '../../../assets/desarrolloweb.png'
+import aplicacionesWebServicio from '../../../assets/aplicacionweb.png'
+import menuQrServicios from '../../../assets/qr.png'
+import migracionalaNube from '../../../assets/migracionalanube.png'
+import disenoWebServicio from '../../../diseñoweb.png'
 const CardsSolucionesDigitalesServicios = () => {
   const settings = {
     dots: false,
@@ -19,7 +23,7 @@ const CardsSolucionesDigitalesServicios = () => {
     <div className="slider-container">
       <Slider {...settings}>
       <Link to={'/SolucionesDigitalesPage'} className='card3'>
-      <div className='wd-100 cardSolucionesDigImgContainer'><img src={ecommerceServicio} /></div>
+      <div className='wd-100 cardSolucionesDigImgContainer'><img src={aplicacionesWebServicio} /></div>
         
                     <div className='content contentFlex3'>
                         <h3 className='font-family-Robot cardsComponentesTitulos'>Aplicaciones Web</h3>
@@ -46,10 +50,70 @@ const CardsSolucionesDigitalesServicios = () => {
                     </div>
                 </Link>
          <Link to={"/MantenimientoPage"} className='card3'>
-            <div className='wd-100 cardSolucionesDigImgContainer'> <img src={ecommerceServicio} /></div>
+            <div className='wd-100 cardSolucionesDigImgContainer'> <img src={desarrolloWebServicio } /></div>
                
                     <div className='content contentFlex3'>
                         <h3 className='cardsComponentesTitulos'>Desarrollo Web</h3>
+
+                        <div className='price'></div>
+                        <ul>
+                            <li>
+                                <p className='cardContentContainer'>Lorem ipsum dolor sit, ame t consectetur adipisicing elit.
+                                    Qui voluptatem cum animi minus. Dignissimos
+                                    vel nihil, laudantium vitae expedita et culpa illo similique
+                                    totam, aperiam molestias suscipit quos non repellat!</p>
+                            </li>
+
+                        </ul>
+                        <button className='buttonVermas'><span className='buttonVermasContent'>Ver mas <ion-icon name="arrow-forward-outline"></ion-icon></span></button>
+                    </div>
+                    
+                </Link>
+                <Link to={"/MantenimientoPage"} className='card3'>
+            <div className='wd-100 cardSolucionesDigImgContainer'> <img src={disenoWebServicio } /></div>
+               
+                    <div className='content contentFlex3'>
+                        <h3 className='cardsComponentesTitulos'>Diseño Web</h3>
+
+                        <div className='price'></div>
+                        <ul>
+                            <li>
+                                <p className='cardContentContainer'>Lorem ipsum dolor sit, ame t consectetur adipisicing elit.
+                                    Qui voluptatem cum animi minus. Dignissimos
+                                    vel nihil, laudantium vitae expedita et culpa illo similique
+                                    totam, aperiam molestias suscipit quos non repellat!</p>
+                            </li>
+
+                        </ul>
+                        <button className='buttonVermas'><span className='buttonVermasContent'>Ver mas <ion-icon name="arrow-forward-outline"></ion-icon></span></button>
+                    </div>
+                    
+                </Link>
+                <Link to={"/MantenimientoPage"} className='card3'>
+            <div className='wd-100 cardSolucionesDigImgContainer'> <img src={migracionalaNube} /></div>
+               
+                    <div className='content contentFlex3'>
+                        <h3 className='cardsComponentesTitulos'>Migracion a la Nube</h3>
+
+                        <div className='price'></div>
+                        <ul>
+                            <li>
+                                <p className='cardContentContainer'>Lorem ipsum dolor sit, ame t consectetur adipisicing elit.
+                                    Qui voluptatem cum animi minus. Dignissimos
+                                    vel nihil, laudantium vitae expedita et culpa illo similique
+                                    totam, aperiam molestias suscipit quos non repellat!</p>
+                            </li>
+
+                        </ul>
+                        <button className='buttonVermas'><span className='buttonVermasContent'>Ver mas <ion-icon name="arrow-forward-outline"></ion-icon></span></button>
+                    </div>
+                    
+                </Link>
+                <Link to={"/MantenimientoPage"} className='card3'>
+            <div className='wd-100 cardSolucionesDigImgContainer'> <img src={menuQrServicios } /></div>
+               
+                    <div className='content contentFlex3'>
+                        <h3 className='cardsComponentesTitulos'>Menu Qr</h3>
 
                         <div className='price'></div>
                         <ul>
