@@ -9,35 +9,7 @@ body {
 .slider-container {
     display: none;
 }
-/*loader*/
-/* Loader.css */
-.loader-container2 {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: rgba(0, 0, 0, 0.5);
-    z-index: 9999;
-  }
-  
-  .loader2 {
-    border: 5px solid #f3f3f3;
-    border-top: 5px solid #3498db;
-    border-radius: 50%;
-    width: 50px;
-    height: 50px;
-    animation: spin 1s linear infinite;
-  }
-  
-  @keyframes spin {
-    0% { transform: rotate(0deg); }
-    100% { transform: rotate(360deg); }
-  }
-  
+
 /*cards home*/
 
 .slider-container {
@@ -50,6 +22,14 @@ body {
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     padding: 40px;
+    text-align: center;
+    transform-style: preserve-3d;
+    transition: transform 0.5s;
+}
+.card3 {
+    
+   
+    
     text-align: center;
     transform-style: preserve-3d;
     transition: transform 0.5s;
@@ -91,7 +71,10 @@ body {
     transform: scale(0.8) translateZ(-100px);
     opacity: 0.6;
 }
-
+.slick-slide:not(.slick-current) .card3 {
+    transform: scale(0.8) translateZ(-100px);
+    opacity: 0.6;
+}
 
 /*loader*/
 /* styles.css */
@@ -357,6 +340,25 @@ body {
 
     border-radius: 15px;
     background: #fff;
+    overflow: hidden;
+    display: flex;
+
+    align-items: center;
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
+}
+.contentFlex3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 250px;
+    justify-content: space-around;
+
+    position: relative;
+
+
+    border-radius: 15px;
+    
     overflow: hidden;
     display: flex;
 
@@ -1702,6 +1704,7 @@ input[type="checkbox"]::-ms-check {
     .cardsMobile {
         display: inline;
     }
+     .mantenimientoContainerHeight{display:none}
 }
 
 @media (max-width:680px) {
@@ -1711,14 +1714,7 @@ input[type="checkbox"]::-ms-check {
     }
     .mantenimientoContainerInfo{display: none;}
 
-    .mantenimientoContainerHeight {
-        text-align: center;
-        min-height: 150px;
-        display: flex;
-        align-items: center;
-        justify-content: space-evenly;
-        flex-direction: column;
-    }
+    
 
     .mantenimientoContainerRow {
         align-items: center;
@@ -1752,7 +1748,7 @@ input[type="checkbox"]::-ms-check {
 
         height: 300px;
     }
-    .mantenimientoContainerHeight{display:none}
+   
 
     .formSegContainerInfo {
         display: flex;
@@ -1995,7 +1991,7 @@ input[type="checkbox"]::-ms-check {
     }
 
     .slick-prev {
-        left: 145px;
+        left: 105px;
     }
 
     .slider-container {

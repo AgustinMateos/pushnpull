@@ -18,10 +18,10 @@ const CardsSolucionesDigitalesServicios = () => {
   return (
     <div className="slider-container">
       <Slider {...settings}>
-      <Link to={'/SolucionesDigitalesPage'} className='card2'>
+      <Link to={'/SolucionesDigitalesPage'} className='card3'>
         <img src={ecommerceServicio} />
-                    <div className='content contentFlex'>
-                        <h3 className='font-family-Robot cardsComponentesTitulos'>Soluciones digitales</h3>
+                    <div className='content contentFlex3'>
+                        <h3 className='font-family-Robot cardsComponentesTitulos'>Aplicaciones Web</h3>
                         <ul>
                             <li>
                                 <p className='cardContentContainer'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Qui voluptatem cum animi minus. Dignissimos vel nihil, laudantium vitae expedita et culpa illo similique totam, aperiam molestias suscipit quos non repellat!</p>
@@ -30,9 +30,10 @@ const CardsSolucionesDigitalesServicios = () => {
                         <button className='buttonVermas'><span className='buttonVermasContent'>Ver mas <ion-icon name="arrow-forward-outline"></ion-icon></span></button>
                     </div>
                 </Link>
-                <Link to={"/seoPage"} className='card2'>
-                    <div className='content contentFlex'>
-                        <h3 className='cardsComponentesTitulos'>Seo</h3>
+                <Link to={"/seoPage"} className='card3'>
+                <img src={ecommerceServicio} />
+                    <div className='content contentFlex3'>
+                        <h3 className='cardsComponentesTitulos'>Ecommerce</h3>
                         <div className='price'></div>
                         <ul>
                             <li>
@@ -42,9 +43,10 @@ const CardsSolucionesDigitalesServicios = () => {
                         <button className='buttonVermas'><span className='buttonVermasContent'>Ver mas <ion-icon name="arrow-forward-outline"></ion-icon></span></button>
                     </div>
                 </Link>
-         <Link to={"/MantenimientoPage"} className='card2'>
-                    <div className='content contentFlex'>
-                        <h3 className='cardsComponentesTitulos'>Mantenimiento</h3>
+         <Link to={"/MantenimientoPage"} className='card3'>
+                <img src={ecommerceServicio} />
+                    <div className='content contentFlex3'>
+                        <h3 className='cardsComponentesTitulos'>Desarrollo Web</h3>
 
                         <div className='price'></div>
                         <ul>
