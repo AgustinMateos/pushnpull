@@ -1779,7 +1779,7 @@ input[type="checkbox"]::-ms-check {
     }
 
     .containerHeight {
-
+        justify-content: flex-end;
         min-height: 550px;
 
     }
