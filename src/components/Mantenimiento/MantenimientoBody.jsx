@@ -4,7 +4,7 @@ import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 
 import seoImg from '../../assets/ecommerceGrafica.png';
-import seo from '../../assets/ecommerceGrafica.png'
+
 import whatsapp from "../../assets/whatsapp.png"
 import mantenimientoSeo from '../../assets/desarrolloweb.png'
 import solucionesDigitalesImg from '../../assets/solucionesDigitalesPushnPull.webp'
