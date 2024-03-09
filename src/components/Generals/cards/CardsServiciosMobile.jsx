@@ -33,7 +33,7 @@ const CardsServiciosMobile = () => {
                     </div>
                 </Link>
                 <Link to={"/seoPage"} className='card3 navbarBackgroundDropImg '>
-                    <div className='wd-100 cardSolucionesDigImgContainer'><img src={seoServicioImg} /></div>
+                    <div className='wd-100 cardSolucionesDigImgContainer objeto'><img src={seoServicioImg} /></div>
                 
                     <div className='content contentFlex3 navbarBackgroundDrop'>
                         <h3 className='cardsComponentesTitulos'>Seo</h3>
