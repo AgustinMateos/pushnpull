@@ -34,6 +34,11 @@ body {
     transform-style: preserve-3d;
     transition: transform 0.5s;
 }
+.cardSolucionesDigImgContainer{display: flex;
+    justify-content: center;}
+.cardSolucionesDigImgContainer img{    width: 200px;
+    height: 150px;
+    object-fit: cover;}
 
 .slick-slide {
     perspective: 1000px;
@@ -1704,7 +1709,13 @@ input[type="checkbox"]::-ms-check {
     .cardsMobile {
         display: inline;
     }
+    .mantenimientoContainerInfo{display: none;}
      .mantenimientoContainerHeight{display:none}
+     .slick-prev:before, .slick-next:before {
+        
+        font-size: 40px;
+        
+    }
 }
 
 @media (max-width:680px) {

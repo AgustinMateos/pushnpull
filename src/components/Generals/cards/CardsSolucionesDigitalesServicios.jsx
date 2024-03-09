@@ -19,7 +19,8 @@ const CardsSolucionesDigitalesServicios = () => {
     <div className="slider-container">
       <Slider {...settings}>
       <Link to={'/SolucionesDigitalesPage'} className='card3'>
-        <img src={ecommerceServicio} />
+      <div className='wd-100 cardSolucionesDigImgContainer'><img src={ecommerceServicio} /></div>
+        
                     <div className='content contentFlex3'>
                         <h3 className='font-family-Robot cardsComponentesTitulos'>Aplicaciones Web</h3>
                         <ul>
@@ -31,7 +32,8 @@ const CardsSolucionesDigitalesServicios = () => {
                     </div>
                 </Link>
                 <Link to={"/seoPage"} className='card3'>
-                <img src={ecommerceServicio} />
+                    <div className='wd-100 cardSolucionesDigImgContainer'><img src={ecommerceServicio} /></div>
+                
                     <div className='content contentFlex3'>
                         <h3 className='cardsComponentesTitulos'>Ecommerce</h3>
                         <div className='price'></div>
@@ -44,7 +46,8 @@ const CardsSolucionesDigitalesServicios = () => {
                     </div>
                 </Link>
          <Link to={"/MantenimientoPage"} className='card3'>
-                <img src={ecommerceServicio} />
+            <div className='wd-100 cardSolucionesDigImgContainer'> <img src={ecommerceServicio} /></div>
+               
                     <div className='content contentFlex3'>
                         <h3 className='cardsComponentesTitulos'>Desarrollo Web</h3>
 
