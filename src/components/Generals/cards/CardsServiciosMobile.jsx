@@ -19,7 +19,7 @@ const CardsServiciosMobile = () => {
   return (
     <div className="slider-container">
       <Slider {...settings}>
-      <Link to={'/SolucionesDigitalesPage'} className='card3'>
+      <Link to={'/SolucionesDigitalesPage'} className='card3 navbarBackgroundDrop '>
       <div className='wd-100 cardSolucionesDigImgContainer'><img src={solucionesDigitalesImg} /></div>
         
                     <div className='content contentFlex3'>
@@ -32,7 +32,7 @@ const CardsServiciosMobile = () => {
                         <button className='buttonVermas'><span className='buttonVermasContent'>Ver mas <ion-icon name="arrow-forward-outline"></ion-icon></span></button>
                     </div>
                 </Link>
-                <Link to={"/seoPage"} className='card3'>
+                <Link to={"/seoPage"} className='card3 navbarBackgroundDrop '>
                     <div className='wd-100 cardSolucionesDigImgContainer'><img src={seoServicioImg} /></div>
                 
                     <div className='content contentFlex3'>
@@ -46,7 +46,7 @@ const CardsServiciosMobile = () => {
                         <button className='buttonVermas'><span className='buttonVermasContent'>Ver mas <ion-icon name="arrow-forward-outline"></ion-icon></span></button>
                     </div>
                 </Link>
-         <Link to={"/MantenimientoPage"} className='card3'>
+         <Link to={"/MantenimientoPage"} className='card3 navbarBackgroundDrop '>
            
                
                     <div className='content contentFlex3'> <div className='wd-100 cardSolucionesDigImgContainer'> <img src={mantenimientoWebSerivicioImg} /></div>
