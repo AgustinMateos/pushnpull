@@ -35,7 +35,7 @@ body {
     transition: transform 0.5s;
 }
 .cardSolucionesDigImgContainer{display: flex;
-    justify-content: center;}
+    justify-content: center; padding: 20px;}
 .cardSolucionesDigImgContainer img{    width: 200px;
     height: 150px;
     object-fit: cover;}
@@ -358,7 +358,7 @@ body {
     align-items: center;
     min-height: 250px;
     justify-content: space-around;
-padding: 10px;
+padding: 20px;
     position: relative;
 
 
@@ -554,6 +554,15 @@ padding: 10px;
 }
 
 .navbarBackgroundDrop {
+    /* background-color: #eae5df; */
+    background: rgba(255, 255, 255, 0.3);
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(50px);
+    border-radius: 0px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+.navbarBackgroundDropImg {
     /* background-color: #eae5df; */
     background: rgba(255, 255, 255, 0.3);
     -webkit-backdrop-filter: blur(10px);
