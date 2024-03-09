@@ -10,7 +10,7 @@ import desarrolloWebServicio from '../../assets/desarrolloweb.png'
 import menuQrServicio from '../../assets/qr.png'
 import migracionalaNubeServicio from '../../assets/migracionalanube.png'
 import disenoWebServicio from '../../assets/diseñoweb.png'
-import CardsServiciosDigitales from '../Generals/cards/CardsServiciosDigitales';
+import CardsSolucionesDigitalesServicios from '../Generals/cards/CardsSolucionesDigitalesServicios';
 
 
 const SolucionesDigitalesBody = () => {
@@ -37,7 +37,8 @@ const SolucionesDigitalesBody = () => {
       </div>
 
       <div className='wd-100 flex-justify-center'>
-      <CardsServiciosDigitales  />
+      <CardsSolucionesDigitalesServicios />
+      
         <div className='wd-90 flex-justify-center flex-column  mantenimientoContainerHeight'>     
               <div className='wd-100 flex-justify-center flex-justify-center'>
           <div className='wd-100 flex-align-center flex-justify-center flex-column'>
