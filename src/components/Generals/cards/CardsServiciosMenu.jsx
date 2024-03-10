@@ -6,6 +6,7 @@ import { Link } from 'react-router-dom';
 import solucionesDigitalesImg from '../../../assets/solucionesDigitalesPushnPull.webp'
 import seoServicioImg from '../../../assets/solucionesDigitalesPushnPull.webp'
 import mantenimientoWebSerivicioImg from '../../../assets/solucionesDigitalesPushnPull.webp'
+import HomeSeptOctComp from '../../Home/SoporteTecnologico';
 const CardsServiciosMenuMobile = () => {
   const settings = {
     dots: false,
@@ -60,9 +61,24 @@ const CardsServiciosMenuMobile = () => {
                         <button className='buttonVermas'><span className='buttonVermasContent'>Ver mas <ion-icon name="arrow-forward-outline"></ion-icon></span></button>
                     </div>
                 </Link>
+                <Link to={"/MantenimientoPage"} className='card3 navbarBackgroundDropImg '>
+                    <div className='wd-100 cardSolucionesDigImgContainer '><img src={mantenimientoWebSerivicioImg} /></div>
+                
+                    <div className='content contentFlex3 navbarBackgroundDrop'>
+                        <h3 className='cardsComponentesTitulos'>Impulsa Tu Marca</h3>
+                        <div className='price'></div>
+                        <ul>
+                            <li>
+                                <p className='cardContentContainer'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Qui voluptatem cum animi minus. Dignissimos vel nihil, laudantium vitae expedita et culpa illo similique totam, aperiam molestias suscipit quos non repellat!</p>
+                            </li>
+                        </ul>
+                        <button className='buttonVermas'><span className='buttonVermasContent'>Ver mas <ion-icon name="arrow-forward-outline"></ion-icon></span></button>
+                    </div>
+                </Link>
         
                 
       </Slider>
+      <HomeSeptOctComp/>
     </div>
   );
 };
