@@ -3,9 +3,9 @@ import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import { Link } from 'react-router-dom';
-import ecommerceServicio from '../../../assets/ecommerceGrafica.png'
-import desarrolloWebServicio from '../../../assets/desarrolloweb.png'
-import aplicacionesWebServicio from '../../../assets/aplicacionweb.png'
+import AuditoriaSeoServicio from '../../../assets/ecommerceGrafica.png'
+
+import CamapanSeoServicio from '../../../assets/aplicacionweb.png'
 
 const CardsSeoMobile = () => {
   const settings = {
@@ -21,7 +21,7 @@ const CardsSeoMobile = () => {
     <div className="slider-container">
       <Slider {...settings}>
       <Link to={'/SolucionesDigitalesPage'} className='card3'>
-      <div className='wd-100 cardSolucionesDigImgContainer'><img src={aplicacionesWebServicio} /></div>
+      <div className='wd-100 cardSolucionesDigImgContainer'><img src={AuditoriaSeoServicio} /></div>
         
                     <div className='content contentFlex3'>
                         <h3 className='font-family-Robot cardsComponentesTitulos'>Auditoria Seo</h3>
@@ -34,7 +34,7 @@ const CardsSeoMobile = () => {
                     </div>
                 </Link>
                 <Link to={"/seoPage"} className='card3'>
-                    <div className='wd-100 cardSolucionesDigImgContainer'><img src={ecommerceServicio} /></div>
+                    <div className='wd-100 cardSolucionesDigImgContainer'><img src={CamapanSeoServicio} /></div>
                 
                     <div className='content contentFlex3'>
                         <h3 className='cardsComponentesTitulos'>Camapaña Seo</h3>

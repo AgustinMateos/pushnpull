@@ -7,6 +7,7 @@ import solucionesDigitalesImg from '../../../assets/solucionesDigitalesPushnPull
 import seoServicioImg from '../../../assets/solucionesDigitalesPushnPull.webp'
 import mantenimientoWebSerivicioImg from '../../../assets/solucionesDigitalesPushnPull.webp'
 import HomeSeptOctComp from '../../Home/SoporteTecnologico';
+import impulsaTuMarca from'../../../assets/impulsatumarca.png'
 const CardsServiciosMenuMobile = () => {
   const settings = {
     dots: false,
@@ -21,7 +22,7 @@ const CardsServiciosMenuMobile = () => {
     <div className="slider-container">
       <Slider {...settings}>
       <Link to={'/SolucionesDigitalesPage'} className='card3 navbarBackgroundDropImg '>
-      <div className='wd-100 cardSolucionesDigImgContainer'><img src={solucionesDigitalesImg} /></div>
+      <div className='wd-100 cardSolucionesDigImgContainer'><img src={mantenimientoWebSerivicioImg} /></div>
      
                     <div className='content contentFlex3 navbarBackgroundDrop '>
                         <h3 className='font-family-Robot cardsComponentesTitulos'>Soluciones Digitales</h3>
@@ -62,7 +63,7 @@ const CardsServiciosMenuMobile = () => {
                     </div>
                 </Link>
                 <Link to={"/MantenimientoPage"} className='card3 navbarBackgroundDropImg '>
-                    <div className='wd-100 cardSolucionesDigImgContainer '><img src={mantenimientoWebSerivicioImg} /></div>
+                    <div className='wd-100 cardSolucionesDigImgContainer '><img src={impulsaTuMarca} /></div>
                 
                     <div className='content contentFlex3 navbarBackgroundDrop'>
                         <h3 className='cardsComponentesTitulos'>Impulsa Tu Marca</h3>
