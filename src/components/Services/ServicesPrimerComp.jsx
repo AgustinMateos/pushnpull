@@ -5,13 +5,16 @@ import seo from '../../assets/seo.png'
 import mantenimiento from '../../assets/mantenimiento.png'
 import { HashLink, NavHashLink } from 'react-router-hash-link';
 import whatsapp from "../../assets/whatsapp.png"
+import CardsServiciosMenuMobile from '../Generals/cards/CardsServiciosMenu'
 
 const ServicesPrimerComp = () => {
   return ( 
     <div className='background-principal '>
+      
       <a className='whatsapp'  href="https://wa.me/"><img src={whatsapp} alt="" /></a>
       <div className='wd-100 flex-justify-space-around'> 
-        <div className='wd-80 ServiciosContainerPrimerComponente'>
+        <div className=' ServiciosContainerPrimerComponente'>
+          
           <h1 className='homePrimerCompTitulo'>Servicios</h1>
          
           <p className='wd-80 homePrimerCompTexto text-align-center '>
@@ -28,17 +31,20 @@ const ServicesPrimerComp = () => {
             </div>
 
           </div>
-          <div className='luz'></div>
+         
+          <CardsServiciosMenuMobile/>
         </div>
         
       </div>
-
+   
       <div className='wd-100'>
-        <div className='flex-align-center flex-justify-space-evenly containerHeight  ' id="solucionesDigitales">
+      
+        <div className='flex-align-center flex-justify-space-evenly containerHeightServicios  ' id="solucionesDigitales">
           <div className='impulsaTuMarcaContainerImg'>
             <img className='wd-100' src={impulsaTuMarca} alt="imagen grafica pnp" />
           </div>
           <div class="contenedor "  >
+            
             <div class="imagen-container" >
               <h3 className="texto titulosComponentes">Soluciones digitales</h3>
               <p className='titulosComponentesTexto'>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
@@ -64,7 +70,7 @@ const ServicesPrimerComp = () => {
             <img className='wd-100' src={seo} alt="imagen grafica pnp" /></div>
         </div>
 
-        <div className='flex-align-center flex-justify-space-evenly containerHeight ' id='mantenimiento'>
+        <div className='flex-align-center flex-justify-space-evenly containerHeightServicios ' id='mantenimiento'>
 
           <div className='impulsaTuMarcaContainerImg'>
             <img className='wd-100' src={mantenimiento} alt="imagen grafica pnp" /></div>

@@ -664,7 +664,8 @@ body {
 .homePrimerCompTexto {
     padding-top: 20px;
     padding-bottom: 20px;
-    font-size: 1.3rem;
+    font-size: 1.3rem;width: 80%;
+
 }
 
 .HomePageBody {
@@ -1241,7 +1242,10 @@ h1 {
 .serviciosContainer {
     padding-top: 150px
 }
-
+.containerHeightServicios{min-height: 550px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;}
 .seviciosContainerButtonsNavbar {
     display: flex;
     justify-content: space-evenly;
@@ -1270,27 +1274,7 @@ h1 {
 
 }
 
-/* 
-.luz{    position: absolute;
-    top: -40%;
-    left: 12.5%;
-    z-index: 5;
-    width: 75%;
-    padding-bottom: 75%;
-    border-radius: 50%;
-    background: #1c4b52;;
-    mix-blend-mode: normal;
-    opacity: .4;
-    filter: blur(35px);
-    top: -200px;
-    right: -300px;
-    left: auto;
-    width: 600px;
-    height: 600px;
-    padding-bottom: 0;
-    filter: blur(110px);
-    transform: rotate(35.57deg);
-} */
+
 
 /*soluciones digitales*/
 .solucionesDigitalesPrimerComponenteContainer {
@@ -1650,6 +1634,7 @@ input[type="checkbox"]::-ms-check {
         /*index*/
         padding: 20px;
         text-align: center;
+        width: 100%;
     }
 
     .imagen-latido {
@@ -1683,6 +1668,14 @@ input[type="checkbox"]::-ms-check {
     }
 
     .containerHeight {
+        text-align: center;
+        min-height: 750px;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-direction: column;
+    }
+    .containerHeightServicios {
         text-align: center;
         min-height: 750px;
         display: flex;
@@ -1728,10 +1721,13 @@ input[type="checkbox"]::-ms-check {
     .slider-container {
         display: inline;
     }
+.containerHeightServicios{display: none}
 
     .HomeTerCompContainer {
         display: none;
     }
+    .containerTextoImg{display: none;}
+    .seviciosContainerButtonsNavbar{display: none;}
 
 
 
@@ -1855,12 +1851,7 @@ input[type="checkbox"]::-ms-check {
         margin-top: -50%;
     }
 
-    .seviciosContainerButtonsNavbar {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        height: 152px;
-    }
+    
 
 
     input[type="checkbox"] {
@@ -1916,7 +1907,8 @@ input[type="checkbox"]::-ms-check {
         text-align: center;
         align-items: center;
         min-height: 750px;
-        margin-top: 80px;
+        margin-top: 90px;
+        width: 100%;
     }
 
     .impulsaTuMarcaContainer {

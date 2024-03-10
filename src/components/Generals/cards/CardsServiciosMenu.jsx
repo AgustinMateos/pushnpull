@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 import solucionesDigitalesImg from '../../../assets/solucionesDigitalesPushnPull.webp'
 import seoServicioImg from '../../../assets/solucionesDigitalesPushnPull.webp'
 import mantenimientoWebSerivicioImg from '../../../assets/solucionesDigitalesPushnPull.webp'
-const CardsServiciosMobile = () => {
+const CardsServiciosMenuMobile = () => {
   const settings = {
     dots: false,
     infinite: true,
@@ -21,7 +21,7 @@ const CardsServiciosMobile = () => {
       <Slider {...settings}>
       <Link to={'/SolucionesDigitalesPage'} className='card3 navbarBackgroundDropImg '>
       <div className='wd-100 cardSolucionesDigImgContainer'><img src={solucionesDigitalesImg} /></div>
-        
+     
                     <div className='content contentFlex3 navbarBackgroundDrop '>
                         <h3 className='font-family-Robot cardsComponentesTitulos'>Soluciones Digitales</h3>
                         <ul>
@@ -67,7 +67,4 @@ const CardsServiciosMobile = () => {
   );
 };
 
-export default CardsServiciosMobile;
-
-
-
+export default CardsServiciosMenuMobile;
