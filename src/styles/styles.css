@@ -1784,6 +1784,7 @@ input[type="checkbox"]::-ms-check {
         align-items: center;
         max-width: 339px;
         flex-direction: column;
+        margin-bottom: 30px;
     }
 
     .formContainerFlex {

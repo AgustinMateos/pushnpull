@@ -9,6 +9,7 @@ import whatsapp from "../../assets/whatsapp.png"
 import mantenimientoSeo from '../../assets/desarrolloweb.png'
 import solucionesDigitalesImg from '../../assets/solucionesDigitalesPushnPull.webp'
 import  desarrolloWeb from '../../assets/desarrolloweb.png'
+import CardsSeoMobile from '../Generals/cards/CardsSeoMobile';
 
 
 
@@ -37,6 +38,7 @@ const MantenimientoSeo = () => {
         </div>
       </div>
       <div className='wd-100 flex-justify-center'>
+        <CardsSeoMobile/>
         <div className='wd-90 flex-justify-center flex-column  mantenimientoContainerHeight'>           <div className='wd-100 flex-justify-center flex-justify-center'>
           <div className='wd-100 flex-align-center flex-justify-center flex-column'>
 

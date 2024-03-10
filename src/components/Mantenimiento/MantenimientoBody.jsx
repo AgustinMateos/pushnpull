@@ -9,6 +9,7 @@ import whatsapp from "../../assets/whatsapp.png"
 import mantenimientoSeo from '../../assets/desarrolloweb.png'
 import solucionesDigitalesImg from '../../assets/solucionesDigitalesPushnPull.webp'
 import  desarrolloWeb from '../../assets/desarrolloweb.png'
+import CardsMantenimiento from '../Generals/cards/CardsMantenimiento';
 
 
 
@@ -27,16 +28,13 @@ const MantenimientoBody = () => {
             <h2 className='homePrimerCompTitulo'>Mantenimiento</h2>
             <p className='homePrimerCompTexto font-family-Robot'>Push n Pull es una agencia digital basada en datos especializada en brindar soluciones digitales.</p>
           </div>
-
-
-
-
         </div>
         <div className='homePrimerCompContainerImg h-100 imagenlatidoContainer flex-align-center flex-justify-center  '>
           <img className='wd-100 h-90  homePrimerCompImg imagen-latido' src={solucionesDigitalesImg} alt="" />
         </div>
       </div>
       <div className='wd-100 flex-justify-center'>
+      <CardsMantenimiento/>
         <div className='wd-90 flex-justify-center flex-column  mantenimientoContainerHeight'>           <div className='wd-100 flex-justify-center flex-justify-center'>
           <div className='wd-100 flex-align-center flex-justify-center flex-column'>
 
