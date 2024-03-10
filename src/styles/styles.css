@@ -1057,6 +1057,13 @@ h1 {
     align-items: center;
     justify-content: space-evenly;
 }
+.containerTextoImgImpulsaTuMarca {
+    min-height: 550px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
 
 /**/
 .effect02 {
@@ -1700,6 +1707,14 @@ input[type="checkbox"]::-ms-check {
     }
 
     .containerTextoImg {
+        text-align: center;
+        min-height: 550px;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-direction: column-reverse;
+    }
+    .containerTextoImgImpulsaTuMarca {
         text-align: center;
         min-height: 550px;
         display: flex;
