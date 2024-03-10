@@ -2,7 +2,7 @@ import React from 'react'
 
 import whatsapp from "../../assets/whatsapp.png"
 
-import grafica8 from "../../assets/impulsatumarca3.png"
+import impulsaTuMarca from '../../assets/impulsatumarca.png'
 
 const ImpulsaTuMarcaBody = () => {
   return (
@@ -17,7 +17,7 @@ const ImpulsaTuMarcaBody = () => {
         </div>
       </div>
       <div className='homePrimerCompContainerImg h-100 imagenlatidoContainer flex-align-center flex-justify-center  '>
-        <img className='wd-100 h-90  homePrimerCompImg imagen-latido' src={grafica8} alt="" />
+        <img className='wd-100 h-90  homePrimerCompImg imagen-latido' src={impulsaTuMarca} alt="" />
       </div>
 
     </div>
@@ -27,7 +27,7 @@ const ImpulsaTuMarcaBody = () => {
         <div className=' containerHeight '>
 
           <div className=' impulsaTuMarcaContainerImg'>
-            <img className='wd-100' src={grafica8} alt="imagen grafica pnp" /></div>
+            <img className='wd-100' src={impulsaTuMarca} alt="imagen grafica pnp" /></div>
           <div class="impulsaTuMarcaContainer ">
             <div class="imagen-container">
               <h3 className="texto titulosComponentes">Impulsa tu marca</h3>
@@ -54,7 +54,7 @@ const ImpulsaTuMarcaBody = () => {
             </div>
           </div>
           <div className=' impulsaTuMarcaContainerImg'>
-            <img className='wd-100' src={grafica8} alt="imagen grafica pnp" />
+            <img className='wd-100' src={impulsaTuMarca} alt="imagen grafica pnp" />
           </div>
          
         </div>

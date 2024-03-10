@@ -58,7 +58,7 @@ const MantenimientoBody = () => {
           <div className='wd-100 mantenimientoContainerInfo '>
             <img className=' mantenimientoContainerInfoImg h-100' src={mantenimientoSeo} alt='' />
             <div className='mantenimientoContainerInfoTexto  '>
-              <h5 className='titulosComponentes'>Estrategia Seo</h5>
+              <h5 className='titulosComponentes'>Mantenimiento Seo</h5>
               <p className='homePrimerCompTexto text-align-center '>adadaadad Lorem ipsum, dolor sit amet consectetur adipisicing elit Deserunt sunt nihil quod accusamus, vel quis, consequatur amet</p>
               <Link className='buttonContainers'>Ver mas</Link>
             </div>
