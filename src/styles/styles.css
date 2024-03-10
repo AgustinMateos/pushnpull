@@ -1334,6 +1334,7 @@ h1 {
     /* Tamaño de letra relativo al ancho de la ventana gráfica */
     font-family: 'Roboto', sans-serif;
     color: #5a5a5a;
+    text-align: center;
 }
 
 

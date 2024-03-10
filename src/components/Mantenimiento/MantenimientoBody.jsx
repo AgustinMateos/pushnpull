@@ -40,8 +40,8 @@ const MantenimientoBody = () => {
 
             {/* <div className='flex-column wd-100 flex-justify-space-around mantenimientoContainerRow'>                  */}
             <ul className='flex-column wd-100 flex-justify-space-around mantenimientoContainerRow'>
-              <li className='buttonVermas2 flex-align-center' onClick={() => handleOptionClick('Opción 1')}>Estrategia Seo</li>
-              <li className='buttonVermas2 flex-align-center' onClick={() => handleOptionClick('Opción 2')}>Mantenimiento Seo</li>
+              <li className='buttonVermas2 flex-align-center' onClick={() => handleOptionClick('Opción 1')}>Mantenimiento Seo</li>
+              <li className='buttonVermas2 flex-align-center' onClick={() => handleOptionClick('Opción 2')}>Mantenimiento Desarrollo Web</li>
               <li className='buttonVermas2 flex-align-center' onClick={() => handleOptionClick('Opción 3')}>Mantenimeinto de Base de Datos</li>
             </ul>
 
@@ -72,7 +72,7 @@ const MantenimientoBody = () => {
           <div className='wd-100 mantenimientoContainerInfo '>
             <img className=' mantenimientoContainerInfoImg h-100' src={seoImg} alt='' />
             <div className='mantenimientoContainerInfoTexto  '>
-              <h5 className='titulosComponentes'>Mantenimiento Seo</h5>
+              <h5 className='titulosComponentes'>Mantenimiento Desarrollo Web</h5>
               <p className='homePrimerCompTexto text-align-center '>adadaadad Lorem ipsum, dolor sit amet consectetur adipisicing elit Deserunt sunt nihil quod accusamus, vel quis, consequatur amet</p>
               <Link className='buttonContainers'>Ver mas</Link>
             </div>

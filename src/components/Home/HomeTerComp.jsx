@@ -1,15 +1,18 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import CardsServiciosMobile from '../Generals/cards/CardsServiciosMobile'
+
+
 const HomeTerComp = () => {
+   
     return (
     <div>
 
         <div className='HomeTerComp flex-justify-space-evenly' >
         <CardsServiciosMobile/>
             <div className='HomeTerCompContainer  '>
-                <Link to={'/SolucionesDigitalesPage'} className='card'>
-                    <div className='content '>
+                <Link to={'/SolucionesDigitalesPage'} className='card ' >
+                    <div className='content ' >
                         <h3 className='font-family-Robot cardsComponentesTitulos'>Soluciones digitales</h3>
                         
                         <ul>
