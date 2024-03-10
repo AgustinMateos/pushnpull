@@ -2,8 +2,8 @@ import React, { useState, useEffect } from 'react';
 import Loader from '../components/Generals/Loader';
 import Navbar from '../components/Generals/Navbar/Navbar';
 import Footer from '../components/Generals/Footer/Footer';
-import AplicacionesWeb from '../components/SolucionesDigitales/AplicacionesWeb'
-const AplicacionesWebPage = () => {
+import AuditoriaSeo from '../components/Seo/AuditoriaSeo';
+const AuditoriaSeoPage = () => {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
@@ -20,7 +20,7 @@ const AplicacionesWebPage = () => {
       ) : (
         <>
           <Navbar />
-          <AplicacionesWeb />
+          <AuditoriaSeo/>
           <Footer />
         </>
       )}
@@ -28,4 +28,4 @@ const AplicacionesWebPage = () => {
   );
 };
 
-export default AplicacionesWebPage;
+export default AuditoriaSeoPage;

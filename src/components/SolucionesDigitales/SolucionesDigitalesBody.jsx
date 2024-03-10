@@ -68,7 +68,7 @@ const SolucionesDigitalesBody = () => {
             <div className='mantenimientoContainerInfoTexto  '>
               <h5 className='titulosComponentes'>Ecommerce</h5>
               <p className='homePrimerCompTexto text-align-center '>adadaadad Lorem ipsum, dolor sit amet consectetur adipisicing elit Deserunt sunt nihil quod accusamus, vel quis, consequatur amet</p>
-              <Link className='buttonContainers'>Ver mas</Link>
+              <Link to={"/EcommercePage"} className='buttonContainers'>Ver mas</Link>
             </div>
           </div>
         </div>
@@ -82,7 +82,7 @@ const SolucionesDigitalesBody = () => {
                 <div className='mantenimientoContainerInfoTexto  '>
                   <h5 className='titulosComponentes'>Desarrollo Web</h5>
                   <p className='homePrimerCompTexto text-align-center '>adadaadad Lorem ipsum, dolor sit amet consectetur adipisicing elit Deserunt sunt nihil quod accusamus, vel quis, consequatur amet</p>
-                  <Link className='buttonContainers'>Ver mas</Link>
+                  <Link to={"/DesarrolloWebPage"} className='buttonContainers'>Ver mas</Link>
                 </div>
               </div>
             </div>
@@ -104,7 +104,7 @@ const SolucionesDigitalesBody = () => {
             <div className='mantenimientoContainerInfoTexto  '>
               <h5 className='titulosComponentes'>Diseño Web</h5>
               <p className='homePrimerCompTexto text-align-center '>adadaadad Lorem ipsum, dolor sit amet consectetur adipisicing elit Deserunt sunt nihil quod accusamus, vel quis, consequatur amet</p>
-              <Link className='buttonContainers'>Ver mas</Link>
+              <Link to={'/DisenoWebPage'} className='buttonContainers'>Ver mas</Link>
             </div>
           </div>
         </div>
@@ -115,7 +115,7 @@ const SolucionesDigitalesBody = () => {
             <div className='mantenimientoContainerInfoTexto  '>
               <h5 className='titulosComponentes'>Aplicaciones Web</h5>
               <p className='homePrimerCompTexto text-align-center '>adadaadad Lorem ipsum, dolor sit amet consectetur adipisicing elit Deserunt sunt nihil quod accusamus, vel quis, consequatur amet</p>
-              <Link className='buttonContainers'>Ver mas</Link>
+              <Link to={'/AplicacionesWebPage'} className='buttonContainers'>Ver mas</Link>
             </div>
           </div>
         </div>
@@ -126,7 +126,7 @@ const SolucionesDigitalesBody = () => {
             <div className='mantenimientoContainerInfoTexto  '>
               <h5 className='titulosComponentes'>Migración a la Nube</h5>
               <p className='homePrimerCompTexto text-align-center '>adadaadad Lorem ipsum, dolor sit amet consectetur adipisicing elit Deserunt sunt nihil quod accusamus, vel quis, consequatur amet</p>
-              <Link className='buttonContainers'>Ver mas</Link>
+              <Link to={"/MigracionalaNubePage"} className='buttonContainers'>Ver mas</Link>
             </div>
           </div>
         </div>
@@ -137,7 +137,7 @@ const SolucionesDigitalesBody = () => {
             <div className='mantenimientoContainerInfoTexto  '>
               <h5 className='titulosComponentes'>Menu Qr</h5>
               <p className='homePrimerCompTexto text-align-center '>adadaadad Lorem ipsum, dolor sit amet consectetur adipisicing elit Deserunt sunt nihil quod accusamus, vel quis, consequatur amet</p>
-              <Link className='buttonContainers'>Ver mas</Link>
+              <Link to={"/MenuQr"} className='buttonContainers'>Ver mas</Link>
             </div>
           </div>
         </div>

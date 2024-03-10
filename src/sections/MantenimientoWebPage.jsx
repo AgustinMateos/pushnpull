@@ -2,8 +2,8 @@ import React, { useState, useEffect } from 'react';
 import Loader from '../components/Generals/Loader';
 import Navbar from '../components/Generals/Navbar/Navbar';
 import Footer from '../components/Generals/Footer/Footer';
-import DisenoWeb from '../components/SolucionesDigitales/DisenoWeb'
-const DisenoWebPage = () => {
+import MantenimientoWeb from '../components/Mantenimiento/MantenimientoWeb';
+const MantenimientoWebPage = () => {
     const [loading, setLoading] = useState(true);
 
     useEffect(() => {
@@ -20,7 +20,7 @@ const DisenoWebPage = () => {
             ) : (
                 <>
                     <Navbar />
-                    <DisenoWeb />
+                    <MantenimientoWeb />
                     <Footer />
                 </>
             )}
@@ -28,4 +28,4 @@ const DisenoWebPage = () => {
     );
 };
 
-export default DisenoWebPage;
+export default MantenimientoWebPage;

@@ -3,7 +3,7 @@ import React from 'react'
 import whatsapp from "../../assets/whatsapp.png"
 import aplicacionesWebServicio from '../../assets/aplicacionweb.png'
 
-const AplicacionesWeb = () => {
+const MantenimientoBaseDeDatos = () => {
   return (
     <div>
        <div className='HomePrimerComp  '>
@@ -11,7 +11,7 @@ const AplicacionesWeb = () => {
 <a className='whatsapp'  href="https://wa.me/"><img src={whatsapp} alt="" /></a>
       <div className='homePrimerCompContainer'>
         <div>
-          <h2 className='homePrimerCompTitulo'>Aplicaciones Web</h2>
+          <h2 className='homePrimerCompTitulo'>Mantenimiento de Base de Datos</h2>
           <p className='homePrimerCompTexto font-family-Robot'>Push n Pull es una agencia digital basada en datos especializada en brindar soluciones digitales.</p>
         </div>
       </div>
@@ -29,7 +29,7 @@ const AplicacionesWeb = () => {
             <img className='wd-100' src={aplicacionesWebServicio} alt="imagen grafica pnp" /></div>
           <div class="impulsaTuMarcaContainer ">
             <div class="imagen-container">
-              <h3 className="texto titulosComponentes">Impulsa tu marca</h3>
+              <h3 className="texto titulosComponentes">Mantenimiento de Base de Datos</h3>
               <p className='titulosComponentesTexto'>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
                 Exercitationem animi facilis quidem incidunt deleniti expedita
                 modi, vel natus nulla illo dolores unde nostrum
@@ -44,7 +44,7 @@ const AplicacionesWeb = () => {
         <div className=' containerTextoImgImpulsaTuMarca '>
            <div class="impulsaTuMarcaContainer ">
             <div class="imagen-container">
-              <h3 className="texto titulosComponentes">Impulsa tu marca</h3>
+              <h3 className="texto titulosComponentes">Mantenimiento de Base de Datos</h3>
               <p className='titulosComponentesTexto'>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
                 Exercitationem animi facilis quidem incidunt deleniti expedita
                 modi, vel natus nulla illo dolores unde nostrum
@@ -64,4 +64,4 @@ const AplicacionesWeb = () => {
   )
 }
 
-export default AplicacionesWeb
+export default MantenimientoBaseDeDatos

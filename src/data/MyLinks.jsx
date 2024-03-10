@@ -19,17 +19,17 @@ export const links = [
           Head: "Seo",
           link:"/SeoPage",
           sublink: [
-            { name: "Auditoria de Seo", link: "/SeoPage" },
-            { name: "Campaña de Seo", link: "/SeoPage" },
+            { name: "Auditoria de Seo", link: "/AuditoriaSeoPage" },
+            { name: "Campaña de Seo", link: "/CampanaSeoPage" },
           ],
         },
         {
           Head: "Mantenimiento",
           link:"/MantenimientoPage",
           sublink: [
-            { name: "Seo", link: "/MantenimientoPage" },
-            { name: "Desarrollo Web", link: "/MantenimientoPage" },
-            { name: "Base de Datos", link: "/MantenimientoPage" },
+            { name: "Seo", link: "/MantenimientoSeoPage" },
+            { name: "Desarrollo Web", link: "/MantenimientoWebPage" },
+            { name: "Base de Datos", link: "/MantenimientoBaseDeDatosPage" },
             
           ],
         },

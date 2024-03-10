@@ -4,11 +4,11 @@ import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 
 import seoImg from '../../assets/ecommerceGrafica.png';
-import seo from '../../assets/ecommerceGrafica.png'
+
 import whatsapp from "../../assets/whatsapp.png"
 import mantenimientoSeo from '../../assets/desarrolloweb.png'
 import solucionesDigitalesImg from '../../assets/solucionesDigitalesPushnPull.webp'
-import  desarrolloWeb from '../../assets/desarrolloweb.png'
+
 import CardsSeoMobile from '../Generals/cards/CardsSeoMobile';
 
 
@@ -64,7 +64,7 @@ const MantenimientoSeo = () => {
             <div className='mantenimientoContainerInfoTexto  '>
               <h5 className='titulosComponentes'>Auditoria Seo</h5>
               <p className='homePrimerCompTexto text-align-center '>adadaadad Lorem ipsum, dolor sit amet consectetur adipisicing elit Deserunt sunt nihil quod accusamus, vel quis, consequatur amet</p>
-              <Link className='buttonContainers'>Ver mas</Link>
+              <Link to={"/AuditoriaSeoPage"} className='buttonContainers'>Ver mas</Link>
             </div>
           </div>
         </div>
@@ -78,7 +78,7 @@ const MantenimientoSeo = () => {
             <div className='mantenimientoContainerInfoTexto  '>
               <h5 className='titulosComponentes'>Camapaña Seo</h5>
               <p className='homePrimerCompTexto text-align-center '>adadaadad Lorem ipsum, dolor sit amet consectetur adipisicing elit Deserunt sunt nihil quod accusamus, vel quis, consequatur amet</p>
-              <Link className='buttonContainers'>Ver mas</Link>
+              <Link to={"/CampanaSeoPage"} className='buttonContainers'>Ver mas</Link>
             </div>
           </div>
         </div>

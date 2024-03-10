@@ -12,7 +12,11 @@ import AplicacionesWebPage from './sections/AplicacionesWebPage'
 import MenuQrPage from './sections/MenuQrPage'
 import MigracionalaNubePage from './sections/MigracionalaNube'
 import DesarrolloWebPage from './sections/DesarrolloWebPage'
-
+import AuditoriaSeoPage from './sections/AuditoriaSeoPage'
+import CampanaSeoPage from './sections/CampanaSeoPage'
+import MantenimientoBaseDeDatosPage from './sections/MantenimientoBaseDeDatosPage'
+import MantenimientoSeoPage from './sections/MantenimientoSeoPage'
+import MantenimientoWebPage from './sections/MantenimientoWebPage'
 
 
 function App() {
@@ -35,6 +39,11 @@ function App() {
       <Route path="/MenuQrPage" element={<MenuQrPage/>}/>
       <Route path="/DesarrolloWebPage" element={<DesarrolloWebPage/>}/>
       <Route path="/MigracionalaNubePage" element={<MigracionalaNubePage/>}/>
+      <Route path="/AuditoriaSeopage" element={<AuditoriaSeoPage/>}/>
+      <Route path="/CampanaSeoPage" element={<CampanaSeoPage/>}/>
+      <Route path="/MantenimientoSeoPage" element={<MantenimientoSeoPage/>}/>
+      <Route path="/MantenimientoBaseDeDatosPage" element={<MantenimientoBaseDeDatosPage/>}/>
+      <Route path="/MantenimientoWebPage" element={<MantenimientoWebPage/>}/>
       </Routes>
       
      
