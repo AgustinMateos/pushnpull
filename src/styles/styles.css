@@ -620,6 +620,7 @@ body {
     height: auto;
     /* Cambiar la altura a auto para que se ajuste según el contenido */
     padding-top: 100px;
+    min-height: 700px;
 
 }
 

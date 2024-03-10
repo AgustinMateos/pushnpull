@@ -6,6 +6,13 @@ import SeoPage from './sections/SeoPage'
 import MantenimientoPage from './sections/MantenimientoPage'
 import ImpulsaTuMarcaPage from './sections/ImpulsaTuMarcaPage'
 import ContactoPage from './sections/ContactoPage'
+import EcommercePage from './sections/EcommercePage'
+import DisenoWebPage from './sections/DisenoWebPage'
+import AplicacionesWebPage from './sections/AplicacionesWebPage'
+import MenuQrPage from './sections/MenuQrPage'
+import MigracionalaNubePage from './sections/MigracionalaNube'
+import DesarrolloWebPage from './sections/DesarrolloWebPage'
+
 
 
 function App() {
@@ -22,7 +29,12 @@ function App() {
       <Route path="/MantenimientoPage" element={<MantenimientoPage/>}/>
       <Route path='/ImpulsaTuMarcaPage' element={<ImpulsaTuMarcaPage/>}/>
       <Route path="/ContactoPage" element={<ContactoPage/>}/>
-     
+      <Route path="/EcommercePage" element={<EcommercePage/>}/>
+      <Route path="/AplicacionesWebPage" element={<AplicacionesWebPage/>}/>
+      <Route path="/DiseñoWebPage" element={<DisenoWebPage/>}/>
+      <Route path="/MenuQrPage" element={<MenuQrPage/>}/>
+      <Route path="/DesarrolloWebPage" element={<DesarrolloWebPage/>}/>
+      <Route path="/MigracionalaNubePage" element={<MigracionalaNubePage/>}/>
       </Routes>
       
      

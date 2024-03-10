@@ -7,12 +7,12 @@ export const links = [
           Head: "Soluciones Digitales",
           link:"/SolucionesDigitalesPage",
           sublink: [
-            { name: "Ecommerce", link: "/SolucionesDigitalesPage" },
-            { name: "Desarrollo Web", link: "/SolucionesDigitalesPage" },
-            { name: "Diseno Web", link: "/SolucionesDigitalesPage" },
-            { name: "Aplicaciones Web", link: "/SolucionesDigitalesPage" },
-            { name: "Migracion a la Nube", link: "/SolucionesDigitalesPage" },
-            { name: "Menu Qr", link: "/SolucionesDigitalesPage" },
+            { name: "Ecommerce", link: "/EcommercePage" },
+            { name: "Desarrollo Web", link: "/DesarrolloWebPage" },
+            { name: "Diseno Web", link: "/DisenoWebPage" },
+            { name: "Aplicaciones Web", link: "/AplicacionesWebPage" },
+            { name: "Migracion a la Nube", link: "/MigracionalaNubePage" },
+            { name: "Menu Qr", link: "/MenuQrPage" },
           ],
         },
         {
