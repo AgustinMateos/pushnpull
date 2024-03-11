@@ -60,7 +60,7 @@ const MantenimientoBody = () => {
             <div className='mantenimientoContainerInfoTexto  '>
               <h5 className='titulosComponentes'>Mantenimiento Seo</h5>
               <p className='homePrimerCompTexto text-align-center '>adadaadad Lorem ipsum, dolor sit amet consectetur adipisicing elit Deserunt sunt nihil quod accusamus, vel quis, consequatur amet</p>
-              <Link className='buttonContainers'>Ver mas</Link>
+              <Link to={"/MantenimientoSeoPage"} className='buttonContainers'>Ver mas</Link>
             </div>
           </div>
         </div>
@@ -74,7 +74,7 @@ const MantenimientoBody = () => {
             <div className='mantenimientoContainerInfoTexto  '>
               <h5 className='titulosComponentes'>Mantenimiento Desarrollo Web</h5>
               <p className='homePrimerCompTexto text-align-center '>adadaadad Lorem ipsum, dolor sit amet consectetur adipisicing elit Deserunt sunt nihil quod accusamus, vel quis, consequatur amet</p>
-              <Link className='buttonContainers'>Ver mas</Link>
+              <Link to={"/MantenimientoWebPage"} className='buttonContainers'>Ver mas</Link>
             </div>
           </div>
         </div>
@@ -85,7 +85,7 @@ const MantenimientoBody = () => {
             <div className='mantenimientoContainerInfoTexto  '>
               <h5 className='titulosComponentes'>Mantenimiento de Base de Datos</h5>
               <p className='homePrimerCompTexto text-align-center '>adadaadad Lorem ipsum, dolor sit amet consectetur adipisicing elit Deserunt sunt nihil quod accusamus, vel quis, consequatur amet</p>
-              <Link className='buttonContainers'>Ver mas</Link>
+              <Link to={"MantenimientoBaseDeDatosPage"} className='buttonContainers'>Ver mas</Link>
             </div>
           </div>
         </div>
