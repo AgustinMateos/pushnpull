@@ -30,7 +30,7 @@ const DisenoWeb = () => {
                         <img className='wd-100' src={disenoWebServicio} alt="imagen grafica pnp" /></div>
                     <div class="impulsaTuMarcaContainer ">
                         <div class="imagen-container">
-                            <h3 className="texto titulosComponentes">Impulsa tu marca</h3>
+                            <h3 className="texto titulosComponentes">Diseño Web</h3>
                             <p className='titulosComponentesTexto'>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
                                 Exercitationem animi facilis quidem incidunt deleniti expedita
                                 modi, vel natus nulla illo dolores unde nostrum
@@ -45,7 +45,7 @@ const DisenoWeb = () => {
                 <div className=' containerTextoImgImpulsaTuMarca '>
                     <div class="impulsaTuMarcaContainer ">
                         <div class="imagen-container">
-                            <h3 className="texto titulosComponentes">Impulsa tu marca</h3>
+                            <h3 className="texto titulosComponentes">Diseño Web</h3>
                             <p className='titulosComponentesTexto'>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
                                 Exercitationem animi facilis quidem incidunt deleniti expedita
                                 modi, vel natus nulla illo dolores unde nostrum
