@@ -1864,6 +1864,7 @@ input[type="checkbox"]::-ms-check {
     .homeSoporteCointainer .homeSoporteCointainerText {
         margin: 0px;
     }
+   
 }
 
 
@@ -1938,16 +1939,16 @@ input[type="checkbox"]::-ms-check {
         padding: 10px;
     }
 
-    .slick-prev {
+    /* .slick-prev {
         left: 245px;
-    }
+    } */
 
     .slick-next {
         font-size: 20px;
         line-height: 1;
         position: absolute;
         top: 110%;
-        right: 44px
+        right: 64px
     }
 
     .slick-prev,
@@ -1955,7 +1956,7 @@ input[type="checkbox"]::-ms-check {
         font-size: 24px;
         line-height: 1;
         position: absolute;
-        top: 110%;
+        top: 87%;
         transform: translateY(-50%);
         z-index: 1;
     }
@@ -1970,14 +1971,12 @@ input[type="checkbox"]::-ms-check {
     .HomeTerComp {
 
         min-height: 450px;
-    }
+    } /* .slick-prev {
+        left: 255px;
+    } */
 }
 
-@media (max-width: 600px) {
-    .slick-prev {
-        left: 255px;
-    }
-}
+
 
 @media(max-width:540px) {
     .slick-next {
@@ -2083,7 +2082,7 @@ input[type="checkbox"]::-ms-check {
     }
 
     .slick-prev {
-        left: 45px;
+        left: 15px;
     }
 
     .HomeTerComp {
@@ -2091,7 +2090,7 @@ input[type="checkbox"]::-ms-check {
     }
 
     .slick-next {
-        right: 94px;
+        right: 44px;
     }
 }
 
