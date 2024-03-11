@@ -59,27 +59,27 @@ function FormularioContacto() {
       <form className='formContainerFlex' onSubmit={handleSubmit}>
         <div className='formPrimerContainerInfo'>
 
-          <input placeholder='Nombre:' className='formInputs' type="text" name="name" value={formData.name} onChange={handleChange} />
+          <input placeholder='Nombre:' className='formInputs font-family-Robot' type="text" name="name" value={formData.name} onChange={handleChange} />
           {errors.name && !submitted && <span>{errors.name}</span>}
 
-          <input placeholder='Apellido:' className='formInputs' type="text" name="lastName" value={formData.lastName} onChange={handleChange} />
+          <input placeholder='Apellido:' className='formInputs font-family-Robot' type="text" name="lastName" value={formData.lastName} onChange={handleChange} />
           {errors.lastName && !submitted && <span>{errors.lastName}</span>}
 
 
-          <input placeholder='Email:' className='formInputs ' type="email" name="email" value={formData.email} onChange={handleChange} />
+          <input placeholder='Email:' className='formInputs font-family-Robot ' type="email" name="email" value={formData.email} onChange={handleChange} />
           {errors.email && !submitted && <span>{errors.email}</span>}
 
 
-          <input placeholder='Número de teléfono:' className='formInputs' type="number" name="phone" value={formData.phone} onChange={handleChange} />
+          <input placeholder='Número de teléfono:' className='formInputs font-family-Robot' type="number" name="phone" value={formData.phone} onChange={handleChange} />
           {errors.phone && !submitted && <span>{errors.phone}</span>}
 
 
-          <input placeholder='Red Social/Sitio Web:' className='formInputs' type="text" name="redSocial" value={formData.redSocial} onChange={handleChange} />
+          <input placeholder='Red Social/Sitio Web:' className='formInputs font-family-Robot' type="text" name="redSocial" value={formData.redSocial} onChange={handleChange} />
           {errors.redSocial && !submitted && <span>{errors.redSocial}</span>}
 
         </div>
 
-        <div className='formSegContainerInfo'>
+        <div className='formSegContainerInfo font-family-Robot'>
           <label>Servicios requeridos:</label>
           <div className='formServiciosRequeridos'>
             <div className='formServRequeridosFlex formServRequeridosInput'>

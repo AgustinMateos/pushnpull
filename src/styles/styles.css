@@ -624,6 +624,7 @@ body {
 
 }
 
+  
 .homePrimerCompContainer {
     max-width: 450px;
 }
@@ -888,7 +889,7 @@ body {
 }
 
 .buttonVermas2:hover {
-    color: #5a5a5a;
+    color: white;
     ;
     /* Cambiar el color del texto a blanco */
 }
@@ -1400,6 +1401,7 @@ h1 {
 
 }
 
+
 /*FORMULARIO*/
 .formContainerFlex {
     display: flex;
@@ -1609,7 +1611,9 @@ input[type="checkbox"]::-ms-check {
 }
 
 
-
+.selectedOption {
+    background-color: #5a5a5a;color: white; /* Cambia este color al que desees */
+  }
 
 
 
@@ -1662,7 +1666,7 @@ input[type="checkbox"]::-ms-check {
         height: 3rem;
         padding: 0rem;
         border-radius: 1.5rem;
-        color: #5a5a5a;
+       
         font-weight: normal;
         line-height: 1rem;
         font-size: 0.95rem;

@@ -23,13 +23,13 @@ function ContactoBody() {
               <div className="formButtons">
                 <div className="formButtonsContainer" >
                   <button
-                  className={selectedButton === 'contacto' ? 'selected selectedButtonPartners' : ''} 
+                  className={selectedButton === 'contacto' ? 'selected selectedButtonPartners font-family-Robot' : ''} 
                   onClick={() => handleButtonClick('contacto')}
                 >
                   Contactanos
                 </button>
                 <button
-                  className={selectedButton === 'partners' ? 'selected selectedButtonPartners' : ''} 
+                  className={selectedButton === 'partners' ? 'selected selectedButtonPartners font-family-Robot' : ''} 
                   onClick={() => handleButtonClick('partners')}
                 >
                   Partnership
