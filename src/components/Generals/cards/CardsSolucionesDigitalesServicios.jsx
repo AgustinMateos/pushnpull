@@ -22,7 +22,7 @@ const CardsSolucionesDigitalesServicios = () => {
   return (
     <div className="slider-container">
       <Slider {...settings}>
-      <Link to={'/SolucionesDigitalesPage'} className='card3'>
+      <Link to={'/AplicacionesWebPage'} className='card3'>
       <div className='wd-100 cardSolucionesDigImgContainer'><img src={aplicacionesWebServicio} /></div>
         
                     <div className='content contentFlex3'>
@@ -35,12 +35,12 @@ const CardsSolucionesDigitalesServicios = () => {
                         <button className='buttonVermas'><span className='buttonVermasContent'>Ver mas <ion-icon name="arrow-forward-outline"></ion-icon></span></button>
                     </div>
                 </Link>
-                <Link to={"/seoPage"} className='card3'>
+                <Link to={"/EcommercePage"} className='card3'>
                     <div className='wd-100 cardSolucionesDigImgContainer'><img src={ecommerceServicio} /></div>
                 
                     <div className='content contentFlex3'>
                         <h3 className='cardsComponentesTitulos'>Ecommerce</h3>
-                        <div className='price'></div>
+
                         <ul>
                             <li>
                                 <p className='cardContentContainer'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Qui voluptatem cum animi minus. Dignissimos vel nihil, laudantium vitae expedita et culpa illo similique totam, aperiam molestias suscipit quos non repellat!</p>
@@ -49,13 +49,12 @@ const CardsSolucionesDigitalesServicios = () => {
                         <button className='buttonVermas'><span className='buttonVermasContent'>Ver mas <ion-icon name="arrow-forward-outline"></ion-icon></span></button>
                     </div>
                 </Link>
-         <Link to={"/MantenimientoPage"} className='card3'>
+         <Link to={"/DesarrolloWebPage"} className='card3'>
             <div className='wd-100 cardSolucionesDigImgContainer'> <img src={desarrolloWebServicio } /></div>
                
                     <div className='content contentFlex3'>
                         <h3 className='cardsComponentesTitulos'>Desarrollo Web</h3>
 
-                        <div className='price'></div>
                         <ul>
                             <li>
                                 <p className='cardContentContainer'>Lorem ipsum dolor sit, ame t consectetur adipisicing elit.
@@ -69,13 +68,12 @@ const CardsSolucionesDigitalesServicios = () => {
                     </div>
                     
                 </Link>
-                <Link to={"/MantenimientoPage"} className='card3'>
+                <Link to={"/DisenoWebPage"} className='card3'>
             <div className='wd-100 cardSolucionesDigImgContainer'> <img src={disenoWebServicio } /></div>
                
                     <div className='content contentFlex3'>
                         <h3 className='cardsComponentesTitulos'>Diseño Web</h3>
 
-                        <div className='price'></div>
                         <ul>
                             <li>
                                 <p className='cardContentContainer'>Lorem ipsum dolor sit, ame t consectetur adipisicing elit.
@@ -89,13 +87,13 @@ const CardsSolucionesDigitalesServicios = () => {
                     </div>
                     
                 </Link>
-                <Link to={"/MantenimientoPage"} className='card3'>
+                <Link to={"/MigracionalaNubePage"} className='card3'>
             <div className='wd-100 cardSolucionesDigImgContainer'> <img src={migracionalaNube} /></div>
                
                     <div className='content contentFlex3'>
                         <h3 className='cardsComponentesTitulos'>Migracion a la Nube</h3>
 
-                        <div className='price'></div>
+                       
                         <ul>
                             <li>
                                 <p className='cardContentContainer'>Lorem ipsum dolor sit, ame t consectetur adipisicing elit.
@@ -109,7 +107,7 @@ const CardsSolucionesDigitalesServicios = () => {
                     </div>
                     
                 </Link>
-                <Link to={"/MantenimientoPage"} className='card3'>
+                <Link to={"/MenuQrPage"} className='card3'>
             <div className='wd-100 cardSolucionesDigImgContainer'> <img src={menuQrServicios } /></div>
                
                     <div className='content contentFlex3'>

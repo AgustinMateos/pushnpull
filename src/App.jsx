@@ -35,7 +35,7 @@ function App() {
       <Route path="/ContactoPage" element={<ContactoPage/>}/>
       <Route path="/EcommercePage" element={<EcommercePage/>}/>
       <Route path="/AplicacionesWebPage" element={<AplicacionesWebPage/>}/>
-      <Route path="/DiseñoWebPage" element={<DisenoWebPage/>}/>
+      <Route path="/DisenoWebPage" element={<DisenoWebPage/>}/>
       <Route path="/MenuQrPage" element={<MenuQrPage/>}/>
       <Route path="/DesarrolloWebPage" element={<DesarrolloWebPage/>}/>
       <Route path="/MigracionalaNubePage" element={<MigracionalaNubePage/>}/>

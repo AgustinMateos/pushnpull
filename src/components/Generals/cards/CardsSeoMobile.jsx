@@ -20,7 +20,7 @@ const CardsSeoMobile = () => {
   return (
     <div className="slider-container">
       <Slider {...settings}>
-      <Link to={'/SolucionesDigitalesPage'} className='card3'>
+      <Link to={'/AuditoriaSeoPage'} className='card3'>
       <div className='wd-100 cardSolucionesDigImgContainer'><img src={AuditoriaSeoServicio} /></div>
         
                     <div className='content contentFlex3'>
@@ -33,7 +33,7 @@ const CardsSeoMobile = () => {
                         <button className='buttonVermas'><span className='buttonVermasContent'>Ver mas <ion-icon name="arrow-forward-outline"></ion-icon></span></button>
                     </div>
                 </Link>
-                <Link to={"/seoPage"} className='card3'>
+                <Link to={"/CampanaSeoPage"} className='card3'>
                     <div className='wd-100 cardSolucionesDigImgContainer'><img src={CamapanSeoServicio} /></div>
                 
                     <div className='content contentFlex3'>
