@@ -1956,7 +1956,7 @@ input[type="checkbox"]::-ms-check {
         font-size: 24px;
         line-height: 1;
         position: absolute;
-        top: 87%;
+        top: 105%;
         transform: translateY(-50%);
         z-index: 1;
     }
@@ -1974,6 +1974,9 @@ input[type="checkbox"]::-ms-check {
     } /* .slick-prev {
         left: 255px;
     } */
+    .slick-prev {
+        left: 35px;
+    }
 }
 
 
@@ -1985,7 +1988,7 @@ input[type="checkbox"]::-ms-check {
     }
 
     .slick-prev {
-        left: 205px;
+        left: 95px;
     }
 }
 
@@ -2012,6 +2015,11 @@ input[type="checkbox"]::-ms-check {
 }
 
 @media (max-width:450px) {
+    .whatsapp img {
+        box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1), 0.5em 1.3em 1em rgba(0, 0, 0, 0.3);
+        border-radius: 50%;
+        width: 40px;
+    }
     .impulsaTuMarcaContainerImg {
         max-width: 300px;
     }
@@ -2082,7 +2090,7 @@ input[type="checkbox"]::-ms-check {
     }
 
     .slick-prev {
-        left: 15px;
+        left: 75px;
     }
 
     .HomeTerComp {
@@ -2090,7 +2098,7 @@ input[type="checkbox"]::-ms-check {
     }
 
     .slick-next {
-        right: 44px;
+        right: 104px;
     }
 }
 
