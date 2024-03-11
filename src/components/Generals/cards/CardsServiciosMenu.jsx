@@ -62,7 +62,7 @@ const CardsServiciosMenuMobile = () => {
                         <button className='buttonVermas'><span className='buttonVermasContent'>Ver mas <ion-icon name="arrow-forward-outline"></ion-icon></span></button>
                     </div>
                 </Link>
-                <Link to={"//ImpulsaTuMarcaPage"} className='card3 navbarBackgroundDropImg '>
+                <Link to={"/ImpulsaTuMarcaPage"} className='card3 navbarBackgroundDropImg '>
                     <div className='wd-100 cardSolucionesDigImgContainer '><img src={impulsaTuMarca} /></div>
                 
                     <div className='content contentFlex3 navbarBackgroundDrop'>
