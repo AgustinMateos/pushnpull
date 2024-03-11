@@ -666,7 +666,7 @@ body {
 .homePrimerCompTexto {
     padding-top: 20px;
     padding-bottom: 20px;
-    font-size: 1.3rem;width: 80%;
+    font-size: 1.3rem;width: 90%;
 
 }
 
@@ -849,7 +849,6 @@ body {
     position: relative;
     overflow: hidden;
     height: 3rem;
-    padding: 0 1rem;
     border-radius: 1.5rem;
     color: #5a5a5a;
     font-weight: normal;
@@ -861,7 +860,7 @@ body {
     transition: color 0.3s ease;
     margin-left: 10px;
     text-align: center;
-    padding: 0px 5px;
+    padding: 10px 25px;
     /* Transición para el color del texto */
 }
 
