@@ -1,8 +1,9 @@
 import React from 'react'
 import whatsapp from "../../assets/whatsapp.png"
-import disenoWebServicio from '../../assets/diseñoweb.png'
-import { Link } from 'react-router-dom'
 
+import { Link } from 'react-router-dom'
+import disenoWebServicio from '../../assets/diseñoweb.png'
+import disenoWebServicio3 from '../../assets/disenoweb3.png'
 const DisenoWeb = () => {
     return (
         <div>
@@ -18,9 +19,7 @@ const DisenoWeb = () => {
                 <div className='homePrimerCompContainerImg h-100 imagenlatidoContainer flex-align-center flex-justify-center  '>
                     <img className='wd-100 h-90  homePrimerCompImg imagen-latido' src={disenoWebServicio} alt="" />
                 </div>
-
             </div>
-
             <div className='wd-100 '>
 
                 <div className=' containerHeight '>
@@ -53,7 +52,7 @@ const DisenoWeb = () => {
                         </div>
                     </div>
                     <div className=' impulsaTuMarcaContainerImg'>
-                        <img className='wd-100' src={disenoWebServicio} alt="imagen grafica pnp" />
+                        <img className='wd-100' src={disenoWebServicio3} alt="imagen grafica pnp" />
                     </div>
 
                 </div>

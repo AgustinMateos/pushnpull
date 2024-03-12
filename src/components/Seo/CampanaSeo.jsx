@@ -2,6 +2,7 @@ import React from 'react'
 
 import whatsapp from "../../assets/whatsapp.png"
 import aplicacionesWebServicio from '../../assets/aplicacionweb.png'
+import campanaSeo from '../../assets/seo1.png'
 
 const CampanaSeo = () => {
     return (
@@ -16,7 +17,7 @@ const CampanaSeo = () => {
                     </div>
                 </div>
                 <div className='homePrimerCompContainerImg h-100 imagenlatidoContainer flex-align-center flex-justify-center  '>
-                    <img className='wd-100 h-90  homePrimerCompImg imagen-latido' src={aplicacionesWebServicio} alt="" />
+                    <img className='wd-100 h-90  homePrimerCompImg imagen-latido' src={campanaSeo} alt="" />
                 </div>
 
             </div>

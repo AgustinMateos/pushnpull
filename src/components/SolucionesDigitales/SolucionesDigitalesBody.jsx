@@ -121,7 +121,7 @@ const SolucionesDigitalesBody = () => {
               <div className='mantenimientoContainerInfoTexto'>
                 <h5 className='titulosComponentes'>Menú Qr</h5>
                 <p className='homePrimerCompTexto text-align-center'>adadaadad Lorem ipsum, dolor sit amet consectetur adipisicing elit Deserunt sunt nihil quod accusamus, vel quis, consequatur amet</p>
-                <Link to={"/MenuQr"} className='buttonContainers'>Ver mas</Link>
+                <Link to={"/MenuQrPage"} className='buttonContainers'>Ver mas</Link>
               </div>
             </div>
           </div>

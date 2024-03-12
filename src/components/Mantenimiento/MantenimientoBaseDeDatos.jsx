@@ -2,7 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import whatsapp from "../../assets/whatsapp.png"
 import aplicacionesWebServicio from '../../assets/aplicacionweb.png'
-
+import basedeDatos from '../../assets/baseDeDatos.png'
 const MantenimientoBaseDeDatos = () => {
   return (
     <div>
