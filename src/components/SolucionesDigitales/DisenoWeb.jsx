@@ -52,7 +52,7 @@ const DisenoWeb = () => {
                         </div>
                     </div>
                     <div className=' impulsaTuMarcaContainerImg'>
-                        <img className='wd-100' src={disenoWebServicio3} alt="imagen grafica pnp" />
+                        <img className='wd-100' src={disenoWebServicio3 } alt="imagen grafica pnp" />
                     </div>
 
                 </div>
