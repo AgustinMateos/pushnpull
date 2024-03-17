@@ -27,7 +27,11 @@ const CardsSeoMobile = () => {
                         <h3 className='font-family-Robot cardsComponentesTitulos'>Auditoria Seo</h3>
                         <ul>
                             <li>
-                                <p className='cardContentContainer'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Qui voluptatem cum animi minus. Dignissimos vel nihil, laudantium vitae expedita et culpa illo similique totam, aperiam molestias suscipit quos non repellat!</p>
+                                <p className='cardContentContainer'>La Auditoría de SEO implica
+                 analizar el nivel de optimización de tu sitio web para los motores de búsqueda. 
+                 Te permite detectar errores que podrían obstaculizar el buen posicionamiento de tu web
+                  y descubrir oportunidades que 
+                favorezcan una mejor ubicación en los resultados de búsqueda.</p>
                             </li>
                         </ul>
                         <button className='buttonVermas'><span className='buttonVermasContent'>Ver mas <ion-icon name="arrow-forward-outline"></ion-icon></span></button>
@@ -41,7 +45,14 @@ const CardsSeoMobile = () => {
                        
                         <ul>
                             <li>
-                                <p className='cardContentContainer'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Qui voluptatem cum animi minus. Dignissimos vel nihil, laudantium vitae expedita et culpa illo similique totam, aperiam molestias suscipit quos non repellat!</p>
+                                <p className='cardContentContainer'> Una camapaña de seo debe ser un pilar fundamental para el posicionamiento de una marca.
+                  Cuando las personas buscan información sobre productos y servicios, su primer opcion
+                    es hacerlo en Google (u otro motor de búsqueda). Por
+                  lo que estar
+                  en las primeras posiciones garantiza más visitas a su sitio y una mayor exposición a los
+                  productos y servicios que ofrece. Nuestras campañas de seo 
+                  conectan la estrategia con sus propios objetivos y
+                  oportunidades de crecimiento</p>
                             </li>
                         </ul>
                         <button className='buttonVermas'><span className='buttonVermasContent'>Ver mas <ion-icon name="arrow-forward-outline"></ion-icon></span></button>

@@ -345,8 +345,11 @@ body {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    width: 50%;
+    width: 60%;
 }
+.serviciosButtonPresupuestoCardContainer{    display: flex;
+    justify-content: space-around;
+    width: 80%;}
 
 .contentFlex {
     display: flex;
@@ -626,7 +629,9 @@ body {
 
   
 .homePrimerCompContainer {
-    max-width: 450px;
+    
+        max-width: 650px;
+    
 }
 
 .homePrimerCompContainerImg {
@@ -1208,7 +1213,6 @@ h1 {
 
 .buttonContainers {
     font-weight: normal;
-    text-transform: uppercase;
     line-height: 1.25rem;
     font-size: 0.95rem;
     width: fit-content;
@@ -1611,7 +1615,7 @@ input[type="checkbox"]::-ms-check {
 
 
 .selectedOption {
-    background-color: #5a5a5a;color: white; /* Cambia este color al que desees */
+    background-color:rgb(7 6 6 / 30%);color: white; /* Cambia este color al que desees */
   }
 
 
@@ -2071,6 +2075,7 @@ input[type="checkbox"]::-ms-check {
 
     .slider-container {
         width: 70%;
+        height: 700px;
     }
 
     .slick-prev {
