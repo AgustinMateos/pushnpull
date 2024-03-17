@@ -3,7 +3,7 @@ import whatsapp from "../../assets/whatsapp.png"
 
 import { Link } from 'react-router-dom'
 import disenoWebServicio from '../../assets/diseñoweb.png'
-import disenoWebServicio3 from '../../assets/disenoweb3.png'
+import disenoWebServicio3 from '../../assets/disenoWeb3.png'
 const DisenoWeb = () => {
     return (
         <div>
