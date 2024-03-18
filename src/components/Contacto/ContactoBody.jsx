@@ -26,7 +26,7 @@ function ContactoBody() {
                   className={selectedButton === 'contacto' ? 'selected selectedButtonPartners font-family-Robot' : ''} 
                   onClick={() => handleButtonClick('contacto')}
                 >
-                  Contactanos
+                  Presupuesto
                 </button>
                 <button
                   className={selectedButton === 'partners' ? 'selected selectedButtonPartners font-family-Robot' : ''} 

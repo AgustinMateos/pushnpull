@@ -13,7 +13,10 @@ const DisenoWeb = () => {
                 <div className='homePrimerCompContainer'>
                     <div>
                         <h2 className='homePrimerCompTitulo'>Diseño Web</h2>
-                        <p className='homePrimerCompTexto font-family-Robot'>Push n Pull es una agencia digital basada en datos especializada en brindar soluciones digitales.</p>
+                        <p className='homePrimerCompTexto font-family-Robot'>Somos una agencia de diseño 
+                        web con un equipo de diseñadores, ingenieros y estrategas.
+                         Hacemos que cada sitio web refleje la idea del cliente.
+                        </p>
                     </div>
                 </div>
                 <div className='homePrimerCompContainerImg h-100 imagenlatidoContainer flex-align-center flex-justify-center  '>

@@ -22,10 +22,11 @@ const MantenimientoSeo = () => {
         <div className='homePrimerCompContainer'>
           <div>
             <h2 className='homePrimerCompTitulo'>Seo</h2>
-            <p className='homePrimerCompTexto font-family-Robot'> La optimización de motores de búsqueda (SEO) mejorará la clasificación orgánica
-              (no pagada) de tu sitio web o página web dentro de los motores
+            <p className='homePrimerCompTexto font-family-Robot'> La optimización de motores de búsqueda (SEO) mejorará el posicionamiento orgánico
+              (no pagado) de tu tienda online o sitio web dentro de los motores
               de búsqueda. Como agencia de SEO, nuestro
-              equipo tiene el conocimiento y las habilidades para llevar su negocio a las primeras busquedas.           Estamos listos para ayudarlo a lograr los objetivos de clasificación orgánica de tu empresa internacionalmen</p>
+              equipo tiene el conocimiento y las habilidades para llevar su negocio a las primeras busquedas. 
+             </p>
           </div>
         </div>
         <div className='homePrimerCompContainerImg h-100 imagenlatidoContainer flex-align-center flex-justify-center'>
@@ -55,7 +56,6 @@ const MantenimientoSeo = () => {
               <div className='mantenimientoContainerInfoTexto'>
                 <h5 className='titulosComponentes'>Camapaña de Seo</h5>
                 <p className='homePrimerCompTexto text-align-center'> 
-                Una camapaña de seo debe ser un pilar fundamental para el posicionamiento de una marca.
                   Cuando las personas buscan información sobre productos y servicios, su primer opcion
                     es hacerlo en Google (u otro motor de búsqueda). Por
                   lo que estar
