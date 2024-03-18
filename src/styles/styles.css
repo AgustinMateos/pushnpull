@@ -1308,11 +1308,13 @@ h1 {
     /* oculta cualquier contenido que se desborde */
 }
 
+
+
 /*contacto*/
 .selected {
     background-color: rgb(186, 186, 186);
     border-radius: 0.5rem;
-
+    color: white;
     width: 60%;
 }
 

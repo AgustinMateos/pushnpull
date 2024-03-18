@@ -2,7 +2,7 @@ import React from 'react'
 import grafica8 from "../../assets/pushnpullIndex.webp"
 import whatsapp from "../../assets/whatsapp.png"
 import { Link } from 'react-router-dom'
-
+import Typewriter from 'typewriter-effect';
 
 
 const HomePrimerComp = () => {
@@ -13,7 +13,27 @@ const HomePrimerComp = () => {
       </a>
       <div className='homePrimerCompContainer'>
         <div>
-          <h2 className='homePrimerCompTitulo'>Developer Resources</h2>
+          <h2 className='homePrimerCompTitulo'><Typewriter
+          onInit={typewriter => {
+            typewriter
+              .typeString('impulsa tu marca')
+              .pauseFor(2000)
+              .deleteAll()
+              .typeString('dasarrollar tu sitio')
+              .pauseFor(2000)
+              .deleteAll()
+              .typeString('crear tu tienda online')
+              .pauseFor(2000)
+              .deleteAll()
+              .typeString('posicionar tu marca')
+              .pauseFor(2000)
+              .deleteAll()
+              .typeString('lanzar tu idea')
+              .pauseFor(2000)
+              .start();
+          }}
+        /></h2>
+        
           <p className='homePrimerCompTexto font-family-Robot'>Push n Pull es una agencia digital basada en datos especializada en brindar soluciones digitales.</p>
         </div>
         <div className=" homePrimerCompButtons  " >
@@ -33,3 +53,4 @@ const HomePrimerComp = () => {
 }
 
 export default HomePrimerComp
+

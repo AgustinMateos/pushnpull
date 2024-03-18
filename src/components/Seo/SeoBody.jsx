@@ -33,7 +33,8 @@ const MantenimientoSeo = () => {
           <img className='wd-100 h-90 homePrimerCompImg imagen-latido' src={solucionesDigitalesImg} alt="" />
         </div>
       </div>
-      <div className='wd-100 flex-justify-center'>
+      <div >
+        <div><div className='wd-100 flex-justify-center'>
       <CardsSeoMobile />
         <div className='wd-90 flex-justify-center flex-column mantenimientoContainerHeight'>
           <div className='wd-100 flex-justify-center flex-justify-center'>
@@ -47,7 +48,6 @@ const MantenimientoSeo = () => {
           </div>
         </div>
       </div>
-
       <div>
         {selectedOption === 'Opción 1' &&
           <div className='wd-100 flex-justify-center'>
@@ -92,7 +92,12 @@ const MantenimientoSeo = () => {
           </div>
         }
 
+      </div></div>
+        
       </div>
+      
+
+      
       {/* <div className='wd-100 flex-justify-center containerHeight flex-align-center'>
         <div className='HomeCuartQuintCompBuscando flex-align-center flex-justify-space-around'>
           <div className='HomeCuartQuintCompBuscandoTitulo'>
