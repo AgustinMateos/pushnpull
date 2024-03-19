@@ -630,7 +630,7 @@ body {
   
 .homePrimerCompContainer {
     
-        max-width: 650px;
+        max-width: 700px;
     
 }
 
@@ -660,12 +660,13 @@ body {
 }
 
 .homePrimerCompTitulo {
-    font-size: clamp(3.5rem, 8vw, 6rem);
+    font-size: clamp(3.5rem, 8vw, 4rem);
     font-weight: 700;
     line-height: 100%;
     letter-spacing: -.03rem;
     font-family: 'Roboto', sans-serif;
     color: #5a5a5a;
+   
 }
 
 .homePrimerCompTexto {
@@ -2067,7 +2068,7 @@ input[type="checkbox"]::-ms-check {
     }
 
     .homePrimerCompTitulo {
-        font-size: clamp(2.5rem, 8vw, 6rem);
+        font-size: clamp(2.0rem, 8vw, 6rem);
     }
 
     .slider-container {

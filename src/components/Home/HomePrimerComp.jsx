@@ -13,7 +13,7 @@ const HomePrimerComp = () => {
       </a>
       <div className='homePrimerCompContainer'>
         <div>
-          <h2 className='homePrimerCompTitulo'><Typewriter
+          <h2 className='homePrimerCompTitulo'>Empujemos jutos a< Typewriter
           onInit={typewriter => {
             typewriter
               .typeString('impulsa tu marca')
@@ -53,4 +53,3 @@ const HomePrimerComp = () => {
 }
 
 export default HomePrimerComp
-
