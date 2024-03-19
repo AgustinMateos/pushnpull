@@ -22,10 +22,12 @@ const MantenimientoSeo = () => {
         <div className='homePrimerCompContainer'>
           <div>
             <h2 className='homePrimerCompTitulo'>Seo</h2>
-            <p className='homePrimerCompTexto font-family-Robot'> La optimización de motores de búsqueda (SEO) mejorará el posicionamiento orgánico
-              (no pagado) de tu tienda online o sitio web dentro de los motores
-              de búsqueda. Como agencia de SEO, nuestro
-              equipo tiene el conocimiento y las habilidades para llevar su negocio a las primeras busquedas. 
+            <p className='homePrimerCompTexto font-family-Robot'> Como agencia de SEO, nuestro
+              equipo tiene el conocimiento y las habilidades para llevar tu negocio a las primeras
+               busquedas a traves de estrategias personalizadas y la optimización de 
+              los motores de búsqueda (SEO),  logrando mejorar el posicionamiento orgánico
+              (no pagado) de tu tienda online o sitio web.
+             
              </p>
           </div>
         </div>

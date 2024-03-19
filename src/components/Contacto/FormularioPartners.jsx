@@ -3,7 +3,6 @@ import React, { useState } from 'react';
 function FormularioPartners() {
   const initialFormData = {
     nombreAgencia: '',
-   
     emailAgencia: '',
     services: [],
     portfolioAgencias: '',

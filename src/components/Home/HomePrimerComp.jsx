@@ -13,28 +13,30 @@ const HomePrimerComp = () => {
       </a>
       <div className='homePrimerCompContainer'>
         <div>
-          <h2 className='homePrimerCompTitulo'>Empujemos jutos para < Typewriter
+          <h2 className='homePrimerCompTitulo'>Empujemos juntos para < Typewriter
           onInit={typewriter => {
             typewriter
-              .typeString('impulsar tu marca')
+              .typeString('impulsar tu marca.')
               .pauseFor(2000)
               .deleteAll()
-              .typeString('dasarrollar tu sitio web')
+              .typeString('desarrollar tu sitio web.')
               .pauseFor(2000)
               .deleteAll()
-              .typeString('crear tu tienda online')
+              .typeString('crear tu tienda online.')
               .pauseFor(2000)
               .deleteAll()
-              .typeString('posicionar tu marca')
+              .typeString('posicionar tu marca.')
               .pauseFor(2000)
               .deleteAll()
-              .typeString('realizar tu idea')
+              .typeString('crear tu idea.')
               .pauseFor(2000)
               .start();
           }}
         /></h2>
         
-          <p className='homePrimerCompTexto font-family-Robot'>Push n Pull es una agencia digital basada en datos especializada en brindar soluciones digitales.</p>
+          <p className='homePrimerCompTexto font-family-Robot'>Push n Pull es una agencia 
+          digital basada en datos 
+          especializada en brindar soluciones digitales.</p>
         </div>
         <div className=" homePrimerCompButtons  " >
           <Link to={'/ServicesPage'} className='buttonVermas flex-align-center '><span className='buttonVermasContent font-family-Robot'>Nuestros servicios</span></Link>
