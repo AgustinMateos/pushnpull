@@ -9,7 +9,7 @@ export const links = [
           sublink: [
             { name: "Ecommerce", link: "/EcommercePage" },
             { name: "Desarrollo Web", link: "/DesarrolloWebPage" },
-            { name: "Diseno Web", link: "/DisenoWebPage" },
+            { name: "Diseño Web", link: "/DiseñoWebPage" },
             { name: "Aplicaciones Web", link: "/AplicacionesWebPage" },
             { name: "Migracion a la Nube", link: "/MigracionalaNubePage" },
             { name: "Menu Qr", link: "/MenuQrPage" },

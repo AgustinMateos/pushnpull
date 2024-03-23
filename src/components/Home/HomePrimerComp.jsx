@@ -34,9 +34,10 @@ const HomePrimerComp = () => {
           }}
         /></h2>
         
-          <p className='homePrimerCompTexto font-family-Robot'>Push n Pull es una agencia 
-          digital basada en datos 
-          especializada en brindar soluciones digitales.</p>
+          <p className='homePrimerCompTexto font-family-Robot'>Push n Pull es una agencia digital
+           especializada en aplicaciones web, desarrollo web, diseño web y 
+          SEO. A través de una consultoría, nuestro equipo experimentado 
+          ayuda a las marcas a comprender y optimizar su desempeño digital.</p>
         </div>
         <div className=" homePrimerCompButtons  " >
           <Link to={'/ServicesPage'} className='buttonVermas flex-align-center '><span className='buttonVermasContent font-family-Robot'>Nuestros servicios</span></Link>
