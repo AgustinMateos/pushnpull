@@ -25,11 +25,12 @@ const ServicesPrimerComp = () => {
            
           <div className='wd-100'>
             <div className='seviciosContainerButtonsNavbar  '>
-               <HashLink to='/ServicesPage#mantenimiento' smooth  className='serviciosContainerNavlinks buttonContainers'>Impulsa tu Marca</HashLink>
+               <HashLink to='/ServicesPage#impulsaTuMarca' smooth  className='serviciosContainerNavlinks buttonContainers'>Impulsa tu Marca</HashLink>
               <HashLink to='/ServicesPage#solucionesDigitales' smooth className="serviciosContainerNavlinks buttonContainers"> Soluciones digitales </HashLink>
              
               <HashLink to='/ServicesPage#seo' smooth  className="serviciosContainerNavlinks buttonContainers"> Seo </HashLink>
               <HashLink to='/ServicesPage#mantenimiento' smooth  className='serviciosContainerNavlinks buttonContainers'> Mantenimiento </HashLink>
+              
             </div>
 
           </div>
@@ -40,7 +41,7 @@ const ServicesPrimerComp = () => {
       </div>
    
       <div className='wd-100'>
-      <div className='flex-align-center flex-justify-space-evenly containerHeightServicios  ' id="solucionesDigitales">
+      <div className='flex-align-center flex-justify-space-evenly containerHeightServicios  ' id="impulsaTuMarca">
          
           <div class="contenedor "  >
             
@@ -57,14 +58,12 @@ const ServicesPrimerComp = () => {
             <img className='wd-100' src={impulsaTuMarca} alt="imagen grafica pnp" />
           </div>
         </div>
-        <div className='flex-align-center flex-justify-space-evenly containerHeightServicios  ' id="solucionesDigitales">
-           <div className='impulsaTuMarcaContainerImg'>
-            <img className='wd-100' src={impulsaTuMarca} alt="imagen grafica pnp" />
-          </div>
-          <div class="contenedor "  >
-            
-            <div class="imagen-container" >
-              <h3 className="texto titulosComponentes">Soluciones digitales</h3>
+        <div className='containerTextoImg  ' id="solucionesDigitales">
+        <div className='impulsaTuMarcaContainerImg'>
+            <img className='wd-100' src={seo} alt="imagen grafica pnp" /></div>
+          <div class="contenedor ">
+            <div class="imagen-container">
+              <h3 className="texto titulosComponentes">Soluciones Digitales</h3>
               <p className='titulosComponentesTexto'>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
                 Exercitationem animi facilis quidem incidunt deleniti expedita
                 modi, vel natus nulla illo dolores unde nostrum

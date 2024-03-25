@@ -642,6 +642,11 @@ body {
     max-width: 400px;
     margin: 20px;
 }
+.impulsaTuMarcaTexto{padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 1.3rem;
+    width: 90%;
+    text-align: center;}
 
 .impulsaTuMarcaContainer {
     max-width: 750px;
@@ -1392,9 +1397,12 @@ h1 {
 }
 
 .homeSoporteContainerTexto {
+  
+
     padding-top: 20px;
     padding-bottom: 20px;
-    font-size: 1.0rem;
+    font-size: 1.3rem;
+
     text-align: center;
 }
 
@@ -1675,7 +1683,7 @@ input[type="checkbox"]::-ms-check {
        
         font-weight: normal;
         line-height: 1rem;
-        font-size: 0.95rem;
+        font-size: 1.05rem;
         width: 190px;
 
         border: 1px solid #5a5a5a;

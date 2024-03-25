@@ -21,12 +21,13 @@ const MantenimientoSeo = () => {
       <div className='HomePrimerComp'>
         <div className='homePrimerCompContainer'>
           <div>
-            <h2 className='homePrimerCompTitulo'>Seo</h2>
-            <p className='homePrimerCompTexto font-family-Robot'> Como agencia de SEO, nuestro
-              equipo tiene el conocimiento y las habilidades para llevar tu negocio a las primeras
-               busquedas a traves de estrategias personalizadas y la optimización de 
+            <h2 className='homePrimerCompTitulo'>SEO</h2>
+            <p className='homePrimerCompTexto font-family-Robot'>
+              Tenemos el conocimiento y las habilidades 
+              para que tu negocio se posicione en los primeros resultados de 
+               búsquedas a traves de estrategias personalizadas y la optimización de 
               los motores de búsqueda (SEO),  logrando mejorar el posicionamiento orgánico
-              (no pagado) de tu tienda online o sitio web.
+              (no pago) de tu tienda online o sitio web.
              
              </p>
           </div>
@@ -56,15 +57,13 @@ const MantenimientoSeo = () => {
             <div className='wd-100 mantenimientoContainerInfo'>
               <img className='mantenimientoContainerInfoImg h-100' src={mantenimientoSeo} alt='' />
               <div className='mantenimientoContainerInfoTexto'>
-                <h5 className='titulosComponentes'>Camapaña de Seo</h5>
+                <h5 className='titulosComponentes'>Campaña de SEO</h5>
                 <p className='homePrimerCompTexto text-align-center'> 
-                  Cuando las personas buscan información sobre productos y servicios, su primer opcion
+                  Cuando buscamos información sobre productos y servicios, la primera opcion
                     es hacerlo en Google (u otro motor de búsqueda). Por
                   lo que estar
-                  en las primeras posiciones garantiza más visitas a su sitio y una mayor exposición a los
-                  productos y servicios que ofrece. Nuestras campañas de seo 
-                  conectan la estrategia con sus propios objetivos y
-                  oportunidades de crecimiento.</p>
+                  en las primeras posiciones garantiza más visitas a su sitio y una mayor exposición de los
+                  productos y servicios que ofreces.  Conectamos tu estrategia con los objetivos y oportunidades de crecimiento.</p>
                   <div className='serviciosButtonPresupuestoCardContainer'>
                <Link to={"/CampanaSeoPage"} className='buttonContainers'>Ver mas</Link>
                 <Link to={"/ContactoPage"} className='buttonContainers'>Presupuesto</Link>
@@ -78,10 +77,8 @@ const MantenimientoSeo = () => {
             <div className='wd-100 mantenimientoContainerInfo'>
               <img className='mantenimientoContainerInfoImg h-100' src={seoImg} alt='' />
               <div className='mantenimientoContainerInfoTexto'>
-                <h5 className='titulosComponentes'>Auditoria Seo</h5>
-                <p className='homePrimerCompTexto text-align-center'>La Auditoría de SEO implica
-                 analizar el nivel de optimización de tu sitio web para los motores de búsqueda. 
-                 Te permite detectar errores que podrían obstaculizar el buen posicionamiento de tu web
+                <h5 className='titulosComponentes'>Auditoria SEO</h5>
+                <p className='homePrimerCompTexto text-align-center'>Analizamos el nivel de optimización de tu sitio web para los motores de búsqueda, permitiendo detectar errores que podrían obstaculizar el buen posicionamiento 
                   y descubrir oportunidades que 
                 favorezcan una mejor ubicación en los resultados de búsqueda.</p>
                <div className='serviciosButtonPresupuestoCardContainer'>

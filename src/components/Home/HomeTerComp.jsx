@@ -34,7 +34,7 @@ const HomeTerComp = () => {
                         <ul>
                             <li>
                                 <p>Las campañas y optimizaciones de motores de búsqueda (SEO) harán que tu tienda
-                                     online o sitio web se posicionen en las primeras búsquedas de Google (u otros motores de búsqueda) de manera orgnánica.</p>
+                                     online o sitio web se posicionen en las primeras búsquedas de Google (u otros motores de búsqueda) de manera orgánica.</p>
                                 </li>
 
                         </ul>

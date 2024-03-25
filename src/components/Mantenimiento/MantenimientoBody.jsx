@@ -22,7 +22,7 @@ const MantenimientoBody = () => {
         <div className='homePrimerCompContainer'>
           <div>
             <h2 className='homePrimerCompTitulo'>Mantenimiento</h2>
-            <p className='homePrimerCompTexto font-family-Robot'>Push n Pull es una agencia digital basada en datos especializada en brindar soluciones digitales.</p>
+            <p className='homePrimerCompTexto font-family-Robot'>Nos encargamos de mantener tu presencia digital en óptimas condiciones. Desde el mantenimiento web y de bases de datos hasta la optimización SEO, garantizamos que tu negocio se mantenga visible y eficiente en línea.</p>
           </div>
         </div>
         <div className='homePrimerCompContainerImg h-100 imagenlatidoContainer flex-align-center flex-justify-center'>
@@ -51,7 +51,10 @@ const MantenimientoBody = () => {
               <img className='mantenimientoContainerInfoImg h-100' src={mantenimientoSeo} alt='' />
               <div className='mantenimientoContainerInfoTexto'>
                 <h5 className='titulosComponentes'>Mantenimiento Seo</h5>
-                <p className='homePrimerCompTexto text-align-center'>adadaadad Lorem ipsum, dolor sit amet consectetur adipisicing elit Deserunt sunt nihil quod accusamus, vel quis, consequatur amet</p>
+                <p className='homePrimerCompTexto text-align-center'>
+                Consiste en una serie de acciones como la construcción de enlaces de calidad, 
+                la corrección de errores técnicos que puedan afectar el rendimiento SEO  
+                el seguimiento y análisis de las tendencias de búsqueda y de la competencia.</p>
                 <Link to={"/MantenimientoSeoPage"} className='buttonContainers'>Ver mas</Link>
               </div>
             </div>
@@ -63,7 +66,11 @@ const MantenimientoBody = () => {
               <img className='mantenimientoContainerInfoImg h-100' src={seoImg} alt='' />
               <div className='mantenimientoContainerInfoTexto'>
                 <h5 className='titulosComponentes'>Mantenimiento Desarrollo Web</h5>
-                <p className='homePrimerCompTexto text-align-center'>adadaadad Lorem ipsum, dolor sit amet consectetur adipisicing elit Deserunt sunt nihil quod accusamus, vel quis, consequatur amet</p>
+                <p className='homePrimerCompTexto text-align-center'>Un sitio desactualizado o con problemas técnicos puede afectar
+                 negativamente la experiencia del usuario, disminuir el tráfico y afectar el 
+                 posicionamiento en los motores de búsqueda. Mantener el sitio web actualizado
+                  y funcionando sin problemas es clave 
+                para el éxito a largo plazo de tu presencia en línea.</p>
                 <Link to={"/MantenimientoWebPage"} className='buttonContainers'>Ver mas</Link>
               </div>
             </div>
@@ -75,7 +82,8 @@ const MantenimientoBody = () => {
               <img className='mantenimientoContainerInfoImg h-100' src={desarrolloWeb} alt='' />
               <div className='mantenimientoContainerInfoTexto'>
                 <h5 className='titulosComponentes'>Mantenimiento de Base de Datos</h5>
-                <p className='homePrimerCompTexto text-align-center'>adadaadad Lorem ipsum, dolor sit amet consectetur adipisicing elit Deserunt sunt nihil quod accusamus, vel quis, consequatur amet</p>
+                <p className='homePrimerCompTexto text-align-center'>Para garantizar la integridad, seguridad y eficiencia de los datos críticos de tu negocio. Implica una serie de 
+                acciones periódicas destinadas a mantener la base de datos actualizada, optimizada y protegida contra posibles riesgos.</p>
                 <Link to={"MantenimientoBaseDeDatosPage"} className='buttonContainers'>Ver mas</Link>
               </div>
             </div>

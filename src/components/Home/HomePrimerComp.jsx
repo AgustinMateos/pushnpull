@@ -26,13 +26,13 @@ const HomePrimerComp = () => {
               .pauseFor(1000)
               .deleteAll()
               .typeString(' idea.')
-              .pauseFor(1000)
+             
               .start();
           }}
         /></h2>
         
           <p className='homePrimerCompTexto font-family-Robot'>Push n Pull es una agencia digital
-           especializada en aplicaciones web, desarrollo web, diseño web y 
+           especializada en aplicaciones, desarrollo web, diseño web y 
           SEO. A través de una consultoría, nuestro equipo experimentado 
           ayuda a las marcas a comprender y optimizar su desempeño digital.</p>
         </div>

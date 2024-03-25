@@ -18,7 +18,7 @@ const SolucionesDigitalesBody = () => {
   const handleOptionClick = (option) => {
     setSelectedOption(option);
   };
- 
+
   return (
     <div className='wd-100'>
       <a className='whatsapp' href="https://wa.me/"><img src={whatsapp} alt="" /></a>
@@ -26,7 +26,8 @@ const SolucionesDigitalesBody = () => {
         <div className='homePrimerCompContainer'>
           <div>
             <h2 className='homePrimerCompTitulo'>Soluciones Digitales</h2>
-            <p className='homePrimerCompTexto font-family-Robot'>Push n Pull es una agencia digital basada en datos, especializada en brindar soluciones digitales.</p>
+            <p className='homePrimerCompTexto font-family-Robot'>Ofrecemos soluciones digitales integrales para potenciar tu presencia en línea. Desde diseño y desarrollo web hasta migración a la nube, nos adaptamos a tus necesidades para crear la solución perfecta para tu negocio. 
+            Con un enfoque especializado en ecommerce, te ayudamos a destacar en el mundo digital.</p>
           </div>
         </div>
         <div className='homePrimerCompContainerImg h-100 imagenlatidoContainer flex-align-center flex-justify-center'>
@@ -36,7 +37,7 @@ const SolucionesDigitalesBody = () => {
 
       <div className='wd-100 flex-justify-center'>
         <CardsSolucionesDigitalesServicios />
-        <div className='wd-90 flex-justify-center flex-column mantenimientoContainerHeight'>     
+        <div className='wd-90 flex-justify-center flex-column mantenimientoContainerHeight'>
           <div className='wd-100 flex-justify-center flex-justify-center'>
             <div className='wd-100 flex-align-center flex-justify-center flex-column'>
               <ul className='flex-column wd-100 flex-justify-space-around mantenimientoContainerRow'>
@@ -54,7 +55,7 @@ const SolucionesDigitalesBody = () => {
 
 
       <div>
-        {selectedOption === 'Opción 1' && 
+        {selectedOption === 'Opción 1' &&
           <div className='wd-100 flex-justify-center'>
             <div className='wd-100 mantenimientoContainerInfo'>
               <img className='mantenimientoContainerInfoImg h-100' src={ecommerceServicio} alt='' />
@@ -78,7 +79,7 @@ const SolucionesDigitalesBody = () => {
             </div>
           </div>
         }
-        {selectedOption === 'Opción 3' && 
+        {selectedOption === 'Opción 3' &&
           <div className='wd-100 flex-justify-center'>
             <div className='wd-100 mantenimientoContainerInfo'>
               <img className='mantenimientoContainerInfoImg h-100' src={disenoWebServicio} alt='' />
@@ -90,7 +91,7 @@ const SolucionesDigitalesBody = () => {
             </div>
           </div>
         }
-        {selectedOption === 'Opción 4' && 
+        {selectedOption === 'Opción 4' &&
           <div className='wd-100 flex-justify-center'>
             <div className='wd-100 mantenimientoContainerInfo'>
               <img className='mantenimientoContainerInfoImg h-100' src={aplicacionesWebServicio} alt='' />
@@ -102,7 +103,7 @@ const SolucionesDigitalesBody = () => {
             </div>
           </div>
         }
-        {selectedOption === 'Opción 5' && 
+        {selectedOption === 'Opción 5' &&
           <div className='wd-100 flex-justify-center'>
             <div className='wd-100 mantenimientoContainerInfo'>
               <img className='mantenimientoContainerInfoImg h-100' src={migracionalaNubeServicio} alt='' />
@@ -114,7 +115,7 @@ const SolucionesDigitalesBody = () => {
             </div>
           </div>
         }
-        {selectedOption === 'Opción 6' && 
+        {selectedOption === 'Opción 6' &&
           <div className='wd-100 flex-justify-center'>
             <div className='wd-100 mantenimientoContainerInfo'>
               <img className='mantenimientoContainerInfoImg h-100' src={menuQrServicio} alt='' />
@@ -128,15 +129,15 @@ const SolucionesDigitalesBody = () => {
         }
       </div>
       <div className='wd-100 flex-justify-center containerHeight flex-align-center'>
-         <div className='HomeCuartQuintCompBuscando  flex-align-center flex-justify-space-around'>
-           <div className=' HomeCuartQuintCompBuscandoTitulo'>
-             <h3 className='titulosComponentes '>Necesitas presupuesto?</h3>
-             <p className='titulosComponentesTexto '>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-               Deserunt sunt nihil quod accusamus, vel quis, consequatur amet itaque animi ipsum magni earum impedit nesciunt voluptatibus repellat fuga unde eos. Impedit.</p>
-           </div>
-           <div className='wd-10 buttonContainers'><Link to={"/ContactoPage"}>Contactanos<ion-icon name="arrow-forward-outline"></ion-icon></Link></div>
-         </div>
-       </div>
+        <div className='HomeCuartQuintCompBuscando  flex-align-center flex-justify-space-around'>
+          <div className=' HomeCuartQuintCompBuscandoTitulo'>
+            <h3 className='titulosComponentes '>Necesitas presupuesto?</h3>
+            <p className='titulosComponentesTexto '>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+              Deserunt sunt nihil quod accusamus, vel quis, consequatur amet itaque animi ipsum magni earum impedit nesciunt voluptatibus repellat fuga unde eos. Impedit.</p>
+          </div>
+          <div className='wd-10 buttonContainers'><Link to={"/ContactoPage"}>Contactanos<ion-icon name="arrow-forward-outline"></ion-icon></Link></div>
+        </div>
+      </div>
     </div>
   );
 };

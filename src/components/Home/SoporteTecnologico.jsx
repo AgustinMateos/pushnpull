@@ -11,7 +11,7 @@ const HomeSeptOctComp = () => {
                 <div to={"/seoPage"} className='homeSoporteCointainerText '>
                     <div className='content'>
 
-                        <h3 className='titulosComponentes'>Soporte tecnologico a empresas y agencias</h3>
+                        <h3 className='titulosComponentes'>Soporte tecnológico a empresas y agencias</h3>
 
                         <div className='price'></div>
                         <ul>
