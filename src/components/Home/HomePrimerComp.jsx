@@ -13,23 +13,20 @@ const HomePrimerComp = () => {
       </a>
       <div className='homePrimerCompContainer'>
         <div>
-          <h2 className='homePrimerCompTitulo'>Empujemos juntos para < Typewriter
+          <h2 className='homePrimerCompTitulo'>Empujemos juntos tu < Typewriter
           onInit={typewriter => {
             typewriter
-              .typeString('impulsar tu marca.')
-              .pauseFor(2000)
+              .typeString('marca.')
+              .pauseFor(1000)
               .deleteAll()
-              .typeString('desarrollar tu sitio web.')
-              .pauseFor(2000)
+              .typeString(' sitio web.')
+              .pauseFor(1000)
               .deleteAll()
-              .typeString('crear tu tienda online.')
-              .pauseFor(2000)
+              .typeString(' tienda online.')
+              .pauseFor(1000)
               .deleteAll()
-              .typeString('posicionar tu marca.')
-              .pauseFor(2000)
-              .deleteAll()
-              .typeString('crear tu idea.')
-              .pauseFor(2000)
+              .typeString(' idea.')
+              .pauseFor(1000)
               .start();
           }}
         /></h2>

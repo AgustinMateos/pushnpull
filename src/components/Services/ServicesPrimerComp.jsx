@@ -25,7 +25,9 @@ const ServicesPrimerComp = () => {
            
           <div className='wd-100'>
             <div className='seviciosContainerButtonsNavbar  '>
+               <HashLink to='/ServicesPage#mantenimiento' smooth  className='serviciosContainerNavlinks buttonContainers'>Impulsa tu Marca</HashLink>
               <HashLink to='/ServicesPage#solucionesDigitales' smooth className="serviciosContainerNavlinks buttonContainers"> Soluciones digitales </HashLink>
+             
               <HashLink to='/ServicesPage#seo' smooth  className="serviciosContainerNavlinks buttonContainers"> Seo </HashLink>
               <HashLink to='/ServicesPage#mantenimiento' smooth  className='serviciosContainerNavlinks buttonContainers'> Mantenimiento </HashLink>
             </div>
@@ -38,9 +40,25 @@ const ServicesPrimerComp = () => {
       </div>
    
       <div className='wd-100'>
-      
-        <div className='flex-align-center flex-justify-space-evenly containerHeightServicios  ' id="solucionesDigitales">
+      <div className='flex-align-center flex-justify-space-evenly containerHeightServicios  ' id="solucionesDigitales">
+         
+          <div class="contenedor "  >
+            
+            <div class="imagen-container" >
+              <h3 className="texto titulosComponentes">Impulsa tu marca</h3>
+              <p className='titulosComponentesTexto'>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Exercitationem animi facilis quidem incidunt deleniti expedita
+                modi, vel natus nulla illo dolores unde nostrum
+                doloremque dolorem obcaecati consequuntur molestias similique aut?</p>
+              <Link to={"/SolucionesDigitalesPage"} className='buttonContainers'>ver mas <ion-icon name="arrow-forward-outline"></ion-icon></Link>
+            </div>
+          </div>
           <div className='impulsaTuMarcaContainerImg'>
+            <img className='wd-100' src={impulsaTuMarca} alt="imagen grafica pnp" />
+          </div>
+        </div>
+        <div className='flex-align-center flex-justify-space-evenly containerHeightServicios  ' id="solucionesDigitales">
+           <div className='impulsaTuMarcaContainerImg'>
             <img className='wd-100' src={impulsaTuMarca} alt="imagen grafica pnp" />
           </div>
           <div class="contenedor "  >
@@ -54,7 +72,9 @@ const ServicesPrimerComp = () => {
               <Link to={"/SolucionesDigitalesPage"} className='buttonContainers'>ver mas <ion-icon name="arrow-forward-outline"></ion-icon></Link>
             </div>
           </div>
+         
         </div>
+       
         <div className='containerTextoImg  ' id="seo">
           <div class="contenedor ">
             <div class="imagen-container">
