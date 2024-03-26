@@ -61,7 +61,11 @@ const SolucionesDigitalesBody = () => {
               <img className='mantenimientoContainerInfoImg h-100' src={ecommerceServicio} alt='' />
               <div className='mantenimientoContainerInfoTexto'>
                 <h5 className='titulosComponentes '>Ecommerce</h5>
-                <p className='homePrimerCompTexto text-align-center'>adadaadad Lorem ipsum, dolor sit amet consectetur adipisicing elit Deserunt sunt nihil quod accusamus, vel quis, consequatur amet</p>
+                <p className='homePrimerCompTexto text-align-center'>Con tu tienda online podes llegar a clientes en cualquier 
+                lugar, en cualquier momento. Además, te permitimos tener el control total de tu negocio: desde
+                 el inventario hasta los precios. Esto te permite 
+                 adaptarte rápidamente a las necesidades del mercado y ofrecer
+                 una experiencia de compra personalizada.</p>
                 <Link to={"/EcommercePage"} className='buttonContainers'>Ver mas</Link>
               </div>
             </div>

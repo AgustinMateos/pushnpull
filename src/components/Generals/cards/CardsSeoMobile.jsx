@@ -45,14 +45,11 @@ const CardsSeoMobile = () => {
                        
                         <ul>
                             <li>
-                                <p className='cardContentContainer'> Una camapaña de seo debe ser un pilar fundamental para el posicionamiento de una marca.
-                  Cuando las personas buscan información sobre productos y servicios, su primer opcion
+                                <p className='cardContentContainer'> Cuando buscamos información sobre productos y servicios, la primera opcion
                     es hacerlo en Google (u otro motor de búsqueda). Por
                   lo que estar
-                  en las primeras posiciones garantiza más visitas a su sitio y una mayor exposición a los
-                  productos y servicios que ofrece. Nuestras campañas de seo 
-                  conectan la estrategia con sus propios objetivos y
-                  oportunidades de crecimiento</p>
+                  en las primeras posiciones garantiza más visitas a su sitio y una mayor exposición de los
+                  productos y servicios que ofreces.  Conectamos tu estrategia con los objetivos y oportunidades de crecimiento.</p>
                             </li>
                         </ul>
                         <button className='buttonVermas'><span className='buttonVermasContent'>Ver mas <ion-icon name="arrow-forward-outline"></ion-icon></span></button>

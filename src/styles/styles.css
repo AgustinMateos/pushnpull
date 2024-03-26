@@ -623,7 +623,7 @@ body {
     height: auto;
     /* Cambiar la altura a auto para que se ajuste según el contenido */
     padding-top: 100px;
-    min-height: 700px;
+    min-height: 750px;
 
 }
 
@@ -1195,7 +1195,8 @@ h1 {
     justify-content: space-around;
     height: 300px;
     align-items: center;
-    padding: 10px
+    padding: 10px;
+    height: 100%;
 }
 
 .titulosComponentesTexto {
@@ -1419,7 +1420,7 @@ h1 {
 /*FORMULARIO*/
 .formContainerFlex {
     display: flex;
-    min-height: 490px;
+    min-height: 450px;
     justify-content: space-between;
 }
 
@@ -1586,8 +1587,9 @@ input[type="checkbox"]::-ms-check {
 .formSegContainerInfo {
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content:center;
     width: 40%;
+    
 }
 
 .selectedButtonPartners {
@@ -1597,7 +1599,7 @@ input[type="checkbox"]::-ms-check {
 .formServiciosRequeridos {
     display: flex;
     justify-content: flex-start;
-    height: 200px;
+    height: 140px;
 }
 
 .formLabel {
@@ -1620,7 +1622,7 @@ input[type="checkbox"]::-ms-check {
 .formTextoSegundo {
     display: flex;
     flex-direction: column;
-    height: 200px;
+    height: 180px;
     justify-content: space-around;
 }
 
@@ -1746,7 +1748,7 @@ input[type="checkbox"]::-ms-check {
     .formButtonsContainer {
         width: 30%;
     }
-
+    .formSegContainerInfo{width: 45%;}
 
 
 }
@@ -1823,7 +1825,7 @@ input[type="checkbox"]::-ms-check {
     }
 
     .formContainerFlex {
-        min-height: 490px;
+        min-height: 450px;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -2086,7 +2088,7 @@ input[type="checkbox"]::-ms-check {
 
     .slider-container {
         width: 70%;
-        height: 700px;
+        height: 550px;
     }
 
     .slick-prev {
