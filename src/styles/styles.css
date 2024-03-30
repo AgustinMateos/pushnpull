@@ -347,9 +347,12 @@ body {
     flex-direction: column;
     width: 60%;
 }
-.serviciosButtonPresupuestoCardContainer{    display: flex;
+
+.serviciosButtonPresupuestoCardContainer {
+    display: flex;
     justify-content: space-around;
-    width: 80%;}
+    width: 80%;
+}
 
 .contentFlex {
     display: flex;
@@ -627,11 +630,11 @@ body {
 
 }
 
-  
+
 .homePrimerCompContainer {
-    
-        max-width: 700px;
-    
+
+    max-width: 700px;
+
 }
 
 .homePrimerCompContainerImg {
@@ -642,11 +645,14 @@ body {
     max-width: 400px;
     margin: 20px;
 }
-.impulsaTuMarcaTexto{padding-top: 20px;
+
+.impulsaTuMarcaTexto {
+    padding-top: 20px;
     padding-bottom: 20px;
     font-size: 1.3rem;
     width: 90%;
-    text-align: center;}
+    text-align: center;
+}
 
 .impulsaTuMarcaContainer {
     max-width: 750px;
@@ -671,13 +677,14 @@ body {
     letter-spacing: -.03rem;
     font-family: 'Roboto', sans-serif;
     color: #5a5a5a;
-   
+
 }
 
 .homePrimerCompTexto {
     padding-top: 20px;
     padding-bottom: 20px;
-    font-size: 1.3rem;width: 90%;
+    font-size: 1.3rem;
+    width: 90%;
 
 }
 
@@ -1069,6 +1076,7 @@ h1 {
     align-items: center;
     justify-content: space-evenly;
 }
+
 .containerTextoImgImpulsaTuMarca {
     min-height: 550px;
     display: flex;
@@ -1243,14 +1251,19 @@ h1 {
 .footerContainer {
     background-image: radial-gradient(farthest-side at bottom left, rgb(177, 219, 255), transparent 900px), radial-gradient(farthest-corner at bottom right, rgb(177, 219, 255), transparent 1000px);
     font-size: 1rem;
-   
+
 
 
 }
-.footerContainerFlex{    display: flex;
+.footerTercerComponente{width: 50%;}
+
+.footerContainerFlex {
+    display: flex;
     align-items: center;
     justify-content: space-evenly;
-    width: 100%;}
+    width: 100%;
+}
+
 .footerButtonContainers {
     font-weight: normal;
     line-height: 1.25rem;
@@ -1264,9 +1277,14 @@ h1 {
     color: white;
     margin-top: 10px;
 }
-.footerSegundoComponente{display: flex;
-    justify-content: space-around;width: 60%;}
-.footerFormInputs{
+.footerPrimerComponente{margin-left: 70px;}
+.footerSegundoComponente {
+    display: flex;
+    justify-content: center;
+    width: 60%;
+}
+
+.footerFormInputs {
     background: rgba(255, 255, 255, 0.3);
     box-sizing: border-box;
     border-radius: 15px;
@@ -1279,27 +1297,36 @@ h1 {
     border: 1px solid #ccc;
     padding: 6px 10px;
     height: 40px;
-    width: 100%;
+    width: 90%;
     line-height: 1.3;
 }
+
 .footerContainerLogo {
     font-weight: 700;
     display: flex;
     max-width: 400px;
     justify-content: flex-start;
 }
-.footerForm{display: flex;
+
+.footerForm {
+    display: flex;
     flex-direction: column;
-    align-items: flex-start;}
+    align-items: flex-start;
+}
+
 /*servicios*/
 
 .serviciosContainer {
     padding-top: 150px
 }
-.containerHeightServicios{min-height: 550px;
+
+.containerHeightServicios {
+    min-height: 550px;
     display: flex;
     align-items: center;
-    justify-content: space-evenly;}
+    justify-content: space-evenly;
+}
+
 .seviciosContainerButtonsNavbar {
     display: flex;
     justify-content: space-evenly;
@@ -1434,7 +1461,7 @@ h1 {
 }
 
 .homeSoporteContainerTexto {
-  
+
 
     padding-top: 20px;
     padding-bottom: 20px;
@@ -1623,9 +1650,9 @@ input[type="checkbox"]::-ms-check {
 .formSegContainerInfo {
     display: flex;
     flex-direction: column;
-    justify-content:center;
+    justify-content: center;
     width: 40%;
-    
+
 }
 
 .selectedButtonPartners {
@@ -1664,8 +1691,10 @@ input[type="checkbox"]::-ms-check {
 
 
 .selectedOption {
-    background-color:rgb(7 6 6 / 30%);color: white; /* Cambia este color al que desees */
-  }
+    background-color: rgb(7 6 6 / 30%);
+    color: white;
+    /* Cambia este color al que desees */
+}
 
 
 
@@ -1718,7 +1747,7 @@ input[type="checkbox"]::-ms-check {
         height: 3rem;
         padding: 0rem;
         border-radius: 1.5rem;
-       
+
         font-weight: normal;
         line-height: 1rem;
         font-size: 1.05rem;
@@ -1739,6 +1768,7 @@ input[type="checkbox"]::-ms-check {
         justify-content: space-evenly;
         flex-direction: column;
     }
+
     .containerHeightServicios {
         text-align: center;
         min-height: 750px;
@@ -1772,6 +1802,7 @@ input[type="checkbox"]::-ms-check {
         justify-content: space-evenly;
         flex-direction: column-reverse;
     }
+
     .containerTextoImgImpulsaTuMarca {
         text-align: center;
         min-height: 550px;
@@ -1784,49 +1815,69 @@ input[type="checkbox"]::-ms-check {
     .formButtonsContainer {
         width: 30%;
     }
-    .formSegContainerInfo{width: 45%;}
 
-    .footerContainerFlex{    display: flex;
+    .formSegContainerInfo {
+        width: 45%;
+    }
+
+    .footerContainerFlex {
+        display: flex;
         align-items: center;
         justify-content: space-evenly;
         width: 100%;
-        flex-direction: column;}
-        .footerSegundoComponente{display: flex;
-            justify-content: space-around;width: 100%;}
-            .whatsapp {
-                position: fixed;
-                color: black;
-                padding: 0;
-                display: inline-block;
-                bottom: 1rem;
-                right: 0.1rem;
-                text-decoration: none;
-                z-index: 1;
-                margin-bottom: 20px;
-                width: 60px;
-            }
-       
+        flex-direction: column;
+    }
+
+    .footerSegundoComponente {
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+    }
+
+    .whatsapp {
+        position: fixed;
+        color: black;
+        padding: 0;
+        display: inline-block;
+        bottom: 1rem;
+        right: 0.1rem;
+        text-decoration: none;
+        z-index: 1;
+        margin-bottom: 20px;
+        width: 60px;
+    }
+
 }
-@media (max-width: 800px)
-{
-.footerSegundoComponente {
-    display: flex;
-    justify-content: space-evenly;
-    width: 100%;
-    align-items: center;
-}}
+
+@media (max-width: 800px) {
+    .footerSegundoComponente {
+        display: flex;
+        justify-content: space-evenly;
+        width: 100%;
+        align-items: center;
+    }
+}
 
 @media (max-width:760px) {
     .slider-container {
         display: inline;
     }
-.containerHeightServicios{display: none}
+
+    .containerHeightServicios {
+        display: none
+    }
 
     .HomeTerCompContainer {
         display: none;
     }
-    .containerTextoImg{display: none;}
-    .seviciosContainerButtonsNavbar{display: none;}
+
+    .containerTextoImg {
+        display: none;
+    }
+
+    .seviciosContainerButtonsNavbar {
+        display: none;
+    }
 
 
 
@@ -1922,13 +1973,18 @@ input[type="checkbox"]::-ms-check {
         width: 50%;
     }
 
-.footerPrimerComponente{    display: flex;
-    width: 100%;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;}
-    .footerPrimerComponenteTexto{display: flex;
-        justify-content: center;}
+    .footerPrimerComponente {
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .footerPrimerComponenteTexto {
+        display: flex;
+        justify-content: center;
+    }
 
     .mantenimientoContainerInfoTexto {
 
@@ -1949,7 +2005,9 @@ input[type="checkbox"]::-ms-check {
     .homeSoporteCointainer .homeSoporteCointainerText {
         margin: 0px;
     }
-   
+    .footerPrimerComponente {
+        margin-left: 0px;
+    }
 }
 
 
@@ -1958,7 +2016,7 @@ input[type="checkbox"]::-ms-check {
         margin-top: -50%;
     }
 
-    
+
 
 
     input[type="checkbox"] {
@@ -2056,7 +2114,9 @@ input[type="checkbox"]::-ms-check {
     .HomeTerComp {
 
         min-height: 580px;
-    } /* .slick-prev {
+    }
+
+    /* .slick-prev {
         left: 255px;
     } */
     .slick-prev {
@@ -2105,6 +2165,7 @@ input[type="checkbox"]::-ms-check {
         border-radius: 50%;
         width: 40px;
     }
+
     .impulsaTuMarcaContainerImg {
         max-width: 300px;
     }
@@ -2112,6 +2173,7 @@ input[type="checkbox"]::-ms-check {
     .titulosComponentes {
         font-size: 30px;
     }
+    .footerTercerComponente{width: 100%;}
 
     .HomeTerCompContainer .card {
         position: relative;
@@ -2168,9 +2230,20 @@ input[type="checkbox"]::-ms-check {
         margin: 10px;
         width: 90%;
     }
+
     .footerSegundoComponente {
-       
+
         flex-direction: column;
+    }
+}
+
+@media (max-width: 800px) {
+    .footerSegundoComponente {
+        display: flex;
+        justify-content: space-evenly;
+        width: 100%;
+        align-items: flex-start;
+        padding: 20px;
     }
 }
 

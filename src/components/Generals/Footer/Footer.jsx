@@ -33,7 +33,7 @@ const Footer = () => {
                         </ul>
                     </div>
 
-                    <div className='wd-40'>
+                    <div className='footerTercerComponente'>
                         <ul className='font-family-Robot'>
                             {/* <li className="margin-top-10"><Link className='titulosComponentesTexto'>Blog</Link></li> */}
                             <li className="margin-top-10"><Link to={'/ContactoPage'} className='titulosComponentesTexto'>Contacto</Link></li>
