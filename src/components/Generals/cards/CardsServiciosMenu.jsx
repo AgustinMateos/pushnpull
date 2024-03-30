@@ -3,7 +3,7 @@ import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import { Link } from 'react-router-dom';
-import solucionesDigitalesImg from '../../../assets/solucionesDigitalesPushnPull.webp'
+
 import seoServicioImg from '../../../assets/solucionesDigitalesPushnPull.webp'
 import mantenimientoWebSerivicioImg from '../../../assets/solucionesDigitalesPushnPull.webp'
 import HomeSeptOctComp from '../../Home/SoporteTecnologico';
@@ -80,7 +80,7 @@ const CardsServiciosMenuMobile = () => {
 
 
             </Slider>
-            <HomeSeptOctComp />
+            {/* <HomeSeptOctComp /> */}
         </div>
     );
 };

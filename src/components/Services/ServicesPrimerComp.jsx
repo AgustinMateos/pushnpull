@@ -18,10 +18,7 @@ const ServicesPrimerComp = () => {
           <h1 className='homePrimerCompTitulo'>Servicios</h1>
          
           <p className='wd-80 homePrimerCompTexto text-align-center '>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Quibusdam, saepe inventore doloremque illo rem fugit nostrum
-            assumenda necessitatibus non odit ratione
-            totam, quia deserunt explicabo? Error pariatur doloremque rerum accusantium?</p>
+             Destacar y llegar a tu audiencia es esencial. En nuestra agencia, ofrecemos soluciones digitales completas para potenciar tu presencia en línea. Desde el diseño web hasta estrategias SEO y mantenimiento continuo, estamos aquí para ayudarte a alcanzar tus objetivos digitales</p>
            
           <div className='wd-100'>
             <div className='seviciosContainerButtonsNavbar  '>
