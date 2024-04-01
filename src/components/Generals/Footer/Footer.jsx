@@ -25,7 +25,7 @@ const Footer = () => {
                 </div>
                 <div className='wd-60 footerSegundoComponente flex-justify-space-around '>
 
-                    <div className='wd-30'>
+                    <div className='wd-50'>
                         <ul className='font-family-Robot'>
                              <li><Link  to={"/"}>Inicio</Link></li>
                             <li className='margin-top-10 '><Link to={"/impulsaTuMarcaPage"} className='titulosComponentesTexto'>Impulsa tu marca</Link></li>

@@ -2272,7 +2272,7 @@ input[type="checkbox"]::-ms-check {
 
     .slider-container {
         width: 70%;
-        height: 550px;
+        height: 650px;
     }
 
     .slick-prev {
@@ -2298,6 +2298,16 @@ input[type="checkbox"]::-ms-check {
         align-items: flex-start;
         padding: 20px;
     }
+    
+}
+@media (max-width: 600px) {
+   
+    .serviciosTexto {
+       text-align: justify;
+        width: 100%;
+        padding: 20px;
+        
+    }
 }
 
 @media (max-width: 394px) {
@@ -2315,6 +2325,14 @@ input[type="checkbox"]::-ms-check {
 
     .slick-next {
         right: 104px;
+    }
+    .serviciosTexto {
+        text-align: justify;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        font-size: 1.3rem;
+        width: 100%;
+        padding: 25px;
     }
 }
 
