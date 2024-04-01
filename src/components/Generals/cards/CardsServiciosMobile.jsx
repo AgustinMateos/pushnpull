@@ -26,7 +26,9 @@ const CardsServiciosMobile = () => {
                         <h3 className='font-family-Robot cardsComponentesTitulos'>Soluciones Digitales</h3>
                         <ul>
                             <li>
-                                <p className='cardContentContainer'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Qui voluptatem cum animi minus. Dignissimos vel nihil, laudantium vitae expedita et culpa illo similique totam, aperiam molestias suscipit quos non repellat!</p>
+                                <p className='cardContentContainer'>Desde aplicaciones móviles hasta análisis de datos, estas soluciones digitales permiten 
+                                     abordar desafíos en diferentes sectores y adaptarse 
+                                     en un entorno empresarial cada vez más digitalizado.</p>
                             </li>
                         </ul>
                         <button className='buttonVermas'><span className='buttonVermasContent'>Ver mas <ion-icon name="arrow-forward-outline"></ion-icon></span></button>

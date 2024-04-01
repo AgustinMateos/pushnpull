@@ -28,7 +28,7 @@ const CardsServiciosMenuMobile = () => {
                         <h3 className='font-family-Robot cardsComponentesTitulos'>Soluciones Digitales</h3>
                         <ul>
                             <li>
-                                <p className='cardContentContainer'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Qui voluptatem cum animi minus. Dignissimos vel nihil, laudantium vitae expedita et culpa illo similique totam, aperiam molestias suscipit quos non repellat!</p>
+                                <p className='cardContentContainer'>Desde el desarrollo de aplicaciones móviles hasta la creación de sitios web y tiendas en línea, pasando por un diseño web a medida y la implementación de menús QR, tenemos las herramientas y la experiencia necesarias para impulsar tu marca en el ámbito digital.</p>
                             </li>
                         </ul>
                         <button className='buttonVermas'><span className='buttonVermasContent'>Ver mas <ion-icon name="arrow-forward-outline"></ion-icon></span></button>
@@ -71,7 +71,7 @@ const CardsServiciosMenuMobile = () => {
                         <div className='price'></div>
                         <ul>
                             <li>
-                                <p className='cardContentContainer'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Qui voluptatem cum animi minus. Dignissimos vel nihil, laudantium vitae expedita et culpa illo similique totam, aperiam molestias suscipit quos non repellat!</p>
+                                <p className='cardContentContainer'>Estas buscando llevar su marca al siguiente nivel?. Sabemos lo desafiante que puede ser comenzar desde cero o darle un nuevo impulso a tu negocio, y estamos aquí para ayudarte a dar el primer paso.</p>
                             </li>
                         </ul>
                         <button className='buttonVermas'><span className='buttonVermasContent'>Ver mas <ion-icon name="arrow-forward-outline"></ion-icon></span></button>

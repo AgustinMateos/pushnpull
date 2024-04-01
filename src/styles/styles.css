@@ -1504,12 +1504,9 @@ h1 {
 }
 
 .homeSoporteContainerTexto {
-
-
     padding-top: 20px;
     padding-bottom: 20px;
     font-size: 1.3rem;
-
     text-align: center;
 }
 
@@ -1901,6 +1898,15 @@ input[type="checkbox"]::-ms-check {
         width: 100%;
         align-items: center;
     }
+    .imagen-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        height: 300px;
+        align-items: center;
+        padding: 10px;
+        height: 100%;
+    }
 }
 
 @media (max-width:760px) {
@@ -2247,9 +2253,10 @@ input[type="checkbox"]::-ms-check {
     .card2 {
 
         padding: 15px;
-
     }
-
+    .homeSoporteContainerTexto {
+        text-align: justify;
+    }
     .formButtonsContainer {
         width: 90%;
     }
