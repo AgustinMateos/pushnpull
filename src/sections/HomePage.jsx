@@ -4,7 +4,6 @@ import Navbar from '../components/Generals/Navbar/Navbar';
 import HomePrimerComp from '../components/Home/HomePrimerComp';
 import HomeTerComp from '../components/Home/HomeTerComp';
 import HomeCuartQuintComp from '../components/Home/HomeImpulsaTuMarca';
-
 import HomeSeptOctComp from '../components/Home/SoporteTecnologico';
 import Footer from '../components/Generals/Footer/Footer';
 
@@ -12,7 +11,7 @@ const HomePage = () => {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    // Simulando una operación asíncrona (por ejemplo, una solicitud HTTP)
+    
     setTimeout(() => {
       setLoading(false);
     }, 2000);
@@ -29,7 +28,6 @@ const HomePage = () => {
           <HomeCuartQuintComp />
           <HomeTerComp />
           <HomeSeptOctComp />
-       
           <Footer />
         </>
       )}

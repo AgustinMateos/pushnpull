@@ -15,8 +15,10 @@ const Footer = () => {
                         <h1 className="tituloFont">Push n Pull</h1>
 
                     </Link></div>
-                    <div className='footerPrimerComponenteTexto'><p className='titulosComponentesTexto font-family-Robot wd-70'>Lorem ipsum dolor sit amet consectetur
-                        adipisicing elit. Rerum ullam facilis impedit
+                    <div className='footerPrimerComponenteTexto'>
+                    <p className='titulosComponentesTexto font-family-Robot wd-70'>Somos una agencia 
+                    especializada en aplicaciones, desarrollo web, diseño web y SEO. Ayudamos a las marcas a 
+                     comprender y optimizar su desempeño digital.
                     </p></div>
                     
                     

@@ -26,7 +26,6 @@ const HomePrimerComp = () => {
               .pauseFor(1000)
               .deleteAll()
               .typeString(' idea.')
-             
               .start();
           }}
         /></h2>

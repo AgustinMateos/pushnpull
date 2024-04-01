@@ -685,7 +685,8 @@ body {
     padding-top: 20px;
     padding-bottom: 20px;
     font-size: 1.3rem;
-    width: 90%;
+    width: 80%;
+    text-align: justify;
 
 }
 
@@ -1072,7 +1073,7 @@ h1 {
 
 /* impulsa tu marca*/
 .containerTextoImg {
-    min-height: 550px;
+    min-height: 850px;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -1212,6 +1213,7 @@ h1 {
     padding-top: 20px;
     padding-bottom: 20px;
     font-size: 1.0rem;
+    text-align: justify;
 }
 
 
@@ -1260,7 +1262,7 @@ h1 {
 
 .footerContainerFlex {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: space-evenly;
     width: 100%;
 }
@@ -1278,7 +1280,7 @@ h1 {
     color: white;
     margin-top: 10px;
 }
-.footerPrimerComponente{margin-left: 70px;}
+.footerPrimerComponente{margin-left: 70px;width: 50%;}
 .footerSegundoComponente {
     display: flex;
     justify-content: center;
@@ -1320,9 +1322,14 @@ h1 {
 .serviciosContainer {
     padding-top: 150px
 }
-
+.serviciosTexto {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 1.3rem;
+    width: 60%;
+}
 .containerHeightServicios {
-    min-height: 550px;
+    min-height: 850px;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -1336,10 +1343,10 @@ h1 {
 .ServiciosContainerPrimerComponente {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-evenly;
     text-align: center;
     align-items: center;
-    min-height: 650px;
+    min-height: 450px;
     margin-top: 70px;
 }
 
@@ -1729,6 +1736,7 @@ input[type="checkbox"]::-ms-check {
         padding: 20px;
         text-align: center;
         width: 100%;
+        text-align: justify;
     }
 
     .imagen-latido {
@@ -1788,6 +1796,7 @@ input[type="checkbox"]::-ms-check {
 
     .titulosComponentesTexto {
         text-align: center;
+        
     }
 
     .titulosComponentes {
@@ -1797,7 +1806,7 @@ input[type="checkbox"]::-ms-check {
 
     .containerTextoImg {
         text-align: center;
-        min-height: 550px;
+        min-height: 750px;
         display: flex;
         align-items: center;
         justify-content: space-evenly;

@@ -30,7 +30,7 @@ const Newsletter = () => {
         <input
         className='footerFormInputs'
           type="email"
-          placeholder="Tu correo electrónico"
+          placeholder="Email:"
           value={email}
           onChange={handleChange}
           style={{ borderColor: isValid ? '' : 'red' }} // Cambia el borde a rojo si el correo no es válido

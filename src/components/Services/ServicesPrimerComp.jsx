@@ -17,8 +17,11 @@ const ServicesPrimerComp = () => {
           
           <h1 className='homePrimerCompTitulo'>Servicios</h1>
          
-          <p className='wd-80 homePrimerCompTexto text-align-center '>
-             Destacar y llegar a tu audiencia es esencial. En nuestra agencia, ofrecemos soluciones digitales completas para potenciar tu presencia en línea. Desde el diseño web hasta estrategias SEO y mantenimiento continuo, estamos aquí para ayudarte a alcanzar tus objetivos digitales</p>
+          <p className='wd-80 serviciosTexto text-align-center '>
+             Destacar y llegar a tu audiencia es esencial. En nuestra agencia, 
+             ofrecemos soluciones digitales completas para potenciar tu presencia 
+             en línea. Desde el desarrollo de aplicaciones hasta estrategias SEO y mantenimiento
+              continuo, estamos aca para ayudarte a alcanzar tus objetivos digitales. Selecciona el servicio que se adapte a tus objetivos para descubrir la transformacion digital que necesita tu empresa.  </p>
            
           <div className='wd-100'>
             <div className='seviciosContainerButtonsNavbar  '>
@@ -61,11 +64,11 @@ const ServicesPrimerComp = () => {
           <div class="contenedor ">
             <div class="imagen-container">
               <h3 className="texto titulosComponentes">Soluciones Digitales</h3>
-              <p className='titulosComponentesTexto'>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                Exercitationem animi facilis quidem incidunt deleniti expedita
-                modi, vel natus nulla illo dolores unde nostrum
-                doloremque dolorem obcaecati consequuntur molestias similique aut?</p>
-              <Link to={"/SolucionesDigitalesPage"} className='buttonContainers'>ver mas <ion-icon name="arrow-forward-outline"></ion-icon></Link>
+              <p className='titulosComponentesTexto'>Desde el desarrollo de aplicaciones móviles
+               hasta la creación de sitios web y tiendas en línea, pasando por un diseño web a medida y 
+              la implementación de menús QR, tenemos las herramientas y la experiencia necesarias 
+              para impulsar tu marca en el ámbito digital.</p>
+              <Link to={"/SolucionesDigitalesPage"} className='buttonContainers'>Ver mas <ion-icon name="arrow-forward-outline"></ion-icon></Link>
             </div>
           </div>
          
