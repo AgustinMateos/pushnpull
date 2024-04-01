@@ -22,7 +22,8 @@ const HomeSeptOctComp = () => {
                                 metas empresariales en el mundo digital. </p></li>
 
                         </ul>
-                        <Link to={"/contactoPage"} className='buttonContainers' ><span >Ver mas <ion-icon name="arrow-forward-outline"></ion-icon></span></Link>
+                        <div className='homeSoporteContainerVerMas'><Link to={"/contactoPage"} className='buttonContainers' ><span >Ver mas <ion-icon name="arrow-forward-outline"></ion-icon></span></Link></div>
+                        
                     </div>
                 </div>
 

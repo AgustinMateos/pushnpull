@@ -23,7 +23,7 @@ const HomeTerComp = () => {
                                      en un entorno empresarial cada vez más digitalizado.</p>
                             </li>
                         </ul>
-                        <button className='buttonVermas'><span className='buttonVermasContent'>Ver mas <ion-icon name="arrow-forward-outline"></ion-icon></span></button>
+                        <button className='buttonVermas'><span className='buttonVermasContent2'>Ver mas <ion-icon name="arrow-forward-outline"></ion-icon></span></button>
                     </div>
                 </Link>
                 <Link to={"/seoPage"} className='card'>
@@ -38,7 +38,7 @@ const HomeTerComp = () => {
                                 </li>
 
                         </ul>
-                        <button className='buttonVermas'><span className='buttonVermasContent'>Ver mas <ion-icon name="arrow-forward-outline"></ion-icon></span></button>
+                        <button className='buttonVermas'><span className='buttonVermasContent2'>Ver mas <ion-icon name="arrow-forward-outline"></ion-icon></span></button>
                     </div>
                 </Link>
                 <Link to={"/MantenimientoPage"} className='card'>
@@ -52,7 +52,7 @@ const HomeTerComp = () => {
                             </li>
 
                         </ul>
-                        <button className='buttonVermas'><span className='buttonVermasContent'>Ver mas <ion-icon name="arrow-forward-outline"></ion-icon></span></button>
+                        <button className='buttonVermas'><span className='buttonVermasContent2'>Ver mas <ion-icon name="arrow-forward-outline"></ion-icon></span></button>
                     </div>
                 </Link>
 

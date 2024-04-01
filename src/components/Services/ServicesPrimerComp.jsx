@@ -25,11 +25,11 @@ const ServicesPrimerComp = () => {
            
           <div className='wd-100'>
             <div className='seviciosContainerButtonsNavbar  '>
-               <HashLink to='/ServicesPage#impulsaTuMarca' smooth  className='serviciosContainerNavlinks buttonContainers'>Impulsa tu Marca</HashLink>
-              <HashLink to='/ServicesPage#solucionesDigitales' smooth className="serviciosContainerNavlinks buttonContainers"> Soluciones digitales </HashLink>
+               <HashLink to='/ServicesPage#impulsaTuMarca' smooth  className='serviciosContainerNavlinks serviciosButtonContainers'>Impulsa tu Marca</HashLink>
+              <HashLink to='/ServicesPage#solucionesDigitales' smooth className="serviciosContainerNavlinks serviciosButtonContainers"> Soluciones digitales </HashLink>
              
-              <HashLink to='/ServicesPage#seo' smooth  className="serviciosContainerNavlinks buttonContainers"> Seo </HashLink>
-              <HashLink to='/ServicesPage#mantenimiento' smooth  className='serviciosContainerNavlinks buttonContainers'> Mantenimiento </HashLink>
+              <HashLink to='/ServicesPage#seo' smooth  className="serviciosContainerNavlinks serviciosButtonContainers"> Seo </HashLink>
+              <HashLink to='/ServicesPage#mantenimiento' smooth  className='serviciosContainerNavlinks serviciosButtonContainers'> Mantenimiento </HashLink>
               
             </div>
 
@@ -47,10 +47,9 @@ const ServicesPrimerComp = () => {
             
             <div class="imagen-container" >
               <h3 className="texto titulosComponentes">Impulsa tu marca</h3>
-              <p className='titulosComponentesTexto'>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                Exercitationem animi facilis quidem incidunt deleniti expedita
-                modi, vel natus nulla illo dolores unde nostrum
-                doloremque dolorem obcaecati consequuntur molestias similique aut?</p>
+              <p className='titulosComponentesTexto'>Estas buscando llevar su marca al siguiente nivel?. Sabemos lo
+                desafiante que puede ser comenzar desde cero o darle un nuevo impulso a tu
+                 negocio, y estamos aquí para ayudarte a dar el primer paso.</p>
               <Link to={"/SolucionesDigitalesPage"} className='buttonContainers'>ver mas <ion-icon name="arrow-forward-outline"></ion-icon></Link>
             </div>
           </div>

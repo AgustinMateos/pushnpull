@@ -36,7 +36,7 @@ const HomePrimerComp = () => {
           ayuda a las marcas a comprender y optimizar su desempeño digital.</p>
         </div>
         <div className=" homePrimerCompButtons  " >
-          <Link to={'/ServicesPage'} className='buttonVermas flex-align-center '><span className='buttonVermasContent font-family-Robot'>Nuestros servicios</span></Link>
+          <Link to={'/ServicesPage'} className='buttonVermas flex-align-center '><span className='buttonVermasContent1 font-family-Robot'>Nuestros servicios</span></Link>
           <Link to={'/ContactoPage'} className='buttonVermas2  '><span className='buttonVermasContent2 font-family-Robot'>Contactanos</span></Link>
         </div>
         
