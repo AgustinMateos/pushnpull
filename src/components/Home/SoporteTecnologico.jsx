@@ -11,7 +11,7 @@ const HomeSeptOctComp = () => {
                 <div to={"/seoPage"} className='homeSoporteCointainerText '>
                     <div className='content'>
 
-                        <h3 className='titulosComponentes'>Soporte tecnológico a empresas y agencias</h3>
+                        <h3 className='soporteTitulosComponentes'>Soporte tecnológico a empresas y agencias</h3>
 
                         <div className='price'></div>
                         <ul>
@@ -22,7 +22,7 @@ const HomeSeptOctComp = () => {
                                 metas empresariales en el mundo digital. </p></li>
 
                         </ul>
-                        <div className='homeSoporteContainerVerMas'><Link to={"/contactoPage"} className='buttonContainers' ><span >Ver mas <ion-icon name="arrow-forward-outline"></ion-icon></span></Link></div>
+                        <div className='homeSoporteContainerVerMas'><Link to={"/contactoPage"} ><span className='buttonContainers' >Ver mas <ion-icon name="arrow-forward-outline"></ion-icon></span></Link></div>
                         
                     </div>
                 </div>

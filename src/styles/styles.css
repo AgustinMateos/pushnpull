@@ -5,11 +5,36 @@
 body {
     margin: 0;
 }
-
-
+.buttonPresupuesto{display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;}
+.buttonContainersPresupuesto {
+    font-weight: normal;
+    line-height: 1.25rem;
+    font-size: 0.95rem;
+    width: -moz-fit-content;
+    width: fit-content;
+    border-radius: 1.5rem;
+    padding: 0.625rem 1.3125rem;
+    background: #9479ec;
+    background-size: 300%;
+    color: white;
+    display: flex;
+    align-items: center;
+    width: 160px;
+    justify-content: space-around;
+    margin-right: 10px;
+}
 .slider-container {
     display: none;
 }
+.soporteTitulosComponentes{font-weight: 700;
+    line-height: 100%;
+    letter-spacing: -.03rem;
+    font-size: 4vw;
+    font-family: 'Roboto', sans-serif;
+    color: #5a5a5a;}
 
 /*cards home*/
 
@@ -1203,15 +1228,7 @@ h1 {
 
 /*Generales*/
 
-/* .titulosComponentes {
-    font-weight: 700;
-    line-height: 100%;
-    letter-spacing: -.03rem;
-    font-size: 3.5rem;
-    font-family: 'Roboto', sans-serif;
-    color: #5a5a5a;
-    ;
-} */
+
 .imagen-container {
     display: flex;
     flex-direction: column;
@@ -1454,7 +1471,7 @@ h1 {
     /* Tamaño de letra relativo al ancho de la ventana gráfica */
     font-family: 'Roboto', sans-serif;
     color: #5a5a5a;
-    text-align: center;
+    text-align: justify;
 }
 
 
@@ -1835,6 +1852,10 @@ input[type="checkbox"]::-ms-check {
         font-size: 40px;
         text-align: center;
     }
+    .soporteTitulosComponentes {
+        font-size: 40px;
+        text-align: center;
+    }
 
     .containerTextoImg {
         text-align: center;
@@ -2048,7 +2069,7 @@ input[type="checkbox"]::-ms-check {
     }
 
     .containerHeight {
-        justify-content: flex-end;
+       
         min-height: 550px;
 
     }
@@ -2060,6 +2081,13 @@ input[type="checkbox"]::-ms-check {
         margin-left: 0px;
         margin-top: 30px;
     }
+    .buttonContainersPresupuesto {
+        margin-right: 0px;
+        margin-bottom: 15px;
+    }.HomeCuartQuintCompBuscandoTitulo {
+        width: 85%;
+        padding: 20px;
+    }
 }
 
 
@@ -2070,6 +2098,7 @@ input[type="checkbox"]::-ms-check {
 
 
 
+    
 
     input[type="checkbox"] {
 
@@ -2223,6 +2252,9 @@ input[type="checkbox"]::-ms-check {
     }
 
     .titulosComponentes {
+        font-size: 30px;
+    }
+    .soporteTitulosComponentes {
         font-size: 30px;
     }
     .footerTercerComponente{width: 100%;}

@@ -44,6 +44,7 @@ function App() {
       <Route path="/MantenimientoSeoPage" element={<MantenimientoSeoPage/>}/>
       <Route path="/MantenimientoBaseDeDatosPage" element={<MantenimientoBaseDeDatosPage/>}/>
       <Route path="/MantenimientoWebPage" element={<MantenimientoWebPage/>}/>
+      <Route path="/MantenimientoPage" element={<MantenimientoPage/>}/>
       </Routes>
       
      

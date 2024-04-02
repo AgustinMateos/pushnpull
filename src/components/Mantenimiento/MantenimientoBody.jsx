@@ -82,7 +82,7 @@ const MantenimientoBody = () => {
               <img className='mantenimientoContainerInfoImg h-100' src={desarrolloWeb} alt='' />
               <div className='mantenimientoContainerInfoTexto'>
                 <h5 className='titulosComponentes'>Mantenimiento de Base de Datos</h5>
-                <p className='homePrimerCompTexto text-align-center'>Para garantizar la integridad, seguridad y eficiencia de los datos críticos de tu negocio. Implica una serie de 
+                <p className='homePrimerCompTexto text-align-center'>ara garantizar la integridad, seguridad y eficiencia de los datos críticos de tu negocio. Implica una serie de 
                 acciones periódicas destinadas a mantener la base de datos actualizada, optimizada y protegida contra posibles riesgos.</p>
                 <Link to={"MantenimientoBaseDeDatosPage"} className='buttonContainers'>Ver mas</Link>
               </div>
@@ -90,17 +90,7 @@ const MantenimientoBody = () => {
           </div>
         }
       </div>
-      <div className='wd-100 flex-justify-center containerHeight flex-align-center'>
-        <div className='HomeCuartQuintCompBuscando flex-align-center flex-justify-space-around'>
-          <div className='HomeCuartQuintCompBuscandoTitulo'>
-            <h3 className='titulosComponentes font-family-Robot'>Necesitas presupuesto?</h3>
-            <p className='titulosComponentesTexto font-family-Robot'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deserunt sunt nihil quod accusamus, vel quis, consequatur amet itaque animi ipsum magni earum impedit nesciunt voluptatibus repellat fuga unde eos. Impedit.</p>
-          </div>
-          <div className='wd-10 buttonContainers'>
-            <Link to={"/ContactoPage"}>Contactanos<ion-icon name="arrow-forward-outline"></ion-icon></Link>
-          </div>
-        </div>
-      </div>
+      
     </div>
   );
 };
