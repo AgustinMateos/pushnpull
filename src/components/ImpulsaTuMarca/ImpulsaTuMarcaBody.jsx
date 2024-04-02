@@ -1,9 +1,7 @@
 import React from 'react'
-
 import whatsapp from "../../assets/whatsapp.png"
-
 import impulsaTuMarca from '../../assets/impulsatumarca.png'
-import Presupuesto from '../Generals/presupuesto'
+import Presupuesto from '../Generals/Presupuesto/Presupuesto'
 const ImpulsaTuMarcaBody = () => {
   return (
     <div>

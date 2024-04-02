@@ -7,7 +7,7 @@ import whatsapp from "../../assets/whatsapp.png"
 import mantenimientoSeo from '../../assets/desarrolloweb.png'
 import solucionesDigitalesImg from '../../assets/solucionesDigitalesPushnPull.webp'
 import CardsSeoMobile from '../Generals/cards/CardsSeoMobile';
-import Presupuesto from '../Generals/presupuesto';
+import Presupuesto from '../Generals/Presupuesto/Presupuesto';
 
 const MantenimientoSeo = () => {
   const [selectedOption, setSelectedOption] = useState('Opción 1'); // Inicializando con 'Opción 1'

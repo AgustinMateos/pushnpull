@@ -9,7 +9,7 @@ import menuQrServicio from '../../assets/qr.png'
 import migracionalaNubeServicio from '../../assets/migracionalanube.png'
 import disenoWebServicio from '../../assets/diseñoweb.png'
 import CardsSolucionesDigitalesServicios from '../Generals/cards/CardsSolucionesDigitalesServicios';
-import Presupuesto from '../Generals/presupuesto';
+import Presupuesto from '../Generals/Presupuesto/Presupuesto';
 
 const SolucionesDigitalesBody = () => {
 

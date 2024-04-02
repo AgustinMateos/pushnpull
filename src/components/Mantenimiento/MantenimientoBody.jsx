@@ -82,7 +82,7 @@ const MantenimientoBody = () => {
               <img className='mantenimientoContainerInfoImg h-100' src={desarrolloWeb} alt='' />
               <div className='mantenimientoContainerInfoTexto'>
                 <h5 className='titulosComponentes'>Mantenimiento de Base de Datos</h5>
-                <p className='homePrimerCompTexto text-align-center'>ara garantizar la integridad, seguridad y eficiencia de los datos críticos de tu negocio. Implica una serie de 
+                <p className='homePrimerCompTexto text-align-center'>Para garantizar la integridad, seguridad y eficiencia de los datos críticos de tu negocio. Implica una serie de 
                 acciones periódicas destinadas a mantener la base de datos actualizada, optimizada y protegida contra posibles riesgos.</p>
                 <Link to={"MantenimientoBaseDeDatosPage"} className='buttonContainers'>Ver mas</Link>
               </div>
