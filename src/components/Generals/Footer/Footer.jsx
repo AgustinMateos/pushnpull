@@ -17,7 +17,7 @@ const Footer = () => {
                     </Link></div>
                     <div className='footerPrimerComponenteTexto'>
                     <p className='titulosComponentesTexto font-family-Robot wd-70'>Somos una agencia 
-                    especializada en aplicaciones, desarrollo web, diseño web y SEO. Ayudamos a las marcas a 
+                    especializada en aplicaciones moviles, desarrollo web, diseño web y SEO. Ayudamos a las marcas a 
                      comprender y optimizar su desempeño digital.
                     </p></div>
                     

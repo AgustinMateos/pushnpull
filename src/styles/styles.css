@@ -1244,8 +1244,15 @@ h1 {
     padding-bottom: 20px;
     font-size: 1.0rem;
     text-align: justify;
+    width: 65%;
 }
-
+.presupuestoTitulosComponentesTexto {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 1.0rem;
+    text-align: justify;
+    width: 85%;
+}
 
 
 .cardsComponentesTitulos {
@@ -1847,7 +1854,8 @@ input[type="checkbox"]::-ms-check {
         text-align: center;
         
     }
-
+    .presupuestoTitulosComponentesTexto{ text-align: center;}
+    
     .titulosComponentes {
         font-size: 40px;
         text-align: center;

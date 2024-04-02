@@ -7,6 +7,7 @@ import mantenimientoSeo from '../../assets/desarrolloweb.png'
 import solucionesDigitalesImg from '../../assets/solucionesDigitalesPushnPull.webp'
 import desarrolloWeb from '../../assets/desarrolloweb.png'
 import CardsMantenimiento from '../Generals/cards/CardsMantenimiento';
+import Presupuesto from '../Generals/Presupuesto/Presupuesto';
 
 const MantenimientoBody = () => {
   const [selectedOption, setSelectedOption] = useState('Opción 1'); // Inicializando con 'Opción 1'
@@ -90,7 +91,7 @@ const MantenimientoBody = () => {
           </div>
         }
       </div>
-      
+       <Presupuesto/>
     </div>
   );
 };
