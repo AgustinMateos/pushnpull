@@ -884,14 +884,14 @@ body {
 .whatsapp {
     position: fixed;
     color: black;
-    padding: 0.5rem 1rem;
+    padding-right: 10px;
     display: inline-block;
     bottom: 1rem;
     right: 0.1rem;
     text-decoration: none;
     z-index: 1;
     margin-bottom: 20px;
-    width: 90px;
+    width: 60px;
 }
 
 .whatsapp img {
@@ -1244,8 +1244,13 @@ h1 {
     padding-bottom: 20px;
     font-size: 1.0rem;
     text-align: justify;
-    width: 65%;
+    width: 90%;
 }
+.newsletters{padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 1.0rem;
+    text-align: justify;
+    width: 90%;}
 .presupuestoTitulosComponentesTexto {
     padding-top: 20px;
     padding-bottom: 20px;
@@ -1567,7 +1572,7 @@ h1 {
 }
 
 .formPrimerCompTexto {
-
+    width: 90%;
     padding-top: 20px;
     padding-bottom: 20px;
     font-size: 1.3rem;
@@ -1854,6 +1859,7 @@ input[type="checkbox"]::-ms-check {
         text-align: center;
         
     }
+    .newsletters{text-align: center;}
     .presupuestoTitulosComponentesTexto{ text-align: center;}
     
     .titulosComponentes {
