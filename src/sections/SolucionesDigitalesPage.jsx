@@ -15,7 +15,7 @@ const SolucionesDigitalesPage = () => {
   }, []);
 
   return (
-    <div className='background-principal'>
+    <div className='HomeContainer background-principal  spinnerContianer'>
       {loading ? (
         <Loader />
       ) : (

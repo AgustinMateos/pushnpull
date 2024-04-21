@@ -15,7 +15,7 @@ const CampanaSeoPage = () => {
   }, []);
 
   return (
-    <div className='HomeContainer background-principal'>
+    <div className='HomeContainer background-principal  spinnerContianer'>
       {loading ? (
         <Loader />
       ) : (
