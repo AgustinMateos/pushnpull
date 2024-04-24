@@ -1,13 +1,13 @@
-import React, { useState } from "react";
+import React, { useState, useContext } from "react";
 import { Link } from "react-router-dom";
 import pushnpullLogo from "../../../assets/pushnpullIndex.webp"
 // import { useScroll } from "../../../hooks/useScroll";
-
+import LanguageContext from "../../../contexts/LanguageContext";
 
 import NavLinks from "./NavLinks";
 const Navbar = () => {
   const [open, setOpen] = useState(false);
-
+  const {handleLanguage,language}=useContext(LanguageContext);
   return (
 
     <nav className=" background-principalNavbar navbarContainer" >
@@ -39,6 +39,9 @@ const Navbar = () => {
               Contacto
             </Link>
           </li>
+         
+          <button onClick={e =>{handleLanguage("ES")}}>espanol</button>
+          <button onClick={e =>{handleLanguage("EN")}}>ingles</button>
             
         </ul>
         <div className="md:block hidden">

@@ -28,9 +28,9 @@ const HomePage = () => {
         <>
           <Navbar  />
           <HomePrimerComp textos={texts} />
-          <HomeCuartQuintComp />
+          <HomeCuartQuintComp textos={texts} />
           <HomeSolucionesDigitales textos={texts}/>
-          <HomeSeptOctComp />
+          <HomeSeptOctComp textos={texts} />
           <Footer />
         </>
       )}

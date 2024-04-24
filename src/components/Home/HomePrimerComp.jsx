@@ -3,11 +3,11 @@ import grafica8 from "../../assets/pushnpullIndex.webp"
 import whatsapp from "../../assets/whatsapp.png"
 import { Link } from 'react-router-dom'
 import Typewriter from 'typewriter-effect';
-import LanguageContext from '../../contexts/LanguageContext';
+// import LanguageContext from '../../contexts/LanguageContext';
 
 
 const HomePrimerComp = ({textos}) => {
-  const {handleLanguage,language}=useContext(LanguageContext);
+  // const {handleLanguage,language}=useContext(LanguageContext);
   return (
     <div className='HomePrimerComp  '>
       <a className='whatsapp'  href="https://wa.me/">
@@ -15,8 +15,8 @@ const HomePrimerComp = ({textos}) => {
       </a>
       <div className='homePrimerCompContainer'>
         <div>
-          <button onClick={e =>{handleLanguage("ES")}}>espanol</button>
-          <button onClick={e =>{handleLanguage("EN")}}>ingles</button>
+          {/* <button onClick={e =>{handleLanguage("ES")}}>espanol</button>
+          <button onClick={e =>{handleLanguage("EN")}}>ingles</button> */}
           <h1 className='homePrimerCompTitulo'>{textos.home.primercontainer.tituloEstatico}< Typewriter
           onInit={typewriter => {
             typewriter

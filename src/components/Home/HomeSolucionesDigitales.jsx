@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import CardsServiciosMobile from '../Generals/cards/CardsServiciosMobile'
-import LanguageContext from '../../contexts/LanguageContext';
+
 
 const HomeSolucionesDigitales = ({textos}) => {
    
