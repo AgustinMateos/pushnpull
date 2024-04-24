@@ -1,9 +1,9 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import CardsServiciosMobile from '../Generals/cards/CardsServiciosMobile'
+import LanguageContext from '../../contexts/LanguageContext';
 
-
-const HomeTerComp = () => {
+const HomeSolucionesDigitales = ({textos}) => {
    
     return (
     <div>
@@ -13,14 +13,12 @@ const HomeTerComp = () => {
             <div className='HomeTerCompContainer  '>
                 <Link to={'/SolucionesDigitalesPage'} className='card ' >
                     <div className='content ' >
-                        <h3 className='font-family-Robot cardsComponentesTitulos'>Soluciones digitales</h3>
+                        <h3 className='font-family-Robot cardsComponentesTitulos'>{textos.home.primercontainer.titulosCards.titulo1}</h3>
                         
                         <ul>
                             <li>
                                 <p> 
-                                     Desde aplicaciones móviles hasta análisis de datos, estas soluciones digitales permiten 
-                                     abordar desafíos en diferentes sectores y adaptarse 
-                                     en un entorno empresarial cada vez más digitalizado.</p>
+                                {textos.home.primercontainer.titulosCards.texto1}</p>
                             </li>
                         </ul>
                         <button className='buttonVermas'><span className='buttonVermasContent2'>Ver mas <ion-icon name="arrow-forward-outline"></ion-icon></span></button>
@@ -28,13 +26,12 @@ const HomeTerComp = () => {
                 </Link>
                 <Link to={"/seoPage"} className='card'>
                     <div className='content'>
-                        <h3 className='cardsComponentesTitulos'>Seo</h3>
+                        <h3 className='cardsComponentesTitulos'>{textos.home.primercontainer.titulosCards.titulo2}</h3>
 
                         
                         <ul>
                             <li>
-                                <p>Las campañas y optimizaciones de motores de búsqueda (SEO) harán que tu tienda
-                                     online o sitio web se posicionen en las primeras búsquedas de Google (u otros motores de búsqueda) de manera orgánica.</p>
+                                <p>{textos.home.primercontainer.titulosCards.texto2}</p>
                                 </li>
 
                         </ul>
@@ -43,12 +40,12 @@ const HomeTerComp = () => {
                 </Link>
                 <Link to={"/MantenimientoPage"} className='card'>
                     <div className='content'>
-                        <h3 className='cardsComponentesTitulos'>Mantenimiento</h3>
+                        <h3 className='cardsComponentesTitulos'>{textos.home.primercontainer.titulosCards.titulo3}</h3>
 
               
                         <ul>
                             <li>
-                                <p>El mantenimiento no se trata solo de corregir problemas cuando surgen, sino también de prevenirlos y optimizar tus sistemas para un funcionamiento óptimo a largo plazo. </p>
+                                <p>{textos.home.primercontainer.titulosCards.texto3} </p>
                             </li>
 
                         </ul>
@@ -65,4 +62,4 @@ const HomeTerComp = () => {
     )
 }
 
-export default HomeTerComp
+export default HomeSolucionesDigitales

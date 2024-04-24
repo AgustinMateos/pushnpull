@@ -1,14 +1,17 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useContext } from 'react';
 import Loader from '../components/Generals/Loader';
 import Navbar from '../components/Generals/Navbar/Navbar';
 import HomePrimerComp from '../components/Home/HomePrimerComp';
-import HomeTerComp from '../components/Home/HomeTerComp';
+import HomeSolucionesDigitales from '../components/Home/HomeSolucionesDigitales';
 import HomeCuartQuintComp from '../components/Home/HomeImpulsaTuMarca';
 import HomeSeptOctComp from '../components/Home/SoporteTecnologico';
 import Footer from '../components/Generals/Footer/Footer';
+import LanguageContext from '../contexts/LanguageContext';
 
 const HomePage = () => {
   const [loading, setLoading] = useState(true);
+
+  const {texts}=useContext(LanguageContext);
 
   useEffect(() => {
     
@@ -23,10 +26,10 @@ const HomePage = () => {
         <Loader />
       ) : (
         <>
-          <Navbar />
-          <HomePrimerComp />
+          <Navbar  />
+          <HomePrimerComp textos={texts} />
           <HomeCuartQuintComp />
-          <HomeTerComp />
+          <HomeSolucionesDigitales textos={texts}/>
           <HomeSeptOctComp />
           <Footer />
         </>

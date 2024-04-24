@@ -17,14 +17,15 @@ import CampanaSeoPage from './sections/CampanaSeoPage'
 import MantenimientoBaseDeDatosPage from './sections/MantenimientoBaseDeDatosPage'
 import MantenimientoSeoPage from './sections/MantenimientoSeoPage'
 import MantenimientoWebPage from './sections/MantenimientoWebPage'
+import { LanguageProvider } from './contexts/LanguageContext'
 
 
 function App() {
 
 
   return (
-    <BrowserRouter>
-    
+    <LanguageProvider> 
+      <BrowserRouter>
       <Routes>
       <Route  path="/" element={<HomePage/>}/>
       <Route path="/ServicesPage" element={<ServicesPage/>}/>
@@ -46,10 +47,9 @@ function App() {
       <Route path="/MantenimientoWebPage" element={<MantenimientoWebPage/>}/>
       <Route path="/MantenimientoPage" element={<MantenimientoPage/>}/>
       </Routes>
-      
-     
-
     </BrowserRouter>
+    </LanguageProvider>
+   
   )
 }
 
