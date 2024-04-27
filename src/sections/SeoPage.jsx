@@ -1,12 +1,12 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect,useContext } from 'react';
 import Loader from '../components/Generals/Loader';
 import SeoBody from '../components/Seo/SeoBody'
 import Navbar from '../components/Generals/Navbar/Navbar'
 import Footer from '../components/Generals/Footer/Footer'
-
+import LanguageContext from '../contexts/LanguageContext';
 const SeoPage = () => {
   const [loading, setLoading] = useState(true);
-
+  const {texts}=useContext(LanguageContext);
   useEffect(() => {
     // Simulando una operación asíncrona (por ejemplo, una solicitud HTTP)
     setTimeout(() => {
@@ -20,9 +20,9 @@ const SeoPage = () => {
       <Loader />
     ) : (
       <>
-        <Navbar />
-        <SeoBody />
-        <Footer />
+        <Navbar textos={texts}/>
+        <SeoBody textos={texts}/>
+        <Footer textos={texts}/>
       </>
     )}
   </div>

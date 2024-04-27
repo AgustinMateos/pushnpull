@@ -1,11 +1,12 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect,useContext } from 'react';
 import Loader from '../components/Generals/Loader';
 import Navbar from '../components/Generals/Navbar/Navbar';
 import Footer from '../components/Generals/Footer/Footer';
 import MenuQr from '../components/SolucionesDigitales/MenuQr'
+import LanguageContext from '../contexts/LanguageContext';
 const MenuQrPage = () => {
     const [loading, setLoading] = useState(true);
-
+    const {texts}=useContext(LanguageContext);
     useEffect(() => {
         // Simulando una operación asíncrona (por ejemplo, una solicitud HTTP)
         setTimeout(() => {
@@ -19,9 +20,9 @@ const MenuQrPage = () => {
                 <Loader />
             ) : (
                 <>
-                    <Navbar />
-                    <MenuQr />
-                    <Footer />
+                    <Navbar textos={texts} />
+                    <MenuQr textos={texts} />
+                    <Footer textos={texts} />
                 </>
             )}
         </div>

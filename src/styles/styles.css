@@ -5,6 +5,28 @@
 body {
     margin: 0;
 }
+/*selector*/
+/* styles.css */
+.selectorIdioma {
+    appearance: none;
+    padding: 8px 12px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #fff;
+    color: #333;
+    cursor: pointer;
+  }
+  
+  .selectorIdioma:hover {
+    border-color: #aaa;
+  }
+  
+  .selectorIdioma:focus {
+    outline: none;
+    border-color: #007bff;
+  }
+  
 
 .buttonPresupuesto {
     display: flex;
@@ -1579,7 +1601,7 @@ h1 {
     color: white;
     display: flex;
     align-items: center;
-    width: 180px;
+    width: 190px;
     justify-content: space-around;
 }
 

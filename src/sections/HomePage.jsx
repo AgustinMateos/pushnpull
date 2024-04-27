@@ -26,12 +26,12 @@ const HomePage = () => {
         <Loader />
       ) : (
         <>
-          <Navbar  />
+          <Navbar textos={texts}  />
           <HomePrimerComp textos={texts} />
           <HomeCuartQuintComp textos={texts} />
           <HomeSolucionesDigitales textos={texts}/>
           <HomeSeptOctComp textos={texts} />
-          <Footer />
+          <Footer textos={texts}/>
         </>
       )}
     </div>

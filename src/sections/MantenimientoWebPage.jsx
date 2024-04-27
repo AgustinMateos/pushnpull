@@ -1,11 +1,12 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect,useContext } from 'react';
 import Loader from '../components/Generals/Loader';
 import Navbar from '../components/Generals/Navbar/Navbar';
 import Footer from '../components/Generals/Footer/Footer';
 import MantenimientoWeb from '../components/Mantenimiento/MantenimientoWeb';
+import LanguageContext from '../contexts/LanguageContext';
 const MantenimientoWebPage = () => {
     const [loading, setLoading] = useState(true);
-
+    const {texts}=useContext(LanguageContext);
     useEffect(() => {
         // Simulando una operación asíncrona (por ejemplo, una solicitud HTTP)
         setTimeout(() => {
@@ -19,9 +20,9 @@ const MantenimientoWebPage = () => {
                 <Loader />
             ) : (
                 <>
-                    <Navbar />
-                    <MantenimientoWeb />
-                    <Footer />
+                    <Navbar textos={texts} />
+                    <MantenimientoWeb textos={texts}/>
+                    <Footer textos={texts}/>
                 </>
             )}
         </div>

@@ -1,11 +1,12 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect,useContext } from 'react';
 import Loader from '../components/Generals/Loader';
 import Navbar from '../components/Generals/Navbar/Navbar';
 import Footer from '../components/Generals/Footer/Footer';
-import DisenoWeb from '../components/SolucionesDigitales/DisenoWeb'
+import DisenoWeb from '../components/SolucionesDigitales/DisenoWeb';
+import LanguageContext from '../contexts/LanguageContext';
 const DisenoWebPage = () => {
     const [loading, setLoading] = useState(true);
-
+    const {texts}=useContext(LanguageContext);
     useEffect(() => {
         // Simulando una operación asíncrona (por ejemplo, una solicitud HTTP)
         setTimeout(() => {
@@ -19,9 +20,9 @@ const DisenoWebPage = () => {
                 <Loader />
             ) : (
                 <>
-                    <Navbar />
-                    <DisenoWeb />
-                    <Footer />
+                    <Navbar textos={texts}/>
+                    <DisenoWeb textos={texts}/>
+                    <Footer textos={texts} />
                 </>
             )}
         </div>

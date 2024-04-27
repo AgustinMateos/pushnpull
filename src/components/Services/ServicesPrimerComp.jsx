@@ -7,7 +7,7 @@ import { HashLink, NavHashLink } from 'react-router-hash-link';
 import whatsapp from "../../assets/whatsapp.png"
 import CardsServiciosMenuMobile from '../Generals/cards/CardsServiciosMenu'
 
-const ServicesPrimerComp = () => {
+const ServicesPrimerComp = ({textos}) => {
   return ( 
     <div className='background-principal '>
       
@@ -15,21 +15,18 @@ const ServicesPrimerComp = () => {
       <div className='wd-100 flex-justify-space-around'> 
         <div className=' ServiciosContainerPrimerComponente'>
           
-          <h1 className='homePrimerCompTitulo'>Servicios</h1>
+          <h1 className='homePrimerCompTitulo'>{textos.servicios.titulo}</h1>
          
           <p className='wd-80 serviciosTexto text-align-center '>
-             Destacar y llegar a tu audiencia es esencial. En nuestra agencia, 
-             ofrecemos soluciones digitales completas para potenciar tu presencia 
-             en línea. Desde el desarrollo de aplicaciones hasta estrategias SEO y mantenimiento
-              continuo, estamos aca para ayudarte a alcanzar tus objetivos digitales. Selecciona el servicio que se adapte a tus objetivos para descubrir la transformacion digital que necesita tu empresa.  </p>
+          {textos.servicios.descripcion}  </p>
            
           <div className='wd-100'>
             <div className='seviciosContainerButtonsNavbar  '>
-               <HashLink to='/ServicesPage#impulsaTuMarca' smooth  className='serviciosContainerNavlinks serviciosButtonContainers'>Impulsa tu Marca</HashLink>
-              <HashLink to='/ServicesPage#solucionesDigitales' smooth className="serviciosContainerNavlinks serviciosButtonContainers"> Soluciones digitales </HashLink>
+               <HashLink to='/ServicesPage#impulsaTuMarca' smooth  className='serviciosContainerNavlinks serviciosButtonContainers'>{textos.servicios.menu.titulo1}</HashLink>
+              <HashLink to='/ServicesPage#solucionesDigitales' smooth className="serviciosContainerNavlinks serviciosButtonContainers"> {textos.servicios.menu.titulo2} </HashLink>
              
-              <HashLink to='/ServicesPage#seo' smooth  className="serviciosContainerNavlinks serviciosButtonContainers"> Seo </HashLink>
-              <HashLink to='/ServicesPage#mantenimiento' smooth  className='serviciosContainerNavlinks serviciosButtonContainers'> Mantenimiento </HashLink>
+              <HashLink to='/ServicesPage#seo' smooth  className="serviciosContainerNavlinks serviciosButtonContainers"> {textos.servicios.menu.titulo3}</HashLink>
+              <HashLink to='/ServicesPage#mantenimiento' smooth  className='serviciosContainerNavlinks serviciosButtonContainers'> {textos.servicios.menu.titulo4} </HashLink>
               
             </div>
 
@@ -46,10 +43,8 @@ const ServicesPrimerComp = () => {
           <div class="contenedor "  >
             
             <div class="imagen-container" >
-              <h3 className="texto titulosComponentes">Impulsa tu marca</h3>
-              <p className='titulosComponentesTexto'>Estas buscando llevar su marca al siguiente nivel?. Sabemos lo
-                desafiante que puede ser comenzar desde cero o darle un nuevo impulso a tu
-                 negocio, y estamos aquí para ayudarte a dar el primer paso.</p>
+              <h3 className="texto titulosComponentes">{textos.servicios.menu.titulo1}</h3>
+              <p className='titulosComponentesTexto'>{textos.servicios.servicio1.descripcion1}</p>
               <Link to={"/SolucionesDigitalesPage"} className='buttonContainers'>ver mas <ion-icon name="arrow-forward-outline"></ion-icon></Link>
             </div>
           </div>
@@ -62,11 +57,8 @@ const ServicesPrimerComp = () => {
             <img className='wd-100' src={seo} alt="imagen grafica pnp" /></div>
           <div class="contenedor ">
             <div class="imagen-container">
-              <h3 className="texto titulosComponentes">Soluciones Digitales</h3>
-              <p className='titulosComponentesTexto'>Desde el desarrollo de aplicaciones móviles
-               hasta la creación de sitios web y tiendas en línea, pasando por un diseño web a medida y 
-              la implementación de menús QR, tenemos las herramientas y la experiencia necesarias 
-              para impulsar tu marca en el ámbito digital.</p>
+              <h3 className="texto titulosComponentes">{textos.servicios.menu.titulo2}</h3>
+              <p className='titulosComponentesTexto'>{textos.servicios.servicio2.descripcion2}</p>
               <Link to={"/SolucionesDigitalesPage"} className='buttonContainers'>Ver mas <ion-icon name="arrow-forward-outline"></ion-icon></Link>
             </div>
           </div>
@@ -76,11 +68,8 @@ const ServicesPrimerComp = () => {
         <div className='containerTextoImg  ' id="seo">
           <div class="contenedor ">
             <div class="imagen-container">
-              <h3 className="texto titulosComponentes">Seo</h3>
-              <p className='titulosComponentesTexto'>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                Exercitationem animi facilis quidem incidunt deleniti expedita
-                modi, vel natus nulla illo dolores unde nostrum
-                doloremque dolorem obcaecati consequuntur molestias similique aut?</p>
+              <h3 className="texto titulosComponentes">{textos.servicios.menu.titulo3}</h3>
+              <p className='titulosComponentesTexto'>{textos.servicios.servicio3.descripcion3}</p>
               <Link to={"/seoPage"} className='buttonContainers'>ver mas <ion-icon name="arrow-forward-outline"></ion-icon></Link>
             </div>
           </div>
@@ -94,11 +83,8 @@ const ServicesPrimerComp = () => {
             <img className='wd-100' src={mantenimiento} alt="imagen grafica pnp" /></div>
           <div class="contenedor ">
             <div class="imagen-container">
-              <h3 className="texto titulosComponentes">Mantenimiento</h3>
-              <p className='titulosComponentesTexto'>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                Exercitationem animi facilis quidem incidunt deleniti expedita
-                modi, vel natus nulla illo dolores unde nostrum
-                doloremque dolorem obcaecati consequuntur molestias similique aut?</p>
+              <h3 className="texto titulosComponentes">{textos.servicios.menu.titulo4}</h3>
+              <p className='titulosComponentesTexto'>{textos.servicios.servicio3.descripcion3}</p>
               <Link to={"/MantenimientoPage"} className='buttonContainers'>ver mas <ion-icon name="arrow-forward-outline"></ion-icon></Link>
             </div>
           </div>

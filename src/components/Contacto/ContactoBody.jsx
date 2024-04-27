@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import FormularioPartners from './FormularioPartners';
 import FormularioContacto from './FormularioContacto';
 import whatsapp from "../../assets/whatsapp.png"
-function ContactoBody() {
+function ContactoBody({textos}) {
   const [selectedButton, setSelectedButton] = useState('contacto');
 
   const handleButtonClick = (button) => {
@@ -14,10 +14,8 @@ function ContactoBody() {
       <a className='whatsapp'  href="https://wa.me/"><img src={whatsapp} alt="" /></a>
       <div className='wd-90'>
         <div>
-          <h2 className='formPrimerCompTitulo'>Formulario</h2>
-          <p className='formPrimerCompTexto font-family-Robot'>Si necesitas presupuesto o estas buscando informacion adicional por 
-          algun servicio digital, completa
-           los datos del formulario que aparece en pantalla. Si te interesa que les brindemos soporte tecnologico o formar parte de nuestro equipo, selecciona la opcion de parthnership. </p>
+          <h2 className='formPrimerCompTitulo'>{textos.contacto.titulo}</h2>
+          <p className='formPrimerCompTexto font-family-Robot'> {textos.contacto.descripcion}</p>
         </div>
         <div className="flex-justify-space-center">
           <div className='formContainerHeight'>
@@ -28,13 +26,13 @@ function ContactoBody() {
                   className={selectedButton === 'contacto' ? 'selected selectedButtonPartners font-family-Robot' : ''} 
                   onClick={() => handleButtonClick('contacto')}
                 >
-                  Presupuesto
+                  {textos.contacto.boton1}
                 </button>
                 <button
                   className={selectedButton === 'partners' ? 'selected selectedButtonPartners font-family-Robot' : ''} 
                   onClick={() => handleButtonClick('partners')}
                 >
-                  Partnership
+                 {textos.contacto.boton2}
                 </button>
                 </div>
                 

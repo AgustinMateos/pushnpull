@@ -1,14 +1,14 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect,useContext } from 'react';
 import ServicesPrimerComp from '../components/Services/ServicesPrimerComp'
 import Navbar from '../components/Generals/Navbar/Navbar'
 import Footer from '../components/Generals/Footer/Footer'
 import Loader from '../components/Generals/Loader';
-
+import LanguageContext from '../contexts/LanguageContext';
 
 
 const ServicesPage = () => {
   const [loading, setLoading] = useState(true);
-
+  const {texts}=useContext(LanguageContext);
   useEffect(() => {
     // Simulando una operación asíncrona (por ejemplo, una solicitud HTTP)
     setTimeout(() => {
@@ -22,9 +22,9 @@ const ServicesPage = () => {
       <Loader />
     ) : (
       <>
-        <Navbar />
-        <ServicesPrimerComp/>
-        <Footer />
+        <Navbar textos={texts}  />
+        <ServicesPrimerComp textos={texts} />
+        <Footer textos={texts}  />
       </>
     )}
   </div>
