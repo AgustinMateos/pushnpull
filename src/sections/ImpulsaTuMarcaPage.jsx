@@ -16,9 +16,9 @@ const ImpulsaTuMarcaPage = () => {
   }, []);
 
   return (
-    <div className='HomeContainer background-principal spinnerContianer'>
+    <div className='HomeContainer background-principal className="spinnerContianer"'>
       {loading ? (
-        <Loader />
+        <Loader className="spinnerContianer" />
       ) : (
         <>
           <Navbar textos={texts} />
