@@ -131,7 +131,7 @@ const translations= {
         descripcion:'Si necesitas presupuesto o estas buscando informacion adicional por algun servicio digital, completa los datos del formulario que aparece en pantalla. Si te interesa que les brindemos soporte tecnologico o formar parte de nuestro equipo, selecciona la opcion de parthnership.',
         boton1:'Presupuesto',
         boton2:'Partnership',
-        placeholder:{placeholder1:'Nombrell:',placeholder2:'Apellido :',placeholder3:'Email :',placeholder4:'Numero de Teléfono: ',placeholder5:'Red Social/Sitio Web: '},
+        placeholder:{placeholder1:'Nombre:',placeholder2:'Apellido :',placeholder3:'Email :',placeholder4:'Numero de Teléfono: ',placeholder5:'Red Social/Sitio Web: '},
         },
         presupuesto:{titulo:'Necesitas presupuesto?',descripcion:'¿Estás listo para dar el siguiente paso en tu proyecto? ¡Entonces es hora de obtener un presupuesto personalizado que se adapte a tus necesidades!Cada proyecto es único, por lo que nos aseguramos de entender tus requerimientos específicos antes de preparar tu presupuesto. Nos enfocamos en tus objetivos y preferencias para ofrecerte una solución a medida.'},
     

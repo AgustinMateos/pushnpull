@@ -5,6 +5,7 @@
 body {
     margin: 0;
 }
+
 /*selector*/
 /* styles.css */
 .selectorIdioma {
@@ -16,17 +17,17 @@ body {
     background-color: #fff;
     color: #333;
     cursor: pointer;
-  }
-  
-  .selectorIdioma:hover {
+}
+
+.selectorIdioma:hover {
     border-color: #aaa;
-  }
-  
-  .selectorIdioma:focus {
+}
+
+.selectorIdioma:focus {
     outline: none;
     border-color: #007bff;
-  }
-  
+}
+
 
 .buttonPresupuesto {
     display: flex;
@@ -71,6 +72,12 @@ body {
 .slider-container {
     width: 80%;
     margin: 0 auto;
+}
+
+.slider-containerCards {
+    width: 80%;
+    margin: 0 auto;
+    display: none;
 }
 
 .card2 {
@@ -990,6 +997,7 @@ body {
 }
 
 .homePrimerCompTitulo {
+    
     font-size: clamp(3.5rem, 8vw, 4rem);
     font-weight: 700;
     line-height: 100%;
@@ -2011,7 +2019,7 @@ input[type="checkbox"]::-ms-check {
 .formButtonsContainer {
     border-radius: 0.5rem;
     color: #5a5a5a;
-    width: 25%;
+    width: 18%;
     border: 1px solid #5a5a5a;
     display: flex;
     justify-content: space-between;
@@ -2080,7 +2088,11 @@ input[type="checkbox"]::-ms-check {
     /* Cambia este color al que desees */
 }
 
-
+@media (max-width:1200px){.HomePrimerComp {
+    flex-direction: column-reverse;
+}.imagenlatidoContainer {
+    margin-top: -20%;
+}}
 
 /*responsive */
 @media (max-width:900px) {
@@ -2103,7 +2115,7 @@ input[type="checkbox"]::-ms-check {
 
     .homePrimerCompTitulo {
         /*index*/
-
+        font-size: clamp(2.7rem, 8vw, 4rem);
         text-align: center;
     }
 
@@ -2118,7 +2130,7 @@ input[type="checkbox"]::-ms-check {
     .imagen-latido {
         animation: none;
     }
-
+    
     .homePrimerCompButtons {
         display: flex;
         justify-content: center;
@@ -2255,6 +2267,13 @@ input[type="checkbox"]::-ms-check {
         width: 100%;
         align-items: center;
     }
+    .footerSegundoComponente {
+        display: flex;
+        justify-content: space-evenly;
+        width: 100%;
+        align-items: flex-start;
+        padding: 20px;
+    }
 
     .imagen-container {
         display: flex;
@@ -2269,6 +2288,10 @@ input[type="checkbox"]::-ms-check {
 
 @media (max-width:760px) {
     .slider-container {
+        display: inline;
+    }
+
+    .slider-containerCards {
         display: inline;
     }
 
@@ -2295,6 +2318,11 @@ input[type="checkbox"]::-ms-check {
     }
 
     .slider-container {
+        width: 70%;
+        margin: 0 auto;
+    }
+
+    .slider-containerCards {
         width: 70%;
         margin: 0 auto;
     }
@@ -2379,7 +2407,7 @@ input[type="checkbox"]::-ms-check {
     }
 
     .formButtonsContainer {
-        width: 50%;
+        width: 45%;
     }
 
     .footerPrimerComponente {
@@ -2436,6 +2464,12 @@ input[type="checkbox"]::-ms-check {
     .imagenlatidoContainer {
         margin-top: -50%;
     }
+    .serviciosTexto {
+        text-align: justify;
+        width: 100%;
+        padding: 20px;
+
+    }
 
 
 
@@ -2449,7 +2483,7 @@ input[type="checkbox"]::-ms-check {
     }
 
     .formPrimerCompTexto {
-
+       width: 100%;
         text-align: center;
     }
 
@@ -2587,7 +2621,9 @@ input[type="checkbox"]::-ms-check {
         border-radius: 50%;
         width: 40px;
     }
-
+    .formButtonsContainer {
+        width: 55%;
+    }
     .impulsaTuMarcaContainerImg {
         max-width: 300px;
     }
@@ -2636,40 +2672,39 @@ input[type="checkbox"]::-ms-check {
         text-align: justify;
     }
 
-    .formButtonsContainer {
-        width: 90%;
-    }
+    
 
     .homePrimerCompTitulo {
-        font-size: clamp(2.0rem, 8vw, 6rem);
+        font-size: clamp(1.7rem, 8vw, 6rem);
     }
 
-    .slider-container {
-        width: 65%;
+
+    .slider-containerCards {
+        width: 90%;
         margin: 10px;
+        height: 450px;
     }
 
     .slider-container {
-        width: 70%;
+        width: 90%;
         height: 650px;
+        margin: 10px;
     }
 
     .slick-prev {
         left: 105px;
     }
 
-    .slider-container {
-        margin: 10px;
-        width: 90%;
-    }
+
 
     .footerSegundoComponente {
 
         flex-direction: column;
     }
+    
 }
 
-@media (max-width: 800px) {
+/* @media (max-width: 800px) {
     .footerSegundoComponente {
         display: flex;
         justify-content: space-evenly;
@@ -2688,7 +2723,7 @@ input[type="checkbox"]::-ms-check {
         padding: 20px;
 
     }
-}
+} */
 
 @media (max-width: 394px) {
     .slick-prev {
@@ -2701,6 +2736,9 @@ input[type="checkbox"]::-ms-check {
 
     .HomeTerComp {
         min-height: 630px;
+    }
+    .formButtonsContainer {
+        width: 75%;
     }
 
     .slick-next {
