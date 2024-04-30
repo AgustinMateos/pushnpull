@@ -9,7 +9,7 @@ import solucionesDigitalesImg from '../../assets/solucionesDigitalesPushnPull.we
 import CardsSeoMobile from '../Generals/cards/CardsSeoMobile';
 import Presupuesto from '../Generals/Presupuesto/Presupuesto';
 
-const MantenimientoSeo = () => {
+const MantenimientoSeo = ({textos}) => {
   const [selectedOption, setSelectedOption] = useState('Opción 1'); // Inicializando con 'Opción 1'
 
   const handleOptionClick = (option) => {
@@ -96,9 +96,7 @@ const MantenimientoSeo = () => {
         
       </div>
       
-
-      
-      <Presupuesto/>
+      <Presupuesto texts={textos}/>
     </div>
   );
 };

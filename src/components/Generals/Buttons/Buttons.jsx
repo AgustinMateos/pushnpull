@@ -3,11 +3,11 @@ import { Link } from 'react-router-dom'
 
 const Buttons = () => {
   return (
-  <div class="buttons">
+  <div className="buttons">
         
-  <div class="container ">
-      <Link to={`/ServicesPage`} class="" target="_blank"><span>Servicios</span></Link>
-      <Link class="btn effect02 buttonPrimer" target="_blank"><span>Contacto</span></Link>
+  <div className="container ">
+      <Link to={`/ServicesPage`} className="" target="_blank"><span>Servicios</span></Link>
+      <Link className="btn effect02 buttonPrimer" target="_blank"><span>Contacto</span></Link>
   </div>
   
   

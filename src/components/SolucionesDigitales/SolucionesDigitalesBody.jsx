@@ -11,7 +11,7 @@ import disenoWebServicio from '../../assets/diseñoweb.png'
 import CardsSolucionesDigitalesServicios from '../Generals/cards/CardsSolucionesDigitalesServicios';
 import Presupuesto from '../Generals/Presupuesto/Presupuesto';
 
-const SolucionesDigitalesBody = () => {
+const SolucionesDigitalesBody = ({textos}) => {
 
   const [selectedOption, setSelectedOption] = useState('Opción 1'); // Inicializando con 'Opción 1'
 
@@ -132,7 +132,7 @@ const SolucionesDigitalesBody = () => {
           </div>
         }
       </div>
-     <Presupuesto/>
+     <Presupuesto texts={textos}/>
     </div>
   );
 };

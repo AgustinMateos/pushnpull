@@ -2,7 +2,7 @@ import React from 'react'
 import whatsapp from "../../assets/whatsapp.png"
 import impulsaTuMarca from '../../assets/impulsatumarca.png'
 import Presupuesto from '../Generals/Presupuesto/Presupuesto'
-const ImpulsaTuMarcaBody = () => {
+const ImpulsaTuMarcaBody = ({textos}) => {
   return (
     <div>
        <div className='HomePrimerComp  '>
@@ -26,9 +26,9 @@ const ImpulsaTuMarcaBody = () => {
 
           <div className=' impulsaTuMarcaContainerImg'>
             <img className='wd-100' src={impulsaTuMarca} alt="imagen grafica pnp" /></div>
-          <div class="impulsaTuMarcaContainer ">
-            <div class="imagen-container">
-              <h3 className="texto titulosComponentes">Impulsa tu marca</h3>
+          <div className="impulsaTuMarcaContainer ">
+            <div className="imagen-container">
+              <h3 className="texto titulosComponentes">{textos.impulsaTuMarca.titulo}</h3>
               <p className='titulosComponentesTexto'>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
                 Exercitationem animi facilis quidem incidunt deleniti expedita
                 modi, vel natus nulla illo dolores unde nostrum
@@ -41,8 +41,8 @@ const ImpulsaTuMarcaBody = () => {
       <div className='wd-100 '>
 
         <div className=' containerTextoImgImpulsaTuMarca '>
-           <div class="impulsaTuMarcaContainer ">
-            <div class="imagen-container">
+           <div className="impulsaTuMarcaContainer ">
+            <div className="imagen-container">
               <h3 className="texto titulosComponentes">Impulsa tu Marca</h3>
               <p className='titulosComponentesTexto'>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
                 Exercitationem animi facilis quidem incidunt deleniti expedita
@@ -57,7 +57,7 @@ const ImpulsaTuMarcaBody = () => {
          
         </div>
       </div>
-     <Presupuesto/>
+     <Presupuesto texts={textos} />
     </div>
 
   )

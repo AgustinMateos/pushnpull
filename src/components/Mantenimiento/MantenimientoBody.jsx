@@ -9,7 +9,7 @@ import desarrolloWeb from '../../assets/desarrolloweb.png'
 import CardsMantenimiento from '../Generals/cards/CardsMantenimiento';
 import Presupuesto from '../Generals/Presupuesto/Presupuesto';
 
-const MantenimientoBody = () => {
+const MantenimientoBody = ({textos}) => {
   const [selectedOption, setSelectedOption] = useState('Opción 1'); // Inicializando con 'Opción 1'
 
   const handleOptionClick = (option) => {
@@ -85,13 +85,13 @@ const MantenimientoBody = () => {
                 <h5 className='titulosComponentes'>Mantenimiento de Base de Datos</h5>
                 <p className='homePrimerCompTexto text-align-center'>Para garantizar la integridad, seguridad y eficiencia de los datos críticos de tu negocio. Implica una serie de 
                 acciones periódicas destinadas a mantener la base de datos actualizada, optimizada y protegida contra posibles riesgos.</p>
-                <Link to={"MantenimientoBaseDeDatosPage"} className='buttonContainers'>Ver mas</Link>
+                <Link to={"/MantenimientoBaseDeDatosPage"} className='buttonContainers'>Ver mas</Link>
               </div>
             </div>
           </div>
         }
       </div>
-       <Presupuesto/>
+       <Presupuesto texts={textos}/>
     </div>
   );
 };

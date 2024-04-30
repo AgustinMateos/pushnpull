@@ -7,7 +7,7 @@ import whatsapp from "../../assets/whatsapp.png"
 import desarrolloWebServicio from '../../assets/desarrolloweb.png'
 import Presupuesto from '../Generals/Presupuesto/Presupuesto'
 
-const DesarrolloWeb = () => {
+const DesarrolloWeb = ({textos}) => {
   return (
     <div>
        <div className='HomePrimerComp  '>
@@ -62,7 +62,7 @@ const DesarrolloWeb = () => {
          
         </div>
       </div>
-      <Presupuesto/>
+      <Presupuesto texts={textos}/>
     </div>
 
   )

@@ -18,7 +18,7 @@ const MantenimientoSeoPage = () => {
   return (
     <div className='HomeContainer background-principal '>
       {loading ? (
-        <Loader className="spinnerContianer" />
+        <Loader className="spinnerContianer " />
       ) : (
         <>
           <Navbar textos={texts}/>

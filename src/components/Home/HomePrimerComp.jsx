@@ -9,7 +9,8 @@ import Typewriter from 'typewriter-effect';
 const HomePrimerComp = ({ textos }) => {
   // const {handleLanguage,language}=useContext(LanguageContext);
   return (
-    <div className='HomePrimerComp  '>
+    <div>
+      <div className='HomePrimerComp  '>
       <a className='whatsapp' href="https://wa.me/">
         <img src={whatsapp} alt="" />
       </a>
@@ -48,6 +49,12 @@ const HomePrimerComp = ({ textos }) => {
       <div className='homePrimerCompContainerImg h-100 imagenlatidoContainer flex-align-center flex-justify-center  '>
         <img className='wd-100 h-90  homePrimerCompImg imagen-latido' src={grafica8} alt="" />
       </div>
+      
+    </div>
+    <div className='btnMouseContainer'>
+      <button class="btnMouse">
+    <div class="scroll"> </div>
+</button></div>
     </div>
   )
 }

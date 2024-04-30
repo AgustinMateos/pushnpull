@@ -5,7 +5,7 @@ import aplicacionesWebServicio from '../../assets/aplicacionweb.png'
 import campanaSeo from '../../assets/seo1.png'
 import { Link } from 'react-router-dom'
 import Presupuesto from '../Generals/Presupuesto/Presupuesto'
-const CampanaSeo = () => {
+const CampanaSeo = ({textos}) => {
     return (
         <div>
             <div className='HomePrimerComp  '>
@@ -60,7 +60,7 @@ const CampanaSeo = () => {
 
                 </div>
             </div>
-            <Presupuesto/>
+            <Presupuesto texts={textos}/>
         </div>
 
     )

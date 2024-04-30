@@ -2,6 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import whatsapp from "../../assets/whatsapp.png"
 import aplicacionesWebServicio from '../../assets/aplicacionweb.png'
+import Presupuesto from '../Generals/Presupuesto/Presupuesto'
 
 const MantenimientoSeo = ({textos}) => {
   return (
@@ -27,8 +28,8 @@ const MantenimientoSeo = ({textos}) => {
 
           <div className=' impulsaTuMarcaContainerImg'>
             <img className='wd-100' src={aplicacionesWebServicio} alt="imagen grafica pnp" /></div>
-          <div class="impulsaTuMarcaContainer ">
-            <div class="imagen-container">
+          <div className="impulsaTuMarcaContainer ">
+            <div className="imagen-container">
               <h3 className="texto titulosComponentes">Mantenimiento Seo</h3>
               <p className='titulosComponentesTexto'>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
                 Exercitationem animi facilis quidem incidunt deleniti expedita
@@ -42,8 +43,8 @@ const MantenimientoSeo = ({textos}) => {
       <div className='wd-100 '>
 
         <div className=' containerTextoImgImpulsaTuMarca '>
-           <div class="impulsaTuMarcaContainer ">
-            <div class="imagen-container">
+           <div className="impulsaTuMarcaContainer ">
+            <div className="imagen-container">
               <h3 className="texto titulosComponentes">Mantenimiento Seo</h3>
               <p className='titulosComponentesTexto'>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
                 Exercitationem animi facilis quidem incidunt deleniti expedita
@@ -58,17 +59,7 @@ const MantenimientoSeo = ({textos}) => {
          
         </div>
       </div>
-      <div className='wd-100 flex-justify-center containerHeight flex-align-center'>
-        <div className='HomeCuartQuintCompBuscando flex-align-center flex-justify-space-around'>
-          <div className='HomeCuartQuintCompBuscandoTitulo'>
-            <h3 className='titulosComponentes font-family-Robot'>{textos.presupuesto.titulo}</h3>
-            <p className='titulosComponentesTexto font-family-Robot'>{textos.presupuesto.descripcion}</p>
-          </div>
-          <div className='wd-10 buttonContainers'>
-            <Link to={"/ContactoPage"}>Contactanos<ion-icon name="arrow-forward-outline"></ion-icon></Link>
-          </div>
-        </div>
-      </div>
+     <Presupuesto texts={textos}/>
     </div>
 
   )

@@ -3,11 +3,11 @@ import React from 'react';
 const Loader = () => {
   return (
     <div className='spinnerFlex'>
-      <div class="spinner">
-      <div class="section-center">
-  <div class="section-path">
-    <div class="globe">
-      <div class="wrapper">
+      <div className="spinner">
+      <div className="section-center">
+  <div className="section-path">
+    <div className="globe">
+      <div className="wrapper">
         <span></span>
         <span></span>
         <span></span>
