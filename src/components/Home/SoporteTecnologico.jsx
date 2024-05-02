@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import ButtonVerMas from '../Generals/Buttons/ButtonVerMas'
 
 const HomeSeptOctComp = ({textos}) => {
     return (<div>
@@ -18,7 +19,7 @@ const HomeSeptOctComp = ({textos}) => {
                             <li><p className='homeSoporteContainerTexto'>{textos.home.primercontainer.soporteTecnologico.texto} </p></li>
 
                         </ul>
-                        <div className='homeSoporteContainerVerMas'><Link to={"/contactoPage"} ><span className='buttonContainers' >Ver mas <ion-icon name="arrow-forward-outline"></ion-icon></span></Link></div>
+                        <div className='homeSoporteContainerVerMas'><ButtonVerMas/></div>
                         
                     </div>
                 </div>

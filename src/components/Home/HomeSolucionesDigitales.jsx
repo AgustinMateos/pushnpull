@@ -13,14 +13,7 @@ const HomeSolucionesDigitales = ({textos}) => {
             <div className='HomeTerCompContainer  '>
             <Link to={'/SolucionesDigitalesPage'} className="parent">
         <div className="card">
-            <div className="logo">
-                <span className="circle circle1"></span>
-                <span className="circle circle2"></span>
-                <span className="circle circle3"></span>
-                <span className="circle circle4"></span>
-                
-
-            </div>
+           
             <div className="glass"></div>
             <div className="content">
                 <span className=" font-family-Robot cardsComponentesTitulos">{textos.home.primercontainer.titulosCards.titulo1}</span>
@@ -38,14 +31,7 @@ const HomeSolucionesDigitales = ({textos}) => {
     </Link>
     <Link to={"/seoPage"}  className="parent">
         <div className="card">
-            <div className="logo">
-                <span className="circle circle1"></span>
-                <span className="circle circle2"></span>
-                <span className="circle circle3"></span>
-                <span className="circle circle4"></span>
-                
-
-            </div>
+           
             <div className="glass"></div>
             <div className="content">
                 <span className=" font-family-Robot cardsComponentesTitulos">{textos.home.primercontainer.titulosCards.titulo2}</span>
@@ -63,14 +49,7 @@ const HomeSolucionesDigitales = ({textos}) => {
     </Link>
     <Link to={"/MantenimientoPage"} className="parent">
         <div className="card">
-            <div className="logo">
-                <span className="circle circle1"></span>
-                <span className="circle circle2"></span>
-                <span className="circle circle3"></span>
-                <span className="circle circle4"></span>
-                
-
-            </div>
+            
             <div className="glass"></div>
             <div className="content">
                 <span className=" font-family-Robot cardsComponentesTitulos">{textos.home.primercontainer.titulosCards.titulo3}</span>

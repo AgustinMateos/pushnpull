@@ -1,7 +1,6 @@
 import React from 'react'
 import whatsapp from "../../assets/whatsapp.png"
 import ecommerceServicio from '../../assets/ecommerceGrafica.png'
-import { Link } from 'react-router-dom'
 import Presupuesto from '../Generals/Presupuesto/Presupuesto'
 
 

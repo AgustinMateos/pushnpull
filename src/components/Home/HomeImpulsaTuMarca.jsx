@@ -1,7 +1,6 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
 import impulsaTuMarca from '../../assets/impulsatumarca.png'
-
+import ButtonVerMas from '../Generals/Buttons/ButtonVerMas'
 
 const HomeCuartQuintComp = ({textos}) => {
     return (
@@ -15,7 +14,9 @@ const HomeCuartQuintComp = ({textos}) => {
                     <div className="imagen-container">
                         <h3 className="texto titulosComponentes">{textos.home.primercontainer.impulsaTuMarca.titulo}</h3>
                         <p className='impulsaTuMarcaTexto'>{textos.home.primercontainer.impulsaTuMarca.texto}</p>
-                        <Link to={'/ImpulsaTuMarcaPage'} className='buttonContainers'>Ver mas <ion-icon name="arrow-forward-outline"></ion-icon></Link>
+                        {/* <Link to={'/ImpulsaTuMarcaPage'} className='buttonContainers'>Ver mas <ion-icon name="arrow-forward-outline"></ion-icon></Link> */}
+                       
+                        <ButtonVerMas/>
                     </div>
 
                 </div>
