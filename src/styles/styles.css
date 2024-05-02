@@ -2008,12 +2008,19 @@ h1 {
     height: 100%;
 }
 
-.titulosComponentesTexto {
+.footerContainerPlaceholder {
     padding-top: 20px;
     padding-bottom: 20px;
     font-size: 1.0rem;
     text-align: justify;
     width: 90%;
+}
+.titulosComponentesTexto {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 1.0rem;
+    text-align: justify;
+    width: 60%;
 }
 
 .newsletters {
@@ -2649,6 +2656,10 @@ input[type="checkbox"]::-ms-check {
     }
 
     .titulosComponentesTexto {
+        text-align: center;
+
+    }
+    .footerContainerPlaceholder{
         text-align: center;
 
     }

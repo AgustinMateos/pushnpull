@@ -26,7 +26,7 @@ const Newsletter = () => {
 
   return (
     <div>
-      <form className='footerForm titulosComponentesTexto ' onSubmit={handleSubmit} >
+      <form className='footerForm footerContainerPlaceholder ' onSubmit={handleSubmit} >
         <input
         className='footerFormInputs'
           type="email"
@@ -36,7 +36,7 @@ const Newsletter = () => {
           style={{ borderColor: isValid ? '' : 'red' }} // Cambia el borde a rojo si el correo no es válido
         />
         {!isValid && <p style={{ color: 'red' }}>Por favor, ingresa un correo electrónico válido.</p>}
-        <div className='titulosComponentesTexto footerButtonContainers '><button type="submit">Suscribirse</button></div>
+        <div className='footerContainerPlaceholder footerButtonContainers '><button type="submit">Suscribirse</button></div>
         
       </form>
     </div>
