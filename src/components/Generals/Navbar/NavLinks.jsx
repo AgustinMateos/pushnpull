@@ -20,9 +20,8 @@ const NavLinks = () => {
               {link.name}
               <span className="text-xl md:hidden inline">
                 <ion-icon
-                  name={`${
-                    heading === link.name ? "chevron-up" : "chevron-down"
-                  }`}
+                  name={`${heading === link.name ? "chevron-up" : "chevron-down"
+                    }`}
                 ></ion-icon>
               </span>
               <span className="text-xl md:mt-1 md:ml-2  md:block hidden group-hover:rotate-180 group-hover:-mt-2">
@@ -38,25 +37,25 @@ const NavLinks = () => {
                     mt-1 bg-white rotate-45"
                     ></div>
                   </div>
-                  
+
                   <div className="solucionesDigitalesBodyServiciosContainer text-sm  text-gray-600 my-2.5 p-5 grid grid-cols-4 gap-10">
-                    <Link  className="text-lg font-semibold text-navb  font-family-Robot" to={"/ImpulsaTuMarcaPage"} >Impulsa tu Marca</Link>
+                    <Link className="text-lg font-semibold text-navb  font-family-Robot" to={"/ImpulsaTuMarcaPage"} >Impulsa tu Marca</Link>
                     {link.sublinks.map((mysublinks) => (
                       <div>
-                         <Link to={mysublinks.link}><h2 className="text-lg font-semibold text-navb font-family-Robot  ">
+                        <Link to={mysublinks.link}><h2 className="text-lg font-semibold text-navb font-family-Robot  ">
                           {mysublinks.Head}
-                         
+
                         </h2></Link>
-                       
+
                         {mysublinks.sublink.map((slink) => (
                           <li className="text-sm text-gray-600 my-2.5 font-family-Robot">
-                                           <Link
+                            <Link
                               to={slink.link}
                               className="hover:text-primary font-family-Robot"
                             >
                               {slink.name}
                             </Link>
-          
+
                           </li>
                         ))}
                       </div>
@@ -72,7 +71,7 @@ const NavLinks = () => {
             ${heading === link.name ? "md:hidden" : "hidden"}
           `}
           >
-             <Link to={"/ImpulsaTuMarcaPage"}  className="py-4 pl-7 font-semibold md:pr-0 pr-5 flex justify-between items-center  font-family-Robot"  >Impulsa tu Marca</Link>
+            <Link to={"/ImpulsaTuMarcaPage"} className="py-4 pl-7 font-semibold md:pr-0 pr-5 flex justify-between items-center  font-family-Robot"  >Impulsa tu Marca</Link>
             {/* sublinks */}
             {link.sublinks.map((slinks) => (
               <div>
@@ -89,24 +88,22 @@ const NavLinks = () => {
 
                     <span className="text-xl md:mt-1 md:ml-2 inline">
                       <ion-icon
-                        name={`${
-                          subHeading === slinks.Head
+                        name={`${subHeading === slinks.Head
                             ? "chevron-up"
                             : "chevron-down"
-                        }`}
+                          }`}
                       ></ion-icon>
                     </span>
                   </h3>
                   <div
-                    className={`${
-                      subHeading === slinks.Head ? "md:hidden" : "hidden"
-                    }`}
+                    className={`${subHeading === slinks.Head ? "md:hidden" : "hidden"
+                      }`}
                   >
                     {slinks.sublink.map((slink) => (
                       <li className="py-3 pl-14">
                         <Link to={slink.link}>{slink.name}</Link>
                       </li>
-                      
+
                     ))}
                   </div>
                 </div>
